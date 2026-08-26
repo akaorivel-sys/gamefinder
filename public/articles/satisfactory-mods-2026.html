@@ -1,0 +1,104 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SatisfactoryのMODを2026年に入れる｜SMM・互換性・更新事故まで | GameFinder</title><meta name="description" content="2026年のSatisfactory Mod Managerを前提に、MOD導入、依存関係、Compatible filter、Profile、Dedicated Server、大型更新時の復旧を詳しく解説。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/satisfactory-mods-2026.html">
+<meta property="og:title" content="SatisfactoryのMODを2026年に入れる｜SMM・互換性・更新事故まで | GameFinder"><meta property="og:description" content="2026年のSatisfactory Mod Managerを前提に、MOD導入、依存関係、Compatible filter、Profile、Dedicated Server、大型更新時の復旧を詳しく解説。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/satisfactory-mods-2026.html"><meta property="og:image" content="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg">
+<meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "SatisfactoryのMODを2026年に入れる｜SMM・互換性・更新事故まで", "description": "2026年のSatisfactory Mod Managerを前提に、MOD導入、依存関係、Compatible filter、Profile、Dedicated Server、大型更新時の復旧を詳しく解説。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/satisfactory-mods-2026.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main>
+<article class="v9-article"><header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>SatisfactoryのMODを2026年に入れる｜SMM・互換性・更新事故まで</h1><div class="v23-depth-meta"><span>本文 約6,224字</span><span>目安 12分</span><span>更新 2026-08-26</span></div><div class="v24-flagship-badge">FLAGSHIP · 2026年8月再調査済み</div><p class="v9-article-hook">MODを入れる操作より、「更新日に壊れたとき戻せる」ことの方が重要です。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v9-byline">GameFinder編集部　・　更新 2026-08-26　・　調査記事　・　約11分</div></div><img class="v9-article-cover" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg" alt=""></header>
+<div class="v9-article-layout"><div class="v9-article-body"><section class="v11-keypoints"><span>ここが重要</span><h2>SatisfactoryのMODを2026年に入れる｜SMM・互換性・更新事故までを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature">
+<div class="v12-visual-image"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg" alt="Satisfactory" loading="lazy"><div class="v12-image-overlay"><span>このゲームで起きること</span><strong>Satisfactory</strong></div></div>
+<div class="v12-visual-copy"><span class="v12-kicker">MOD STACK</span><h2>文章だけでなく、構造で理解する</h2><div class="v12-diagram-grid"><div><b>Game</b><span>本体</span></div><div><b>Loader</b><span>基盤</span></div><div><b>MOD</b><span>個別</span></div><div><b>Save</b><span>復旧</span></div></div><div class="v12-chips"><span>自動化</span><span>建築</span><span>探索</span><span>長く遊べる</span></div></div>
+</section>
+<section class="v91-visual"><h2>SMMが受け持つ範囲</h2><div class="v91-flow"><div><b>SMM</b><span>検索・Install・Profile</span></div><i>→</i><div><b>Dependencies</b><span>必要MODを自動取得</span></div><i>→</i><div><b>SML</b><span>MOD Loader</span></div><i>→</i><div><b>Satisfactory</b><span>通常Launchでも読み込む</span></div></div></section>
+<h2>SMMとSMLは別物</h2><p>Satisfactory Mod Manager（SMM）はプレイヤーが触る管理Appで、MOD・依存関係・SMLを適切な場所へ配置します。Satisfactory Mod Loader（SML）はMODがGameへ機能を追加するためのLoader/API側です。公式Community documentationでは、SMLの更新もSMMが処理するため、通常ユーザーが手動でSMLを管理する必要はないと説明されています。</p>
+<h2>最初の導入は「Gameを一度起動」から</h2><p>Documentationでは、先にSatisfactoryをTitle screenまで一度起動し、その後SMMを導入する流れが案内されています。SMMはGame installationを自動検出し、複数Installがある場合は対象を選べます。</p>
+<h2>MODを探すときはCompatible filterを標準にする</h2><p>SMMにはAll Mods、Compatible、Installed、DependencyなどのFilterがあります。新しいMODを探すときはCompatibleが推奨されており、現在選択しているGame installに対応したものだけへ絞れます。古い動画で紹介されたMOD名をそのまま検索し、対応Versionを見ずに入れるより安全です。</p>
+<h2>依存MODは自分で一覧を暗記しない</h2><p>MODが別MODやLibraryを必要とする場合、SMMはDependenciesを自動取得します。Trouble時に「自分が直接入れたMOD」と「依存として入ったMOD」を区別できることは重要です。Dependencyを手動で消すと、その上に乗るMODも動かなくなります。</p>
+<h2>2026年5月のSMM 3.0.7が示す重要なこと</h2><p>GitHubのReleaseではSMM 3.0.7が2026年5月30日に公開されていますが、同じRelease noteで「この更新は1.2 ExperimentalでMODが使えることを意味しない。SMLはまだ作業中」と注意されています。Managerが最新版でも、GameのExperimental branchへLoaderが追いついているとは限りません。</p>
+<h2>大型Update当日の安全な順番</h2><ol><li>重要Saveを別名で複製。</li><li>まずVanillaで起動できるか確認。</li><li>SMM/SMLの対応Announcementを確認。</li><li>CompatibleになったMODだけ少数で起動。</li><li>最後にGameplay/Content系MODを戻す。</li></ol>
+<h2>Profileを用途で分ける</h2><p>建築用、Vanilla寄り、友達とのMultiplayer用などでProfileを分けると、毎回MODを一つずつON/OFFする必要が減ります。問題が起きたら「最小Profileで起動→増やす」と切り分けできます。</p>
+<h2>Dedicated ServerでもMODは別問題になる</h2><p>SMMはLocal/Remote Dedicated Serverも管理対象として追加できますが、ClientだけMODを入れてServer側がVanilla、あるいはVersionが異なると接続やGameplayに問題が出ます。Multiplayer用Profileは全員で同じ構成を共有する方が管理しやすいです。</p>
+<h2>アンインストールより先にPauseで確認</h2><p>原因候補のMODを完全削除するとConfigurationや再導入が面倒になることがあります。SMMのEnabled/Disabled管理を使い、まず一時停止で症状が消えるか確認します。SaveへContentを追加するMODは、外すことでSave側に影響する場合があるためDescriptionを読みます。</p>
+<h2>MODが原因か分からないときの5分手順</h2><ol><li>GameとSMMを終了。</li><li>Debug infoとLogの保存場所を確認。</li><li>全MODを止めVanilla起動。</li><li>問題が消えたら半分ずつ戻す。</li><li>原因MODのDescription、FAQ、Issueを確認。</li></ol>
+
+
+<section class="v93-cases"><h2>実際に壊れたときのケース別診断</h2>
+<h3>ケース1：Game Update後、Title画面まで行かない</h3>
+<p>最初に全MODをDisableし、Vanillaで起動できるか確認します。Vanillaでも起動しなければMODではなくGame fileやDriverなど別原因の可能性があります。Vanillaだけ起動するなら、SMLと個別MODのCompatibilityへ戻ります。SMMのCompatible filterで現在のInstallへ対応していないMODを外し、最後に追加したものから戻します。</p>
+<h3>ケース2：MOD一覧には出るが機能しない</h3>
+<p>依存関係が自動取得されていても、MOD側に設定項目や特定のGame phaseが必要なことがあります。Descriptionを読み、設定Menu、Hotkey、必要Milestoneを確認します。古いVideoで紹介されたUIと現行版UIが違う場合もあるため、作者の現行説明を優先します。</p>
+<h3>ケース3：Multiplayerで自分だけ入れない</h3>
+<p>HostとClientでGame version、SML、MOD version、Profileが揃っているか比較します。「同じMOD名」でもVersionが違えば挙動が変わるため、Profile共有やScreenshotでInstalled一覧を照合します。Server側へ必要なMODが入っているかも確認します。</p>
+<h3>ケース4：Saveを開くと特定の建物だけ消える</h3>
+<p>Contentを追加するMODを外した可能性があります。そのSaveを上書きせず閉じ、Backupへ戻します。MODを再度Enableし、作者がRemoval procedureを用意しているか確認します。Gameplay dataを追加するMODは、UI MODと同じ感覚で抜き差ししません。</p>
+<h2>MOD構成を長期運用するなら「更新日」を記録する</h2>
+<p>数十個のMODを使うようになったら、Game version、SMM/SML version、主要MOD versionを簡単なTextで残すだけでも復旧が楽になります。動いている環境を毎回最新版へ追従させる必要はありません。大型Update直後は安定しているVersionを維持し、対応状況が揃ってから移行する選択もあります。</p>
+<h2>便利MODを選ぶ基準</h2>
+<p>「人気だから」ではなく、自分の作業時間のどこを減らしたいかで選びます。建築の反復を減らしたい、Inventory操作を楽にしたい、Logisticsを可視化したいなど目的を一つ決める。目的が重複するMODを複数入れるとUIやKeybindのConflictが増えます。</p></section>
+<section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>起動しない</td><td>Vanilla起動</td><td>全部更新しない</td></tr><tr><td>一つだけ壊れる</td><td>対応Version</td><td>古い手順を固定しない</td></tr><tr><td>複数で壊れる</td><td>競合・依存</td><td>半分ずつ切り分け</td></tr><tr><td>大型更新直後</td><td>Loader対応</td><td>Backupを先に取る</td></tr></tbody></table></div></section><section class="v92-faq"><h2>よくある疑問</h2><details><summary>SMMだけ入れればSMLも入る？</summary><p>SMMが必要なSMLと依存関係を管理します。通常ユーザーがSMLを個別に手動管理する必要はありません。</p></details><details><summary>Experimental branchでMODは使える？</summary><p>SML側対応が終わっていない時期があります。Managerが最新版でも対応済みとは限りません。</p></details><details><summary>Compatibleに出ないMODを無理に入れる？</summary><p>Version指定機能はありますが、対応確認なしに強制するより作者のRelease noteを確認します。</p></details><details><summary>Profileは何に使う？</summary><p>Vanilla寄り、建築用、Multiplayer用などMOD組み合わせを保存して切り替えられます。</p></details><details><summary>Dedicated ServerにもSMMを使える？</summary><p>DocumentationではLocal/Remote serverをInstall一覧へ追加する機能が案内されています。</p></details><details><summary>MODを外したらSaveが壊れる？</summary><p>Content追加MODでは影響することがあります。作者説明とBackupを確認します。</p></details><details><summary>SMMのLogはどこ？</summary><p>GitHub READMEではLocalAppData配下のSatisfactoryModManager logsなどの場所が案内されています。</p></details><details><summary>大型Update後に最初にすることは？</summary><p>Vanilla起動とBackup確認です。MOD側の対応を待ってから少数ずつ戻します。</p></details></section><section class="v92-check"><h2>読み終わったら確認すること</h2><ol><li>この記事の手順をそのまま暗記せず、自分のSave・PC・Versionで条件が同じか確認する。</li><li>一度に複数の設定を変えず、一つ変更して症状や結果がどう変わったかを見る。</li><li>更新で変わる情報は公式ページや配布元の更新日を確認する。</li><li>失敗した場合は最後の操作だけでなく、その前に何が不足していたかまで戻って考える。</li></ol></section>
+<section class="v92-method"><h2>うまくいかない時は、答えを探す前に状態を保存する</h2>
+<p>SatisfactoryのMODを2026年に入れる｜SMM・互換性・更新事故までのように複数の要素が絡むテーマでは、設定を何度も変えているうちに「何を変えたら直ったのか」が分からなくなります。問題が起きた時点で、Version、設定、MOD一覧、PC構成、表示されたMessage、直前の変更を一度メモします。Saveや設定Fileを複製できる場合は、変更前の状態を残します。</p>
+<p>次に、原因候補を大きなカテゴリへ分けます。Game本体、設定、追加MOD/Tool、Network、Hardware/性能、Save dataのどれかです。全部を同時に疑うのではなく、最小構成へ戻して一つずつ足していきます。この方法は特定のGameだけでなく、MOD、Server、配信、VR、StorageのTroubleshootingにも共通します。</p>
+<h2>検索結果を読むときは「同じVersionか」を最初に見る</h2>
+<p>検索上位の記事や高評価Commentでも、書かれた時点では正しくても現在は前提が変わっていることがあります。投稿日、最終更新日、Game version、Tool versionを確認し、一次情報と矛盾する場合は公式の現行仕様を優先します。GameFinderでも、Communityの意見は「どう感じる人が多いか」「どこで詰まりやすいか」を知る材料として使い、仕様そのものの根拠には公式資料を優先しています。</p>
+<h2>最適化は、問題を再現できるようになってから</h2>
+<p>効率やPerformanceを上げる前に、まず同じ条件で問題を再現できるか確認します。再現条件が分かれば、変更前後を比較できます。逆に一度しか起きない問題に十個の対策を同時に入れると、改善したように見えても原因は分かりません。専門的な設定ほど、一回の大きな変更より小さな検証を積み重ねる方が確実です。</p>
+</section>
+
+<section class="v24-flagship-research">
+<div class="v24-status"><span>2026年8月の前提</span><p>2026年8月時点：Satisfactory Mod Managerは3.x系。GitHub Releasesでは3.1.0が公開済みです。</p></div>
+<section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>SMMが更新された＝Game側MODが全部対応、ではない</h2></div>
+<p>2026年5月のSMM 3.0.7 Releaseでは、Manager更新が1.2 Experimental向けMOD準備完了を意味しないと明記されていました。6月の3.1.0ではUnreal Game Featuresを使うMOD管理への対応も追加されています。</p><p>ここから分かるのは、SMM、SML、各MOD、Game本体は別々にCompatibilityを見る必要があるということです。Managerが起動するだけでMOD Loaderや個別MODまで対応済みとは限りません。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>大型Update直後は「更新する」より「止める」判断が重要</h2></div>
+<p>長期Saveを守りたいなら、Game本体が更新された瞬間に全MODを追従更新する必要はありません。まずProfileとSaveをBackupし、SMLと必須Dependencyの対応を確認し、その後にQoL系から少数ずつ戻します。</p><p>壊れた状態で何度もSaveすると、原因を取り除いた後もSave側に変更が残ることがあります。MOD環境では『起動できた』より『同じSaveを安全に継続できる』ことを成功条件にしてください。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>ProfileはMOD一覧ではなく、用途ごとの復旧点</h2></div>
+<p>SMMにはProfile管理があり、建築用、Vanilla寄り、検証用などを分けられます。便利なのは切替そのものより、「このProfileなら昨日まで正常だった」という復旧点を持てることです。</p><p>大型MODを試す時は既存Profileへ直接足さず、複製Profileで起動確認する方が戻しやすくなります。Dependencyの自動導入は便利ですが、何が追加されたかを完全に見なくてよいという意味ではありません。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>MOD選びでは人気より、撤去可能性を見る</h2></div>
+<p>UIや表示だけのMODは比較的外しやすい一方、Item、Recipe、Building、World dataへ影響するMODは外した時のSave影響が大きくなります。長期Saveほど『面白そう』だけでなく『外す時どうなるか』を先に確認してください。</p><p>また、Game Update後に更新が止まったMODを代替へ置き換える場合も、旧MODを消して同時に新MODを入れるより、Backup上で旧構成を一度確認してから移行する方が切り分けやすくなります。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>2026年の実務的な導入順</h2></div>
+<p>初回はGameをVanillaで起動→終了→SMMを導入→必要最小限のMODだけ有効→新規Test Saveで確認→既存SaveをBackup→本番Save、の順が安全です。</p><p>Troubleが出たらMOD数を半分にして試すBinary searchが有効です。一つずつ無効化するより、大量構成では原因範囲を早く絞れます。ただしWorld改変系を無効にする時は、Test Saveで行い、本番Saveを上書きしないでください。</p>
+</section>
+<section class="v24-sources">
+<div class="v13-section-head"><span>確認した情報</span><h2>この記事でVersion依存の判断に使ったSource</h2></div>
+<div class="v24-source-grid"><a href="https://github.com/satisfactorymodding/SatisfactoryModManager/releases" target="_blank" rel="noopener nofollow"><b>Satisfactory Mod Manager Releases</b><span>確認元 →</span></a><a href="https://github.com/satisfactorymodding/SatisfactoryModManager" target="_blank" rel="noopener nofollow"><b>Satisfactory Mod Manager GitHub</b><span>確認元 →</span></a><a href="https://github.com/satisfactorymodding" target="_blank" rel="noopener nofollow"><b>Satisfactory Modding organization</b><span>確認元 →</span></a><a href="https://satisfactory.wiki.gg/wiki/Patch_1.2.4.0" target="_blank" rel="noopener nofollow"><b>Official Satisfactory Wiki：Patch 1.2.4.0</b><span>確認元 →</span></a></div>
+<p>Community discussionはPlayer体験の参考として使い、公式仕様とは分けています。本文は投稿文を転載せず、複数の論点を要約してGameFinder側の判断基準に組み直しています。</p>
+</section>
+</section>
+
+<section class="v24-final-framework">
+<div class="v13-section-head"><span>最後に</span><h2>この記事を実際のPlayへ落とす時の順番</h2></div>
+<ol>
+<li><b>現在のVersionを確認する。</b><p>記事公開時点とGame内表示が違う場合は、数字やUI名より現在Versionを優先します。</p></li>
+<li><b>いま起きている問題を一つにする。</b><p>資源・物流・MOD・Server・Trafficなど複数の問題が同時に見えても、最初に崩れた一箇所から直します。</p></li>
+<li><b>変更前の状態を残す。</b><p>Save、設定、MOD Profile、都市Layoutなど、戻れる状態を作ってから大きく変更します。</p></li>
+<li><b>改善したか一つの指標で見る。</b><p>変更を重ねる前に、元の問題が本当に小さくなったか確認します。</p></li>
+</ol>
+<p>GameFinderでは、固定Build orderより「条件が変わっても使える判断」を重視しています。同じ攻略をそのまま再現するより、自分のSaveで何が不足しているかを読み替えて使ってください。</p>
+</section><section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>MODは「便利そうだから全部入れる」より、役割で分けた方が壊れにくい。</h2></div>
+<p>UI改善、性能改善、操作補助、Content追加、Overhaulでは壊れ方が違います。まずQoL系だけで起動を確認し、その後に大型MODを追加すると、問題が起きた時に原因を戻しやすくなります。Version更新直後は『有名MODだから安全』ではなく、対応Versionと依存関係を確認する方が重要です。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>一番避けたいのは、複数MODを同時更新して原因が分からなくなること。</h2></div>
+<p>Save互換、Loader、依存MOD、設定Fileのどこで壊れたのかを切り分けられない状態が最も復旧しにくいです。大型Update前はSaveと設定を分けてBackupし、変更は一段階ずつ行う方が安全です。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+<section class="v12-related"><div class="v12-section-head"><span>似た遊び方のゲーム</span><h2>この考え方が好きなら</h2></div><div class="v12-related-grid"><a href="/games/factorio.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg" alt="Factorio" loading="lazy"><span><b>Factorio</b><small>自動化 / 建築</small></span></a><a href="/games/dyson-sphere-program.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg" alt="Dyson Sphere Program" loading="lazy"><span><b>Dyson Sphere Program</b><small>自動化 / 宇宙</small></span></a><a href="/games/techtonica.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1457320/header.jpg" alt="Techtonica" loading="lazy"><span><b>Techtonica</b><small>自動化 / 探索</small></span></a><a href="/games/foundry.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/983870/header.jpg" alt="FOUNDRY" loading="lazy"><span><b>FOUNDRY</b><small>自動化 / 建築</small></span></a></div></section><p class="v12-media-note">ゲーム画像は各ストア・公式配信画像を参照表示しています。権利は各権利者に帰属します。</p><section class="v9-sources"><h2>調査に使った主な情報源</h2><p>仕様は一次情報を優先し、Community情報は実際につまずきやすい点や運用上の論点を確認するために使っています。</p><ul><li><a href="https://github.com/satisfactorymodding/SatisfactoryModManager" target="_blank" rel="noopener nofollow">Satisfactory Mod Manager GitHub</a><span>SMMの機能と2026年Release</span></li><li><a href="https://github.com/satisfactorymodding/Documentation/blob/master/modules/ROOT/pages/ForUsers/SatisfactoryModManager.adoc" target="_blank" rel="noopener nofollow">Satisfactory Modding Documentation</a><span>導入・Compatible filter・依存・Server</span></li><li><a href="https://github.com/satisfactorymodding/Documentation/blob/master/modules/ROOT/pages/index.adoc" target="_blank" rel="noopener nofollow">Satisfactory Modding Docs Home</a><span>Community Moddingの位置づけ</span></li></ul></section>
+<section class="v9-editor-note"><h2>この記事の作り方</h2><p>一つのコメントや一つのブログを正解として扱わず、公式仕様と複数の実例が矛盾しないかを確認してから編集しています。Versionで変わる内容は更新日を明記します。</p></section>
+</div><aside class="v9-aside"><strong>この記事で分かること</strong><p>2026年のSatisfactory Mod Managerを前提に、MOD導入、依存関係、Compatible filter、Profile、Dedicated Server、大型更新時の復旧を詳しく解説。</p><a class="v9-btn" href="/games/satisfactory.html">ゲーム詳細</a></aside></div></article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

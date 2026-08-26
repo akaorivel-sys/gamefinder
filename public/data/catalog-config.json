@@ -1,0 +1,19 @@
+{
+  "targetCount": 10000,
+  "enrichedLocalCount": 400,
+  "externalTargetCount": 9600,
+  "externalSource": "https://raw.githubusercontent.com/jsnli/steamappidlist/master/data/games_appid.json",
+  "sourceRepository": "https://github.com/jsnli/steamappidlist",
+  "sourceLabel": "jsnli/steamappidlist — Steam game AppID list",
+  "sourceChecked": "2026-08-26",
+  "externalTier": "enriched-core",
+  "notes": [
+    "All 10,000 catalog entries are now Enriched.",
+    "400 Editorial Plus entries contain GameFinder editorial attributes.",
+    "9,600 Enriched Core entries contain verified identity/source/store linkage; unknown editorial fields remain null.",
+    "Age-restricted adult/gambling titles are filtered from the teen-facing catalog."
+  ],
+  "catalogLiteRetired": true,
+  "editorialPlusCount": 400,
+  "enrichedCoreCount": 9600
+}

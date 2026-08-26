@@ -1,0 +1,3322 @@
+[
+  {
+    "kind": "game",
+    "title": "Frostpunk",
+    "url": "/games/frostpunk.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg",
+    "text": "極寒都市で資源・暖房・社会制度を管理するシティビルダー。 街づくり サバイバル ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Cities: Skylines",
+    "url": "/games/cities-skylines.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
+    "text": "道路や交通、公共サービスまで設計できる都市開発シミュレーション。 街づくり シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Raft",
+    "url": "/games/raft.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+    "text": "海上のいかだを拡張しながら探索するサバイバルクラフト。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Satisfactory",
+    "url": "/games/satisfactory.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "text": "惑星上に巨大な自動化工場を構築する工場建設ゲーム。 自動化 建築 探索 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "No Man's Sky",
+    "url": "/games/no-mans-sky.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+    "text": "広大な宇宙で探索、開拓、建築、交易を自由に楽しめる。 宇宙 探索 サバイバル ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Stardew Valley",
+    "url": "/games/stardew-valley.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "text": "農業、採掘、交流などを自分のペースで楽しめる生活シミュレーション。 農業 生活 RPG ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Terraria",
+    "url": "/games/terraria.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+    "text": "探索、建築、戦闘を自由に楽しめる2Dサンドボックス。 サンドボックス 探索 クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Factorio",
+    "url": "/games/factorio.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "text": "資源採掘から物流まで巨大な生産ラインを自動化するゲーム。 自動化 建築 ストラテジー ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "RimWorld",
+    "url": "/games/rimworld.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "text": "入植者たちの生活とトラブルを管理するコロニーシミュレーション。 コロニー シミュレーション ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Oxygen Not Included",
+    "url": "/games/oxygen-not-included.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "text": "地下コロニーで酸素、温度、資源循環を設計するシミュレーション。 コロニー サバイバル 自動化 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dyson Sphere Program",
+    "url": "/games/dyson-sphere-program.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg",
+    "text": "複数の惑星をまたいで巨大な生産網を構築する自動化ゲーム。 自動化 宇宙 建築 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ASTRONEER",
+    "url": "/games/astroneer.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
+    "text": "カラフルな惑星を探索し、基地を建てて資源を集める宇宙サンドボックス。 宇宙 探索 クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Core Keeper",
+    "url": "/games/core-keeper.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg",
+    "text": "地下世界を掘り進み、建築・農業・戦闘を楽しむサンドボックス。 サンドボックス クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Valheim",
+    "url": "/games/valheim.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
+    "text": "北欧風世界で探索、建築、ボス戦を楽しむサバイバル。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Project Zomboid",
+    "url": "/games/project-zomboid.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "text": "細かな生活管理をしながら生き残るサバイバルシミュレーション。 サバイバル シミュレーション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Don't Starve Together",
+    "url": "/games/dont-starve-together.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
+    "text": "独特な世界で探索とクラフトを繰り返す協力サバイバル。 サバイバル クラフト 協力 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Subnautica",
+    "url": "/games/subnautica.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
+    "text": "未知の海洋惑星を潜り、装備や基地を整えながら探索する。 サバイバル 探索 海洋 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Grounded",
+    "url": "/games/grounded.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+    "text": "小さくなった視点で庭を探索する協力サバイバル。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Palworld",
+    "url": "/games/palworld.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
+    "text": "広い世界を探索し、仲間を集めながら拠点を発展させる。 サバイバル クラフト オープンワールド ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Minecraft",
+    "url": "/games/minecraft.html",
+    "image": "/assets/covers/minecraft.svg",
+    "text": "建築、探索、冒険を自由に楽しめる代表的なサンドボックス。 サンドボックス クラフト 建築 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Human: Fall Flat",
+    "url": "/games/human-fall-flat.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg",
+    "text": "ふにゃふにゃした操作で物理パズルを解く協力ゲーム。 パズル 協力 カジュアル ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Portal 2",
+    "url": "/games/portal-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
+    "text": "ポータルを使った発想型パズル。専用の協力モードもある。 パズル 協力 SF ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Overcooked! 2",
+    "url": "/games/overcooked-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
+    "text": "役割分担しながら料理を完成させる忙しい協力ゲーム。 協力 料理 カジュアル 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Deep Rock Galactic",
+    "url": "/games/deep-rock-galactic.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
+    "text": "洞窟を探索し、採掘と戦闘をこなす4人協力アクション。 協力 FPS 探索 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ELDEN RING",
+    "url": "/games/elden-ring.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "text": "広大な世界を探索しながら強敵へ挑むアクションRPG。 アクション RPG オープンワールド ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Baldur's Gate 3",
+    "url": "/games/baldurs-gate-3.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "text": "選択と会話、戦術的なターン制戦闘を楽しむ大作RPG。 RPG ターン制 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Cyberpunk 2077",
+    "url": "/games/cyberpunk-2077.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "text": "巨大都市を舞台に物語と探索を進めるオープンワールドRPG。 RPG オープンワールド SF ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Witcher 3: Wild Hunt",
+    "url": "/games/the-witcher-3.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "text": "広大な世界を旅しながら数多くの依頼と物語を体験するRPG。 RPG オープンワールド 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hades",
+    "url": "/games/hades.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "text": "短い挑戦を繰り返しながら物語と能力を広げるアクション。 ローグライク アクション RPG ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Slay the Spire",
+    "url": "/games/slay-the-spire.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg",
+    "text": "カードを組み合わせながら塔を登るデッキ構築型ローグライク。 カード ローグライク ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Vampire Survivors",
+    "url": "/games/vampire-survivors.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+    "text": "シンプルな操作で大量の敵をさばき、ビルドを強化する。 ローグライク アクション カジュアル ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Balatro",
+    "url": "/games/balatro.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg",
+    "text": "ポーカー役をベースに強力な組み合わせを作るカードゲーム。 カード ローグライク パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hollow Knight",
+    "url": "/games/hollow-knight.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+    "text": "広大な地下世界を探索する2Dアクションアドベンチャー。 アクション 探索 メトロイドヴァニア ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DAVE THE DIVER",
+    "url": "/games/dave-the-diver.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+    "text": "昼は海へ潜り、夜は寿司店を運営する複合型アドベンチャー。 経営 探索 カジュアル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sid Meier's Civilization VI",
+    "url": "/games/civilization-vi.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
+    "text": "文明を発展させ、科学・文化・外交などで勝利を目指す。 ストラテジー ターン制 歴史 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Counter-Strike 2",
+    "url": "/games/counter-strike-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "text": "チームで攻守に分かれて戦う競技性の高いFPS。 FPS 対戦 チーム 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dota 2",
+    "url": "/games/dota-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
+    "text": "5対5で戦う高い戦略性を持つMOBA。 MOBA 対戦 チーム 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "PUBG: BATTLEGROUNDS",
+    "url": "/games/pubg.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg",
+    "text": "広いマップで最後まで生き残ることを目指すバトルロイヤル。 バトルロイヤル FPS 対戦 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Apex Legends",
+    "url": "/games/apex-legends.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+    "text": "キャラクター能力と高速移動を組み合わせるチームFPS。 バトルロイヤル FPS チーム 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Warframe",
+    "url": "/games/warframe.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
+    "text": "高速アクションと装備収集を軸に長く遊べる協力ゲーム。 アクション 協力 SF ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "原神",
+    "url": "/games/genshin.html",
+    "image": "/assets/covers/genshin.svg",
+    "text": "広大な世界を探索するオープンワールド型アクションRPG。 RPG オープンワールド アクション ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "崩壊：スターレイル",
+    "url": "/games/star-rail.html",
+    "image": "/assets/covers/star-rail.svg",
+    "text": "宇宙を舞台に物語とターン制バトルを楽しむRPG。 RPG ターン制 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ゼンレスゾーンゼロ",
+    "url": "/games/zenless-zone-zero.html",
+    "image": "/assets/covers/zenless-zone-zero.svg",
+    "text": "都市を舞台にテンポの良いアクションを楽しむRPG。 アクション RPG 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Pokémon UNITE",
+    "url": "/games/pokemon-unite.html",
+    "image": "/assets/covers/pokemon-unite.svg",
+    "text": "5対5でスコアを競うチーム戦アクション。 MOBA 対戦 チーム 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Brawl Stars",
+    "url": "/games/brawl-stars.html",
+    "image": "/assets/covers/brawl-stars.svg",
+    "text": "短時間で遊べるテンポの速い対戦アクション。 アクション 対戦 カジュアル 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Black Myth: Wukong",
+    "url": "/games/black-myth-wukong.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sekiro: Shadows Die Twice",
+    "url": "/games/sekiro-shadows-die-twice.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 高難度 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DARK SOULS III",
+    "url": "/games/dark-souls-iii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 高難度 ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Lies of P",
+    "url": "/games/lies-of-p.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 高難度 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Nioh 2 – The Complete Edition",
+    "url": "/games/nioh-2-the-complete-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 高難度 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Wo Long: Fallen Dynasty",
+    "url": "/games/wo-long-fallen-dynasty.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1448440/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Monster Hunter: World",
+    "url": "/games/monster-hunter-world.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 狩り ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Monster Hunter Rise",
+    "url": "/games/monster-hunter-rise.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 狩り ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Monster Hunter Wilds",
+    "url": "/games/monster-hunter-wilds.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 狩り ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hogwarts Legacy",
+    "url": "/games/hogwarts-legacy.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG オープンワールド アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "url": "/games/the-elder-scrolls-v-skyrim-special-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Fallout 4",
+    "url": "/games/fallout-4.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Starfield",
+    "url": "/games/starfield.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1716740/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG 宇宙 オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Red Dead Redemption 2",
+    "url": "/games/red-dead-redemption-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 オープンワールド アクション ストーリー ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Grand Theft Auto V",
+    "url": "/games/grand-theft-auto-v.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 オープンワールド アクション ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Kingdom Come: Deliverance",
+    "url": "/games/kingdom-come-deliverance.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/379430/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Kingdom Come: Deliverance II",
+    "url": "/games/kingdom-come-deliverance-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mount & Blade II: Bannerlord",
+    "url": "/games/mount-blade-ii-bannerlord.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/261550/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストラテジー オープンワールド ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dragon’s Dogma 2",
+    "url": "/games/dragon-s-dogma-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG アクション オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "NieR:Automata",
+    "url": "/games/nier-automata.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "NieR Replicant ver.1.22474487139...",
+    "url": "/games/nier-replicant-ver-1-22474487139.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1113560/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "url": "/games/final-fantasy-vii-remake-intergrade.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1462040/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "FINAL FANTASY XV WINDOWS EDITION",
+    "url": "/games/final-fantasy-xv-windows-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/637650/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Persona 5 Royal",
+    "url": "/games/persona-5-royal.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Persona 3 Reload",
+    "url": "/games/persona-3-reload.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Persona 4 Golden",
+    "url": "/games/persona-4-golden.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1113000/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Metaphor: ReFantazio",
+    "url": "/games/metaphor-refantazio.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2679460/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Yakuza 0",
+    "url": "/games/yakuza-0.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/638970/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Yakuza Kiwami",
+    "url": "/games/yakuza-kiwami.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/834530/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Yakuza Kiwami 2",
+    "url": "/games/yakuza-kiwami-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/927380/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Yakuza: Like a Dragon",
+    "url": "/games/yakuza-like-a-dragon.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1235140/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Like a Dragon: Infinite Wealth",
+    "url": "/games/like-a-dragon-infinite-wealth.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2072450/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Judgment",
+    "url": "/games/judgment.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2058180/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Lost Judgment",
+    "url": "/games/lost-judgment.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2058190/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Disco Elysium - The Final Cut",
+    "url": "/games/disco-elysium-the-final-cut.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Divinity: Original Sin 2",
+    "url": "/games/divinity-original-sin-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/435150/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストラテジー ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "OCTOPATH TRAVELER",
+    "url": "/games/octopath-traveler.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/921570/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "OCTOPATH TRAVELER II",
+    "url": "/games/octopath-traveler-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1971650/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sea of Stars",
+    "url": "/games/sea-of-stars.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1244090/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Chained Echoes",
+    "url": "/games/chained-echoes.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1229240/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Frostpunk 2",
+    "url": "/games/frostpunk-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり ストラテジー サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Cities: Skylines II",
+    "url": "/games/cities-skylines-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Crusader Kings III",
+    "url": "/games/crusader-kings-iii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1158310/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー 歴史 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Europa Universalis IV",
+    "url": "/games/europa-universalis-iv.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー 歴史 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hearts of Iron IV",
+    "url": "/games/hearts-of-iron-iv.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー 歴史 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Stellaris",
+    "url": "/games/stellaris.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー 宇宙 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Victoria 3",
+    "url": "/games/victoria-3.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/529340/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー 歴史 経営 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sid Meier’s Civilization VII",
+    "url": "/games/sid-meier-s-civilization-vii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1295660/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー ターン制 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Age of Empires II: Definitive Edition",
+    "url": "/games/age-of-empires-ii-definitive-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー RTS ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Age of Empires IV: Anniversary Edition",
+    "url": "/games/age-of-empires-iv-anniversary-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー RTS ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Total War: WARHAMMER III",
+    "url": "/games/total-war-warhammer-iii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー RTS ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Total War: THREE KINGDOMS",
+    "url": "/games/total-war-three-kingdoms.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー RTS 歴史 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "XCOM 2",
+    "url": "/games/xcom-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー ターン制 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Into the Breach",
+    "url": "/games/into-the-breach.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/590380/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー ターン制 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Against the Storm",
+    "url": "/games/against-the-storm.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1336490/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり ローグライク ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Timberborn",
+    "url": "/games/timberborn.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり コロニー シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Banished",
+    "url": "/games/banished.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/242920/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Prison Architect",
+    "url": "/games/prison-architect.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/233450/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 建築 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Planet Zoo",
+    "url": "/games/planet-zoo.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/703080/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 建築 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Planet Coaster",
+    "url": "/games/planet-coaster.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/493340/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 建築 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Two Point Hospital",
+    "url": "/games/two-point-hospital.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/535930/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Two Point Campus",
+    "url": "/games/two-point-campus.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1649080/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Game Dev Tycoon",
+    "url": "/games/game-dev-tycoon.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/239820/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Software Inc.",
+    "url": "/games/software-inc.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/362620/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Workers & Resources: Soviet Republic",
+    "url": "/games/workers-resources-soviet-republic.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり 経営 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Transport Fever 2",
+    "url": "/games/transport-fever-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1066780/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 交通 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Railway Empire",
+    "url": "/games/railway-empire.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/503940/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 交通 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Anno 1800",
+    "url": "/games/anno-1800.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/916440/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり 経営 ストラテジー ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Foundation",
+    "url": "/games/foundation.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/690830/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり 建築 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Manor Lords",
+    "url": "/games/manor-lords.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり ストラテジー 中世 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Going Medieval",
+    "url": "/games/going-medieval.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1029780/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 コロニー 建築 サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Surviving Mars",
+    "url": "/games/surviving-mars.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/464920/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり 宇宙 サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "They Are Billions",
+    "url": "/games/they-are-billions.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/644930/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー 街づくり サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Northgard",
+    "url": "/games/northgard.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/466560/header.jpg",
+    "text": "状況を読み、資源やユニットを管理して戦略を組み立てるゲーム。 ストラテジー RTS ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dorfromantik",
+    "url": "/games/dorfromantik.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1455840/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 パズル 街づくり まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mini Metro",
+    "url": "/games/mini-metro.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/287980/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 パズル 交通 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mini Motorways",
+    "url": "/games/mini-motorways.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127500/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 パズル 交通 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Townscaper",
+    "url": "/games/townscaper.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1291340/header.jpg",
+    "text": "建築・まったりを中心に遊べるゲーム。 建築 まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ISLANDERS",
+    "url": "/games/islanders.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1046030/header.jpg",
+    "text": "都市や拠点を設計し、資源や仕組みを整えて発展させるゲーム。 街づくり パズル まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "WorldBox - God Simulator",
+    "url": "/games/worldbox-god-simulator.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1206560/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 シミュレーション サンドボックス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Sims 4",
+    "url": "/games/the-sims-4.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 生活 シミュレーション 建築 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "shapez 2",
+    "url": "/games/shapez-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2162800/header.jpg",
+    "text": "自動化・パズル・工場を中心に遊べるゲーム。 自動化 パズル 工場 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Starbound",
+    "url": "/games/starbound.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 探索 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Subnautica: Below Zero",
+    "url": "/games/subnautica-below-zero.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル 探索 クラフト ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Forest",
+    "url": "/games/the-forest.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル ホラー クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sons Of The Forest",
+    "url": "/games/sons-of-the-forest.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル ホラー クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Green Hell",
+    "url": "/games/green-hell.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "7 Days to Die",
+    "url": "/games/7-days-to-die.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト ゾンビ ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ARK: Survival Evolved",
+    "url": "/games/ark-survival-evolved.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 恐竜 ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ARK: Survival Ascended",
+    "url": "/games/ark-survival-ascended.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2399830/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 恐竜 ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Conan Exiles",
+    "url": "/games/conan-exiles.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440900/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト オープンワールド ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Don't Starve",
+    "url": "/games/don-t-starve.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/219740/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "V Rising",
+    "url": "/games/v-rising.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1604030/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル アクション クラフト ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Enshrouded",
+    "url": "/games/enshrouded.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト RPG ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Once Human",
+    "url": "/games/once-human.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2139460/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル オープンワールド 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DayZ",
+    "url": "/games/dayz.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル オープンワールド ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "SCUM",
+    "url": "/games/scum.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/513710/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル オープンワールド ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Long Dark",
+    "url": "/games/the-long-dark.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/305620/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル 探索 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Stranded Deep",
+    "url": "/games/stranded-deep.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ICARUS",
+    "url": "/games/icarus.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Space Engineers",
+    "url": "/games/space-engineers.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/244850/header.jpg",
+    "text": "宇宙・建築・サンドボックスを中心に遊べるゲーム。 宇宙 建築 サンドボックス ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Kerbal Space Program",
+    "url": "/games/kerbal-space-program.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 宇宙 シミュレーション サンドボックス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Planet Crafter",
+    "url": "/games/the-planet-crafter.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル 宇宙 クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Forever Skies",
+    "url": "/games/forever-skies.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1641960/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル 探索 クラフト ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Abiotic Factor",
+    "url": "/games/abiotic-factor.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427410/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Pacific Drive",
+    "url": "/games/pacific-drive.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1458140/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル 探索 ドライブ ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Smalland: Survive the Wilds",
+    "url": "/games/smalland-survive-the-wilds.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/768200/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Medieval Dynasty",
+    "url": "/games/medieval-dynasty.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1129580/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル 生活 建築 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "My Time at Sandrock",
+    "url": "/games/my-time-at-sandrock.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1084600/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 生活 クラフト RPG ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "My Time at Portia",
+    "url": "/games/my-time-at-portia.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/666140/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 生活 クラフト RPG ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hades II",
+    "url": "/games/hades-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dead Cells",
+    "url": "/games/dead-cells.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Risk of Rain 2",
+    "url": "/games/risk-of-rain-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Rogue Legacy 2",
+    "url": "/games/rogue-legacy-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1253920/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Enter the Gungeon",
+    "url": "/games/enter-the-gungeon.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311690/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Binding of Isaac: Rebirth",
+    "url": "/games/the-binding-of-isaac-rebirth.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "FTL: Faster Than Light",
+    "url": "/games/ftl-faster-than-light.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/212680/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク ストラテジー 宇宙 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Darkest Dungeon",
+    "url": "/games/darkest-dungeon.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/262060/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ローグライク ターン制 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Darkest Dungeon II",
+    "url": "/games/darkest-dungeon-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1940340/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG ローグライク ターン制 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Inscryption",
+    "url": "/games/inscryption.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 カード ホラー パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Loop Hero",
+    "url": "/games/loop-hero.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1282730/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Brotato",
+    "url": "/games/brotato.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1942280/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "20 Minutes Till Dawn",
+    "url": "/games/20-minutes-till-dawn.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966900/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Celeste",
+    "url": "/games/celeste.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション プラットフォーム ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Cuphead",
+    "url": "/games/cuphead.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 高難度 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Ori and the Blind Forest: Definitive Edition",
+    "url": "/games/ori-and-the-blind-forest-definitive-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/387290/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 探索 プラットフォーム ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Ori and the Will of the Wisps",
+    "url": "/games/ori-and-the-will-of-the-wisps.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 探索 プラットフォーム ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Katana ZERO",
+    "url": "/games/katana-zero.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/460950/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hotline Miami",
+    "url": "/games/hotline-miami.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/219150/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 高難度 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hotline Miami 2: Wrong Number",
+    "url": "/games/hotline-miami-2-wrong-number.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/274170/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 高難度 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Shovel Knight: Treasure Trove",
+    "url": "/games/shovel-knight-treasure-trove.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250760/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション プラットフォーム ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "A Hat in Time",
+    "url": "/games/a-hat-in-time.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/253230/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション プラットフォーム ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Psychonauts 2",
+    "url": "/games/psychonauts-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/607080/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション プラットフォーム ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hi-Fi RUSH",
+    "url": "/games/hi-fi-rush.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1817230/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション リズム ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Ghostrunner",
+    "url": "/games/ghostrunner.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1139900/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 高難度 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Ghostrunner 2",
+    "url": "/games/ghostrunner-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 高難度 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Devil May Cry 5",
+    "url": "/games/devil-may-cry-5.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Bayonetta",
+    "url": "/games/bayonetta.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/460790/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "METAL GEAR RISING: REVENGEANCE",
+    "url": "/games/metal-gear-rising-revengeance.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/235460/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Remnant II",
+    "url": "/games/remnant-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1282100/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション RPG 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Left 4 Dead 2",
+    "url": "/games/left-4-dead-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 協力 ゾンビ ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Back 4 Blood",
+    "url": "/games/back-4-blood.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/924970/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 協力 ゾンビ ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "PAYDAY 2",
+    "url": "/games/payday-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "PAYDAY 3",
+    "url": "/games/payday-3.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1272080/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Destiny 2",
+    "url": "/games/destiny-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1085660/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS RPG 協力 ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Halo Infinite",
+    "url": "/games/halo-infinite.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1240440/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Halo: The Master Chief Collection",
+    "url": "/games/halo-the-master-chief-collection.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 協力 ストーリー ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Team Fortress 2",
+    "url": "/games/team-fortress-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Overwatch 2",
+    "url": "/games/overwatch-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 ヒーロー 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Marvel Rivals",
+    "url": "/games/marvel-rivals.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2767030/header.jpg",
+    "text": "TPS・対戦・ヒーローを中心に遊べるゲーム。 TPS 対戦 ヒーロー 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "THE FINALS",
+    "url": "/games/the-finals.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2073850/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Tom Clancy's Rainbow Six Siege",
+    "url": "/games/tom-clancy-s-rainbow-six-siege.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 タクティカル 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Battlefield 2042",
+    "url": "/games/battlefield-2042.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Battlefield V",
+    "url": "/games/battlefield-v.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Battlefield 1",
+    "url": "/games/battlefield-1.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Call of Duty",
+    "url": "/games/call-of-duty.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1938090/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 ソロ・対戦・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hunt: Showdown 1896",
+    "url": "/games/hunt-showdown-1896.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/594650/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 ホラー 協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dead by Daylight",
+    "url": "/games/dead-by-daylight.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 対戦 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Phasmophobia",
+    "url": "/games/phasmophobia.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Lethal Company",
+    "url": "/games/lethal-company.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Content Warning",
+    "url": "/games/content-warning.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 協力 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Among Us",
+    "url": "/games/among-us.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
+    "text": "パーティー・対戦を中心に遊べるゲーム。 パーティー 対戦 協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Goose Goose Duck",
+    "url": "/games/goose-goose-duck.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1568590/header.jpg",
+    "text": "パーティー・対戦を中心に遊べるゲーム。 パーティー 対戦 協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "VRChat",
+    "url": "/games/vrchat.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/438100/header.jpg",
+    "text": "ソーシャル・VRを中心に遊べるゲーム。 ソーシャル VR 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Garry's Mod",
+    "url": "/games/garry-s-mod.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
+    "text": "友達と役割分担しながら遊べるゲーム。 サンドボックス MOD 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Half-Life 2",
+    "url": "/games/half-life-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/220/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Black Mesa",
+    "url": "/games/black-mesa.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/362890/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Stanley Parable: Ultra Deluxe",
+    "url": "/games/the-stanley-parable-ultra-deluxe.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1703340/header.jpg",
+    "text": "アドベンチャー・ストーリーを中心に遊べるゲーム。 アドベンチャー ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Superliminal",
+    "url": "/games/superliminal.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1049410/header.jpg",
+    "text": "パズル・アドベンチャーを中心に遊べるゲーム。 パズル アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "It Takes Two",
+    "url": "/games/it-takes-two.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
+    "text": "友達と役割分担しながら遊べるゲーム。 協力 アクション パズル 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "A Way Out",
+    "url": "/games/a-way-out.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg",
+    "text": "友達と役割分担しながら遊べるゲーム。 協力 ストーリー 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "PlateUp!",
+    "url": "/games/plateup.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1599600/header.jpg",
+    "text": "友達と役割分担しながら遊べるゲーム。 協力 経営 ローグライク ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Moving Out",
+    "url": "/games/moving-out.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/996770/header.jpg",
+    "text": "友達と役割分担しながら遊べるゲーム。 協力 パーティー ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Resident Evil 2",
+    "url": "/games/resident-evil-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/883710/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Resident Evil 3",
+    "url": "/games/resident-evil-3.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/952060/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Resident Evil 4",
+    "url": "/games/resident-evil-4.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Resident Evil 7 biohazard",
+    "url": "/games/resident-evil-7-biohazard.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/418370/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Resident Evil Village",
+    "url": "/games/resident-evil-village.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Amnesia: The Dark Descent",
+    "url": "/games/amnesia-the-dark-descent.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/57300/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Amnesia: The Bunker",
+    "url": "/games/amnesia-the-bunker.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1944430/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Outlast",
+    "url": "/games/outlast.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Outlast 2",
+    "url": "/games/outlast-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Alien: Isolation",
+    "url": "/games/alien-isolation.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/214490/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー サバイバル ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "SOMA",
+    "url": "/games/soma.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/282140/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Little Nightmares",
+    "url": "/games/little-nightmares.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/424840/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー パズル アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Little Nightmares II",
+    "url": "/games/little-nightmares-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/860510/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー パズル アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DEVOUR",
+    "url": "/games/devour.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1274570/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Labyrinthine",
+    "url": "/games/labyrinthine.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1302240/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 協力 パズル ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Escape the Backrooms",
+    "url": "/games/escape-the-backrooms.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1943950/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 ホラー 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DREDGE",
+    "url": "/games/dredge.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg",
+    "text": "緊張感のある探索や協力を楽しむゲーム。 探索 ホラー 釣り ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Spiritfarer: Farewell Edition",
+    "url": "/games/spiritfarer-farewell-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/972660/header.jpg",
+    "text": "生活・アドベンチャー・まったりを中心に遊べるゲーム。 生活 アドベンチャー まったり ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Graveyard Keeper",
+    "url": "/games/graveyard-keeper.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/599140/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 生活 経営 RPG ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Cult of the Lamb",
+    "url": "/games/cult-of-the-lamb.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
+    "text": "挑戦とやり直しを繰り返しながら上達するゲーム。 ローグライク 経営 アクション ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Moonlighter",
+    "url": "/games/moonlighter.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/606150/header.jpg",
+    "text": "探索や成長、物語を軸に長く遊べるゲーム。 RPG 経営 アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Potion Craft: Alchemist Simulator",
+    "url": "/games/potion-craft-alchemist-simulator.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1210320/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 クラフト まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Travellers Rest",
+    "url": "/games/travellers-rest.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1139980/header.jpg",
+    "text": "収支や配置を考え、施設や事業を育てるゲーム。 経営 生活 クラフト ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "House Flipper",
+    "url": "/games/house-flipper.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/613100/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 シミュレーション 建築 まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "House Flipper 2",
+    "url": "/games/house-flipper-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1190970/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 シミュレーション 建築 まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "PowerWash Simulator",
+    "url": "/games/powerwash-simulator.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1290000/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 シミュレーション まったり ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Euro Truck Simulator 2",
+    "url": "/games/euro-truck-simulator-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 ドライブ シミュレーション まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "American Truck Simulator",
+    "url": "/games/american-truck-simulator.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 ドライブ シミュレーション まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Farming Simulator 22",
+    "url": "/games/farming-simulator-22.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1248130/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 農業 シミュレーション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Car Mechanic Simulator 2021",
+    "url": "/games/car-mechanic-simulator-2021.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1190000/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 シミュレーション 車 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "SnowRunner",
+    "url": "/games/snowrunner.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1465360/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 ドライブ シミュレーション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "BeamNG.drive",
+    "url": "/games/beamng-drive.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/284160/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 車 シミュレーション サンドボックス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Assetto Corsa",
+    "url": "/games/assetto-corsa.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 レース シミュレーション ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Assetto Corsa Competizione",
+    "url": "/games/assetto-corsa-competizione.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/805550/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 レース シミュレーション ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Forza Horizon 5",
+    "url": "/games/forza-horizon-5.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
+    "text": "レース・オープンワールドを中心に遊べるゲーム。 レース オープンワールド ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Forza Horizon 4",
+    "url": "/games/forza-horizon-4.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg",
+    "text": "レース・オープンワールドを中心に遊べるゲーム。 レース オープンワールド ソロ・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Fishing Planet",
+    "url": "/games/fishing-planet.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/380600/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 釣り シミュレーション まったり ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "theHunter: Call of the Wild",
+    "url": "/games/thehunter-call-of-the-wild.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/518790/header.jpg",
+    "text": "自分のペースで仕組みや効率を追求できるゲーム。 探索 シミュレーション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "STAR WARS Jedi: Fallen Order",
+    "url": "/games/star-wars-jedi-fallen-order.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172380/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション アドベンチャー ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "STAR WARS Jedi: Survivor",
+    "url": "/games/star-wars-jedi-survivor.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション アドベンチャー ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Control Ultimate Edition",
+    "url": "/games/control-ultimate-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/870780/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DEATH STRANDING DIRECTOR’S CUT",
+    "url": "/games/death-stranding-director-s-cut.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
+    "text": "アドベンチャー・オープンワールド・ストーリーを中心に遊べるゲーム。 アドベンチャー オープンワールド ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Ghost of Tsushima DIRECTOR’S CUT",
+    "url": "/games/ghost-of-tsushima-director-s-cut.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ストーリー ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "God of War",
+    "url": "/games/god-of-war.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "God of War Ragnarök",
+    "url": "/games/god-of-war-ragnarok.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Horizon Zero Dawn Complete Edition",
+    "url": "/games/horizon-zero-dawn-complete-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Horizon Forbidden West Complete Edition",
+    "url": "/games/horizon-forbidden-west-complete-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Days Gone",
+    "url": "/games/days-gone.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ゾンビ ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Last of Us Part I",
+    "url": "/games/the-last-of-us-part-i.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Marvel’s Spider-Man Remastered",
+    "url": "/games/marvel-s-spider-man-remastered.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Marvel’s Spider-Man: Miles Morales",
+    "url": "/games/marvel-s-spider-man-miles-morales.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Marvel’s Spider-Man 2",
+    "url": "/games/marvel-s-spider-man-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "url": "/games/uncharted-legacy-of-thieves-collection.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1659420/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション アドベンチャー ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Ratchet & Clank: Rift Apart",
+    "url": "/games/ratchet-clank-rift-apart.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1895880/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Unturned",
+    "url": "/games/unturned.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/304930/header.jpg",
+    "text": "資源を集め、装備や拠点を整えながら生き延びるゲーム。 サバイバル クラフト 協力 ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "NARAKA: BLADEPOINT",
+    "url": "/games/naraka-bladepoint.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203220/header.jpg",
+    "text": "操作と判断のテンポを楽しめるゲーム。 アクション 対戦 バトルロイヤル 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Warface: Clutch",
+    "url": "/games/warface-clutch.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/291480/header.jpg",
+    "text": "銃撃戦と立ち回りを中心に楽しむゲーム。 FPS 対戦 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "World of Tanks Blitz",
+    "url": "/games/world-of-tanks-blitz.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/444200/header.jpg",
+    "text": "対戦・車を中心に遊べるゲーム。 対戦 車 対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sea of Thieves",
+    "url": "/games/sea-of-thieves.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
+    "text": "友達と役割分担しながら遊べるゲーム。 海賊 協力 オープンワールド ソロ・協力・対戦",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Portal",
+    "url": "/games/portal.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/400/header.jpg",
+    "text": "ポータルで空間を組み替える一人称パズル。 パズル FPS ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Path of Exile",
+    "url": "/games/path-of-exile.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238960/header.jpg",
+    "text": "巨大なスキルツリーとビルド構築が中心のARPG。 ARPG ハクスラ 基本無料 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Fallout: New Vegas",
+    "url": "/games/fallout-new-vegas.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg",
+    "text": "派閥や選択の幅が広いポストアポカリプスRPG。 RPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mass Effect Legendary Edition",
+    "url": "/games/mass-effect-legendary-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg",
+    "text": "三部作を通じて選択と仲間関係が続くSF RPG。 RPG SF ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Tropico 6",
+    "url": "/games/tropico-6.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/492720/header.jpg",
+    "text": "島国の経済と政治を運営するシミュレーション。 街づくり 経営 ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Noita",
+    "url": "/games/noita.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/881100/header.jpg",
+    "text": "全ピクセルが物理反応する世界で杖を構築するローグライク。 ローグライク 物理 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Outer Wilds",
+    "url": "/games/outer-wilds.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg",
+    "text": "知識だけが持ち越される宇宙探索アドベンチャー。 探索 宇宙 パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Return of the Obra Dinn",
+    "url": "/games/return-of-the-obra-dinn.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg",
+    "text": "船員の最期を観察して身元と死因を推理する。 推理 パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "My Summer Car",
+    "url": "/games/my-summer-car.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/516750/header.jpg",
+    "text": "車を部品から組み立てつつ生活するシミュレーション。 車 サバイバル シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Teardown",
+    "url": "/games/teardown.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1167630/header.jpg",
+    "text": "ボクセル物理で建物を破壊し経路を作るゲーム。 破壊 サンドボックス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Universe Sandbox",
+    "url": "/games/universe-sandbox.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230290/header.jpg",
+    "text": "重力・天体衝突などを試せる宇宙シミュレーション。 宇宙 シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Nine Sols",
+    "url": "/games/nine-sols.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg",
+    "text": "弾き主体の戦闘と探索を組み合わせた2Dアクション。 アクション メトロイドヴァニア ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Blasphemous",
+    "url": "/games/blasphemous.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/774361/header.jpg",
+    "text": "重い世界観と探索を持つ2Dアクション。 メトロイドヴァニア アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Blasphemous 2",
+    "url": "/games/blasphemous-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2114740/header.jpg",
+    "text": "武器と移動能力を使い分ける探索型アクション。 メトロイドヴァニア アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ENDER LILIES: Quietus of the Knights",
+    "url": "/games/ender-lilies-quietus-of-the-knights.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1369630/header.jpg",
+    "text": "退廃的な世界を探索する2DアクションRPG。 メトロイドヴァニア アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "ANIMAL WELL",
+    "url": "/games/animal-well.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg",
+    "text": "小さな発見と仕掛けを積み重ねる探索パズル。 パズル メトロイドヴァニア ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Axiom Verge",
+    "url": "/games/axiom-verge.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/332200/header.jpg",
+    "text": "SF世界を探索するクラシック型メトロイドヴァニア。 メトロイドヴァニア アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Guacamelee! 2",
+    "url": "/games/guacamelee-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/534550/header.jpg",
+    "text": "格闘と移動ギミックを組み合わせた2Dアクション。 アクション メトロイドヴァニア ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Skul: The Hero Slayer",
+    "url": "/games/skul-the-hero-slayer.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1147560/header.jpg",
+    "text": "頭部交換で能力を変える2Dローグライト。 ローグライク アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Have a Nice Death",
+    "url": "/games/have-a-nice-death.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1740720/header.jpg",
+    "text": "高速戦闘と会社風の世界観を持つローグライト。 ローグライク アクション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Death's Door",
+    "url": "/games/deaths-door.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/894020/header.jpg",
+    "text": "見下ろし視点で戦闘と探索を進めるアクション。 アクション 探索 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "TUNIC",
+    "url": "/games/tunic.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/553420/header.jpg",
+    "text": "説明書の断片を読み解きながら探索するアクション。 アクション パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "COCOON",
+    "url": "/games/cocoon.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1497440/header.jpg",
+    "text": "世界そのものを持ち運んで解くパズルアドベンチャー。 パズル アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Chants of Sennaar",
+    "url": "/games/chants-of-sennaar.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1931770/header.jpg",
+    "text": "未知の言語を推測して解読するパズル。 パズル 言語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Talos Principle",
+    "url": "/games/the-talos-principle.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/257510/header.jpg",
+    "text": "論理パズルと哲学的物語を組み合わせた作品。 パズル SF ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Talos Principle 2",
+    "url": "/games/the-talos-principle-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/835960/header.jpg",
+    "text": "大規模な環境パズルと物語を進める続編。 パズル SF ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Witness",
+    "url": "/games/the-witness.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/210970/header.jpg",
+    "text": "島を歩きながら線パズルの規則を発見する。 パズル 探索 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Baba Is You",
+    "url": "/games/baba-is-you.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/736260/header.jpg",
+    "text": "ルール文そのものを動かして解くパズル。 パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Human Resource Machine",
+    "url": "/games/human-resource-machine.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/375820/header.jpg",
+    "text": "命令を組み合わせて処理を作るプログラミングパズル。 パズル プログラミング ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Opus Magnum",
+    "url": "/games/opus-magnum.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/558990/header.jpg",
+    "text": "錬金術機械を設計して工程を最適化するパズル。 パズル 自動化 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "shapez",
+    "url": "/games/shapez.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1318690/header.jpg",
+    "text": "図形加工ラインを自動化するミニマルな工場ゲーム。 自動化 パズル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Captain of Industry",
+    "url": "/games/captain-of-industry.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1594320/header.jpg",
+    "text": "島で採掘・工場・物流・人口を統合管理する。 工場 街づくり 物流 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Techtonica",
+    "url": "/games/techtonica.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1457320/header.jpg",
+    "text": "地下洞窟で一人称工場を構築する自動化ゲーム。 自動化 探索 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "FOUNDRY",
+    "url": "/games/foundry.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/983870/header.jpg",
+    "text": "ボクセル世界に工場ラインを作る一人称自動化。 自動化 建築 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Hydroneer",
+    "url": "/games/hydroneer.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1106840/header.jpg",
+    "text": "採掘装置と水流で資源処理を自動化する。 採掘 自動化 サンドボックス ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Autonauts",
+    "url": "/games/autonauts.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/979120/header.jpg",
+    "text": "ロボットへ作業を教えて集落を自動化する。 自動化 コロニー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Desynced: Autonomous Colony Simulator",
+    "url": "/games/desynced-autonomous-colony-simulator.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1450900/header.jpg",
+    "text": "ユニットに行動を設定して物流と生産を自動化する。 自動化 コロニー ストラテジー ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mindustry",
+    "url": "/games/mindustry.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127400/header.jpg",
+    "text": "資源物流と防衛を同時に組み上げる。 自動化 タワーディフェンス ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Space Haven",
+    "url": "/games/space-haven.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/979110/header.jpg",
+    "text": "宇宙船内部を設計し乗員を管理するコロニーゲーム。 宇宙 コロニー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Cosmoteer: Starship Architect & Commander",
+    "url": "/games/cosmoteer-starship-architect-commander.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg",
+    "text": "宇宙船を部屋単位で設計して戦うサンドボックス。 宇宙 建築 ストラテジー ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dwarf Fortress",
+    "url": "/games/dwarf-fortress.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/975370/header.jpg",
+    "text": "極端に細かい世界シミュレーションを持つ要塞運営。 コロニー シミュレーション ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Clanfolk",
+    "url": "/games/clanfolk.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1700870/header.jpg",
+    "text": "スコットランドの一族を世代で運営するコロニーゲーム。 コロニー 生活 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Norland",
+    "url": "/games/norland.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1857090/header.jpg",
+    "text": "貴族一族と集落の政治・経済を扱うシミュレーション。 コロニー 中世 ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Songs of Syx",
+    "url": "/games/songs-of-syx.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1162750/header.jpg",
+    "text": "数千人規模へ成長する都市国家シミュレーション。 街づくり コロニー 大規模 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Farthest Frontier",
+    "url": "/games/farthest-frontier.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1044720/header.jpg",
+    "text": "辺境の集落で食料・病気・物流を管理する街づくり。 街づくり サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Kingdoms Reborn",
+    "url": "/games/kingdoms-reborn.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1307890/header.jpg",
+    "text": "カード式解放と都市運営を組み合わせた街づくり。 街づくり 経営 ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Settlement Survival",
+    "url": "/games/settlement-survival.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1509510/header.jpg",
+    "text": "人口と生産チェーンを管理する集落シミュレーション。 街づくり サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Endzone - A World Apart",
+    "url": "/games/endzone-a-world-apart.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/933820/header.jpg",
+    "text": "荒廃世界で水・放射能・資源を管理する街づくり。 街づくり サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "IXION",
+    "url": "/games/ixion.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1113120/header.jpg",
+    "text": "移動式宇宙ステーションを維持する運営ゲーム。 宇宙 コロニー サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Per Aspera",
+    "url": "/games/per-aspera.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/803050/header.jpg",
+    "text": "火星をネットワーク型に開拓するシミュレーション。 宇宙 街づくり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Terraformers",
+    "url": "/games/terraformers.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1244800/header.jpg",
+    "text": "火星都市とTerraformingをカード的に進める戦略ゲーム。 宇宙 ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Surviving the Aftermath",
+    "url": "/games/surviving-the-aftermath.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/684450/header.jpg",
+    "text": "終末後のコロニーと外部探索を管理する。 街づくり サバイバル ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Railway Empire 2",
+    "url": "/games/railway-empire-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1644320/header.jpg",
+    "text": "鉄道路線と産業を成長させる経営ゲーム。 鉄道 経営 ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "OpenTTD",
+    "url": "/games/openttd.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1536610/header.jpg",
+    "text": "鉄道・道路・航空・船舶を運営する交通経営ゲーム。 交通 経営 基本無料 ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Stacklands",
+    "url": "/games/stacklands.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1948280/header.jpg",
+    "text": "カードを重ねて資源と村を運営する。 カード 村づくり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Parkitect",
+    "url": "/games/parkitect.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/453090/header.jpg",
+    "text": "遊園地の景観と裏方物流まで設計する経営ゲーム。 経営 建築 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Project Hospital",
+    "url": "/games/project-hospital.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/868360/header.jpg",
+    "text": "病院の診断・科・設備を細かく設計する。 経営 医療 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Big Ambitions",
+    "url": "/games/big-ambitions.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
+    "text": "都市で起業し店舗や物流を拡大する経営シミュレーション。 経営 生活 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mad Games Tycoon 2",
+    "url": "/games/mad-games-tycoon-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1342330/header.jpg",
+    "text": "開発スタジオを設計しゲーム事業を運営する。 経営 ゲーム開発 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Papers, Please",
+    "url": "/games/papers-please.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg",
+    "text": "入国審査の書類確認を通じて物語が進む。 シミュレーション 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "This War of Mine",
+    "url": "/games/this-war-of-mine.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/282070/header.jpg",
+    "text": "戦時下の民間人を管理するサバイバル。 サバイバル 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Beholder",
+    "url": "/games/beholder.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/475550/header.jpg",
+    "text": "監視社会の管理人として選択を迫られる。 管理 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Not For Broadcast",
+    "url": "/games/not-for-broadcast.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1147550/header.jpg",
+    "text": "テレビ番組の編集卓を操作し放送を管理する。 シミュレーション 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Road 96",
+    "url": "/games/road-96.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1466640/header.jpg",
+    "text": "旅の出会いが変化するロードトリップ型アドベンチャー。 アドベンチャー 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Suzerain",
+    "url": "/games/suzerain.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1207650/header.jpg",
+    "text": "国家元首として政策・外交・人間関係を選ぶ物語ゲーム。 政治 物語 ストラテジー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Pentiment",
+    "url": "/games/pentiment.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1205520/header.jpg",
+    "text": "中世末期の共同体で事件と人間関係を追う。 アドベンチャー 歴史 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Citizen Sleeper",
+    "url": "/games/citizen-sleeper.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1578650/header.jpg",
+    "text": "宇宙ステーションで時間とDiceを配分する物語RPG。 RPG SF 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "SIGNALIS",
+    "url": "/games/signalis.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1262350/header.jpg",
+    "text": "クラシックなサバイバルホラー形式のSF作品。 ホラー SF ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "OMORI",
+    "url": "/games/omori.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1150690/header.jpg",
+    "text": "心理的なテーマを扱うターン制RPG。 RPG 物語 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Spiritfarer®: Farewell Edition",
+    "url": "/games/spiritfarer-farewell-edition-972660.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/972660/header.jpg",
+    "text": "船を育てながら魂との別れを描く生活アドベンチャー。 生活 物語 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "GRIS",
+    "url": "/games/gris.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg",
+    "text": "色彩と音楽で感情を描くアクションアドベンチャー。 アドベンチャー アート ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "A Short Hike",
+    "url": "/games/a-short-hike.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1055540/header.jpg",
+    "text": "小さな島を自由に歩く短編探索ゲーム。 探索 まったり ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Coffee Talk",
+    "url": "/games/coffee-talk.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/914800/header.jpg",
+    "text": "夜のカフェで客の会話を聞く物語ゲーム。 ノベル 生活 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dishonored",
+    "url": "/games/dishonored.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/205100/header.jpg",
+    "text": "能力と環境を組み合わせて攻略方法を選べる一人称アクション。 アクション ステルス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dishonored 2",
+    "url": "/games/dishonored-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/403640/header.jpg",
+    "text": "二人の主人公と立体的なステージを持つステルスアクション。 アクション ステルス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Prey",
+    "url": "/games/prey.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg",
+    "text": "宇宙ステーションを探索し、能力と道具で問題を解くSFアクション。 FPS SF 探索 ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "BioShock Remastered",
+    "url": "/games/bioshock-remastered.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/409710/header.jpg",
+    "text": "海底都市を舞台に能力と銃器を使って進む物語重視FPS。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "BioShock 2 Remastered",
+    "url": "/games/bioshock-2-remastered.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/409720/header.jpg",
+    "text": "海底都市Raptureを別視点から描くFPS。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "BioShock Infinite",
+    "url": "/games/bioshock-infinite.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg",
+    "text": "空中都市を舞台にした物語重視FPS。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DOOM",
+    "url": "/games/doom.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg",
+    "text": "高速移動と近距離戦を重視するアクションFPS。 FPS アクション ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "DOOM Eternal",
+    "url": "/games/doom-eternal.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg",
+    "text": "資源回収と高速戦闘を密接に結びつけたFPS。 FPS アクション ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Wolfenstein: The New Order",
+    "url": "/games/wolfenstein-the-new-order.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/201810/header.jpg",
+    "text": "物語と一人称戦闘を組み合わせたFPS。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Wolfenstein II: The New Colossus",
+    "url": "/games/wolfenstein-ii-the-new-colossus.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/612880/header.jpg",
+    "text": "ストーリー主導で進む一人称アクション。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Titanfall 2",
+    "url": "/games/titanfall-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg",
+    "text": "高速移動と巨大ロボットを組み合わせるFPS。 FPS アクション ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Metro 2033 Redux",
+    "url": "/games/metro-2033-redux.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/286690/header.jpg",
+    "text": "地下鉄網を進む雰囲気重視のFPS。 FPS サバイバル ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Metro: Last Light Redux",
+    "url": "/games/metro-last-light-redux.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/287390/header.jpg",
+    "text": "地下世界の探索と戦闘を続けるFPS。 FPS ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Metro Exodus",
+    "url": "/games/metro-exodus.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg",
+    "text": "複数の広い地域を旅する探索型FPS。 FPS 探索 ストーリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Far Cry 3",
+    "url": "/games/far-cry-3.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/220240/header.jpg",
+    "text": "島を探索しながら拠点攻略を進めるFPS。 FPS オープンワールド ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Far Cry 4",
+    "url": "/games/far-cry-4.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/298110/header.jpg",
+    "text": "山岳地域を舞台に自由な攻略ができるFPS。 FPS オープンワールド ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Far Cry 5",
+    "url": "/games/far-cry-5.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg",
+    "text": "広い地域を自由に回りながら拠点やMissionを攻略するFPS。 FPS オープンワールド 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Watch_Dogs 2",
+    "url": "/games/watch-dogs-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
+    "text": "都市の機器や車両を操作しながらMissionを進める。 オープンワールド アクション ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sleeping Dogs: Definitive Edition",
+    "url": "/games/sleeping-dogs-definitive-edition.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/307690/header.jpg",
+    "text": "香港を舞台に近接戦闘と物語を進める。 アクション オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Mount & Blade: Warband",
+    "url": "/games/mount-blade-warband.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/48700/header.jpg",
+    "text": "部隊を率いながら自由に勢力を築く中世サンドボックス。 RPG ストラテジー ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Kenshi",
+    "url": "/games/kenshi.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/233860/header.jpg",
+    "text": "固定主人公や一本道を持たない高自由度サンドボックスRPG。 RPG サンドボックス ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Dragon's Dogma: Dark Arisen",
+    "url": "/games/dragons-dogma-dark-arisen.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg",
+    "text": "Pawnと共に大型敵へ挑むアクションRPG。 ARPG オープンワールド ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Grim Dawn",
+    "url": "/games/grim-dawn.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg",
+    "text": "Classを組み合わせてBuildを作るハクスラARPG。 ARPG ハクスラ ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Torchlight II",
+    "url": "/games/torchlight-ii.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg",
+    "text": "装備収集とBuild構築を楽しむハクスラ。 ARPG ハクスラ 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Last Epoch",
+    "url": "/games/last-epoch.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/899770/header.jpg",
+    "text": "Skill分岐とCraftingを組み合わせるARPG。 ARPG ハクスラ ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Warhammer: Vermintide 2",
+    "url": "/games/warhammer-vermintide-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552500/header.jpg",
+    "text": "近接戦闘を中心にした4人協力アクション。 アクション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Warhammer 40,000: Darktide",
+    "url": "/games/warhammer-40-000-darktide.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1361210/header.jpg",
+    "text": "近接と射撃を組み合わせる協力アクション。 FPS 協力 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Remnant: From the Ashes",
+    "url": "/games/remnant-from-the-ashes.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/617290/header.jpg",
+    "text": "射撃とBoss戦を組み合わせた協力アクションRPG。 TPS ARPG 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Chivalry 2",
+    "url": "/games/chivalry-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1824220/header.jpg",
+    "text": "大人数の近接戦闘を楽しむ中世アクション。 アクション 対戦 オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "MORDHAU",
+    "url": "/games/mordhau.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/629760/header.jpg",
+    "text": "方向入力を使った近接戦闘中心の対戦ゲーム。 アクション 対戦 オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Barotrauma",
+    "url": "/games/barotrauma.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/602960/header.jpg",
+    "text": "潜水艦の役割分担と故障対応を行う協力ゲーム。 サバイバル 協力 潜水艦 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "We Were Here",
+    "url": "/games/we-were-here.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582500/header.jpg",
+    "text": "別々の場所から会話して謎を解く2人協力パズル。 パズル 協力 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Keep Talking and Nobody Explodes",
+    "url": "/games/keep-talking-and-nobody-explodes.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/341800/header.jpg",
+    "text": "画面を見る人とManualを読む人が会話して装置を解除する協力ゲーム。 パズル 協力 協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Moving Out 2",
+    "url": "/games/moving-out-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1641700/header.jpg",
+    "text": "家具を運ぶ作業を物理挙動で楽しむ協力ゲーム。 協力 パーティー ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Gang Beasts",
+    "url": "/games/gang-beasts.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/285900/header.jpg",
+    "text": "柔らかい物理挙動のCharacterで競うParty game。 パーティー 対戦 ローカル・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Totally Accurate Battle Simulator",
+    "url": "/games/totally-accurate-battle-simulator.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/508440/header.jpg",
+    "text": "物理挙動のUnitsを配置して戦闘結果を眺めるSimulation。 シミュレーション サンドボックス ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Besiege",
+    "url": "/games/besiege.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346010/header.jpg",
+    "text": "部品を組み合わせてMachineを作る物理Sandbox。 建築 物理 サンドボックス ソロ・オンライン",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Trailmakers",
+    "url": "/games/trailmakers.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/585420/header.jpg",
+    "text": "Blockで車両や飛行機を作って試すSandbox。 建築 車 サンドボックス ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Scrap Mechanic",
+    "url": "/games/scrap-mechanic.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/387990/header.jpg",
+    "text": "部品とLogicで機械を作るSandbox。 建築 サンドボックス 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Stormworks: Build and Rescue",
+    "url": "/games/stormworks-build-and-rescue.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/573090/header.jpg",
+    "text": "Vehicleを設計し救助Missionへ使うSimulation。 設計 シミュレーション 車 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sunkenland",
+    "url": "/games/sunkenland.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2080690/header.jpg",
+    "text": "水没した世界で探索とBase建築を行うSurvival。 サバイバル 海 建築 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Voidtrain",
+    "url": "/games/voidtrain.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1159690/header.jpg",
+    "text": "異空間を走るTrainを拡張するCraft survival。 サバイバル クラフト 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Sengoku Dynasty",
+    "url": "/games/sengoku-dynasty.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1702010/header.jpg",
+    "text": "戦国期風の世界で集落を作り運営する。 サバイバル 建築 経営 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Bellwright",
+    "url": "/games/bellwright.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1812450/header.jpg",
+    "text": "集落建設と戦闘を組み合わせるOpen world RPG。 サバイバル RPG 建築 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Escapists 2",
+    "url": "/games/the-escapists-2.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/641990/header.jpg",
+    "text": "刑務所生活のScheduleを利用して脱出を計画する。 シミュレーション 協力 ソロ・協力",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "INSIDE",
+    "url": "/games/inside.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/304430/header.jpg",
+    "text": "言葉の少ない世界を進むPuzzle adventure。 パズル アドベンチャー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "Gorogoa",
+    "url": "/games/gorogoa.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/557600/header.jpg",
+    "text": "絵のパネルを重ねたり並べ替えたりして進むPuzzle。 パズル アート ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Room",
+    "url": "/games/the-room.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/288160/header.jpg",
+    "text": "精巧な箱の仕掛けを観察して解くPuzzle。 パズル ミステリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Room Two",
+    "url": "/games/the-room-two.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/425580/header.jpg",
+    "text": "複数の装置と部屋を巡るPuzzle。 パズル ミステリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "game",
+    "title": "The Room Three",
+    "url": "/games/the-room-three.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/456750/header.jpg",
+    "text": "立体的な仕掛けと探索を組み合わせるPuzzle。 パズル ミステリー ソロ",
+    "badge": "GAME"
+  },
+  {
+    "kind": "article",
+    "title": "Frostpunk初心者攻略｜最初の20日で街を崩壊させない",
+    "url": "/articles/frostpunk-first-20-days.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg",
+    "text": "Frostpunkの序盤で本当に優先したい研究・暖房・食料・医療・探索・石炭を、失敗が連鎖する仕組みから解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "Satisfactoryは、最初の工場を綺麗に作らなくていい",
+    "url": "/articles/satisfactory-first-factory.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "text": "Satisfactory初心者が工場の見た目と効率に潰されないために、序盤の自動化、Manifold、電力、再建、MODまで深く解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "Project Zomboid初心者攻略｜最初の一週間は「強くなる」より死因を減らす",
+    "url": "/articles/project-zomboid-first-week.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "text": "Project Zomboidで初心者が繰り返し死ぬ理由を、戦闘・音・疲労・拠点・食料・車・スキルの関係から解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "Cities: Skylinesの渋滞は道路を太くしても治らない",
+    "url": "/articles/cities-skylines-traffic-mods.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
+    "text": "Cities: Skylines初心者向けに、道路階層、交差点、公共交通、貨物、MODの使い方を渋滞の原因から解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "Raft初心者攻略｜木の板を拾う序盤から、エンジンで航路を選ぶまで",
+    "url": "/articles/raft-from-plank-to-engine.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+    "text": "Raftの序盤資源、浄水、食料、いかだ拡張、Receiver、ストーリー島、エンジン、MODを一本につないで解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "No Man’s Skyを2026年に始める｜昔の攻略をそのまま信じないためのガイド",
+    "url": "/articles/no-mans-sky-2026.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+    "text": "No Man's Skyの現在の遊び方、序盤、Inventory、Freighter、Expedition、アップデート、5.50以降のMOD注意点を解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "RimWorld初心者攻略｜「生き残る基地」より先に、壊れにくい日常を作る",
+    "url": "/articles/rimworld-first-colony.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "text": "RimWorldの最初のコロニーで、食料・冷凍庫・Mood・医療・防衛・Storyteller・MODをどう考えるか。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "Factorio初心者攻略｜最初の工場はスパゲッティでいい",
+    "url": "/articles/factorio-first-factory.html",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "text": "Factorioの序盤自動化、Main bus、Science、電力、列車への移行を、初回プレイで定石を覚えすぎない考え方から解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "友達と遊ぶゲームサーバー｜VPSを契約する前に、先に決める7つのこと",
+    "url": "/articles/game-server-guide.html",
+    "image": "https://gamefinder-b6a00.web.app/assets/og.svg",
+    "text": "Minecraft、Project Zomboid、Valheimなどの専用サーバーで、人数、RAM、CPU、MOD、バックアップ、リージョン、管理方法を契約前に考える。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "初めてのシムレーシング環境｜ハンコンより先に「固定」を決める",
+    "url": "/articles/sim-racing-first-rig.html",
+    "image": "https://gamefinder-b6a00.web.app/assets/og.svg",
+    "text": "DDハンコン、ペダル、ホイールスタンド、コックピット、VR/3画面を、予算より先に設置条件から考える。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "PCVRを始める前に｜GPUより先に確認したい「つながり方」",
+    "url": "/articles/pcvr-first-setup.html",
+    "image": "https://gamefinder-b6a00.web.app/assets/og.svg",
+    "text": "PCVRの有線/無線、GPU、ルーター、部屋、眼鏡、バッテリー、シム用途まで、ヘッドセット購入前の確認項目を解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "article",
+    "title": "ゲーム配信を始める機材｜マイクを買う前に、音の通り道を書く",
+    "url": "/articles/streaming-first-setup.html",
+    "image": "https://gamefinder-b6a00.web.app/assets/og.svg",
+    "text": "PC/コンソール配信で、マイク、キャプチャーボード、音声、OBS、照明、操作デバイスの優先順位を構成から解説。",
+    "badge": "ARTICLE"
+  },
+  {
+    "kind": "hub",
+    "title": "Lab",
+    "url": "/lab/",
+    "image": "/assets/og.svg",
+    "text": "PC MOD Server Network VR",
+    "badge": "PAGE"
+  },
+  {
+    "kind": "hub",
+    "title": "Gear",
+    "url": "/gear/",
+    "image": "/assets/og.svg",
+    "text": "PC VR sim racing streaming SSD",
+    "badge": "PAGE"
+  },
+  {
+    "kind": "hub",
+    "title": "読みもの",
+    "url": "/articles/",
+    "image": "/assets/og.svg",
+    "text": "攻略 調査 記事",
+    "badge": "PAGE"
+  }
+]

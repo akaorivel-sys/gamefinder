@@ -1,0 +1,75 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Factorioの列車信号｜「Chain in, Rail out」を暗記する前に | GameFinder</title><meta name="description" content="FactorioのRail Signal、Chain Signal、Block、交差点、No path、Deadlock、Stackerを初心者が自力で直せる考え方で解説。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/factorio-train-signals.html">
+<meta property="og:title" content="Factorioの列車信号｜「Chain in, Rail out」を暗記する前に | GameFinder"><meta property="og:description" content="FactorioのRail Signal、Chain Signal、Block、交差点、No path、Deadlock、Stackerを初心者が自力で直せる考え方で解説。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/factorio-train-signals.html"><meta property="og:image" content="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg">
+<meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Factorioの列車信号｜「Chain in, Rail out」を暗記する前に", "description": "FactorioのRail Signal、Chain Signal、Block、交差点、No path、Deadlock、Stackerを初心者が自力で直せる考え方で解説。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/factorio-train-signals.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main>
+<article class="v9-article"><header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>Factorioの列車信号｜「Chain in, Rail out」を暗記する前に</h1><div class="v23-depth-meta"><span>本文 約5,915字</span><span>目安 12分</span><span>更新 2026-08-26</span></div><p class="v9-article-hook">信号を置く場所ではなく、「列車をどこで待たせていいか」が分かれば鉄道は読めます。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v9-byline">GameFinder編集部　・　更新 2026-08-26　・　調査記事　・　約10分</div></div><img class="v9-article-cover" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg" alt=""></header>
+<div class="v9-article-layout"><div class="v9-article-body"><section class="v11-keypoints"><span>ここが重要</span><h2>Factorioの列車信号｜「Chain in, Rail out」を暗記する前にを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature">
+<div class="v12-visual-image"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg" alt="Factorio" loading="lazy"><div class="v12-image-overlay"><span>このゲームで起きること</span><strong>Factorio</strong></div></div>
+<div class="v12-visual-copy"><span class="v12-kicker">FLOW</span><h2>文章だけでなく、構造で理解する</h2><div class="v12-diagram-grid"><div><b>Origin</b><span>出発</span></div><div><b>Route</b><span>流れ</span></div><div><b>Bottleneck</b><span>詰まり</span></div><div><b>Goal</b><span>目的</span></div></div><div class="v12-chips"><span>自動化</span><span>建築</span><span>ストラテジー</span><span>長く遊べる</span><span>低スペック向け</span></div></div>
+</section>
+<h2>最初にBlockだけ理解する</h2><p>Rail SignalもChain Signalも線路をBlockへ分けます。Factorio Wikiの基本は、一つのBlockへ同時に一編成しか入れないこと。Signalを手に持ったとき線路が色分けされるのは、このBlock境界を見るためです。</p>
+<section class="v91-visual"><h2>普通信号とChain信号の違い</h2><div class="v91-flow"><div><b>Rail Signal</b><span>次のBlockが空けば入れる</span></div><i>／</i><div><b>Chain Signal</b><span>その先から出られる時だけ入れる</span></div></div></section>
+<h2>交差点で列車を止めてはいけない理由</h2><p>交差点内部でTrainが赤信号待ちすると、自分と関係ない横方向のTrainまで塞ぎます。Chain Signalは次の出口まで見て、交差点を抜けられないTrainを入口で待たせます。Wikiの有名な原則「Chain before/in crossing, regular at exits」はこの理由から来ています。</p>
+<h2>「Chain in, Rail out」を意味に翻訳する</h2><p>Chainを置くのは「ここから先で止まると他の経路を塞ぐ場所」。Railを置くのは「この先のBlockなら止まってもよい場所」です。複雑なIntersectionでも、この質問だけで判断できます。</p>
+<h2>No pathでまず見ること</h2><p>Signalは進行方向から見て右側へ置きます。片側だけSignalを置いた線路は一方向になります。線路が物理的につながっているのにNo pathが出る場合、Signal方向、Station向き、曲線、途中の一方向区間を確認します。</p>
+<h2>Train lengthを先に決める</h2><p>WikiはRail network設計前に最大Train lengthを決めることを勧めています。交差点出口の次BlockがTrainより短いと、停止したTrainの後部が前の交差点へ残り、別経路を塞ぐからです。</p>
+<h2>DeadlockはSignalが正しくても起こる</h2><p>小さいLoopへ収まりきらないTrain数を入れる、Station待ちがMain lineへはみ出す、近接したIntersection間にTrainが収まらない、といった物理的Capacity不足でもDeadlockになります。「Signalを増やせば治る」とは限りません。</p>
+<h2>Stackerは待ち行列をMain lineから外す</h2><p>同じStationへ複数Trainが向かうなら、駅前に待機線を用意してMain lineで待たせない方法があります。WikiではParallel/SequentialなWaiting areaが紹介されています。Train limitも含め、駅が処理できる列車数を超えて送り込まないことが重要です。</p>
+<h2>初心者は複線片方向から始める</h2><p>Factorio Wikiも、二本のParallel railをそれぞれ片方向に使う設計を初心者へ推奨しています。単線双方向はSignalを両側に対で置く必要があり、列車が増えると待避線やDeadlock理解が一段難しくなります。</p>
+
+
+<section class="v93-cases"><h2>交差点を自分で直す練習</h2>
+<h3>T字交差</h3><p>三方向のRailが同じBlockになっていると一列車しか入れません。交差前をChain、各出口をRailで分け、Trainが出口Blockへ収まるSpaceを確保します。</p>
+<h3>四方向交差</h3><p>一つの巨大Blockでも動きますがThroughputは低くなります。交差内部を複数Blockへ分ければ同時に衝突しないRouteを通せる場合があります。ただしSignalを増やすほど必ず良いわけではなく、Trainが停止してよいBlockかを確認します。</p>
+<h3>Station入口</h3><p>駅が一編成しか処理できないのに複数Trainを向かわせるとMain lineへ列が伸びます。Train limitを1にする、Stackerを作る、複数Platformを用意するなどCapacityを設計します。</p>
+<h2>Signalを持ってBlock色を見る習慣</h2>
+<p>線路が複雑になったら、Trainを眺めるよりSignal itemを持ってBlock visualizationを確認します。「ここが同じ色だから一つのBlock」「このSignalで分かれる」と見れば、赤Signalの原因が理解しやすくなります。</p>
+<h2>Chain Signalを置きすぎる問題</h2>
+<p>Chainが連続するとTrainはその先のRail signalまでPathを予約できる場合があり、長い区間を一編成が占有してThroughputを下げることがあります。Wikiも可能な場所ではRegular signalを使い、Chainは必要な場所へ限定することを勧めています。</p>
+<h2>双方向単線の待避所</h2>
+<p>一本の線路を両方向で共有する場合、対向Trainが同時進入しないよう共有区間全体を一つの論理単位として扱います。待避所の長さがTrainより短ければすれ違えません。Signalだけで物理Space不足は解決できません。</p>
+<h2>Deadlockを見つけたら最初の一台を動かす前に原因を見る</h2>
+<p>ManualでTrainを退かせれば一時的に流れますが、同じ構造なら再発します。どのTrainがどのBlockを保持し、次のどのBlockを待っているかを一周追い、Circular waitを切る設計へ変えます。</p></section>
+
+<section class="v94-extra"><h2>Train stopの同名運用</h2>
+<p>同じ名前のStationを複数作ると、Trainが条件に合うStationを選べます。大規模Networkでは便利ですが、一方に列が集中する場合はTrain limitやCircuit条件を使って受入数を管理します。</p>
+<h2>Fuel切れはSignal問題に見えることがある</h2>
+<p>線路上でTrainが止まってNetworkを塞いでいても、原因がSignalではなくFuel切れの場合があります。Wikiも新しいTrain/Stationを追加する際、Fuel supplyのAutomationを早めに作ることを勧めています。</p>
+<h2>RadarをIntersection近くへ置く</h2>
+<p>遠隔Mapから渋滞状況を確認できるため、大規模Rail networkではProblem locationを素早く見つけられます。Signal設計だけでなく、Troubleshootingの観測手段として役立ちます。</p>
+<h2>Throughputを上げる前に必要量を測る</h2>
+<p>Intersectionを高性能Blueprintへ置き換えても、鉱石消費が一列車/数分なら過剰です。StationのLoading/Unloadingが遅いのか、Main lineが詰まっているのか、列車数が足りないのかを測ってからJunctionを改造します。</p></section>
+<section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>進行が止まる</td><td>不足している仕組み</td><td>全部作り直さない</td></tr><tr><td>事故が増える</td><td>直前の原因</td><td>運で片付けない</td></tr><tr><td>効率が悪い</td><td>流れ・比率</td><td>数だけ増やさない</td></tr><tr><td>古い情報と違う</td><td>現在Version</td><td>古い手順を固定しない</td></tr></tbody></table></div></section><section class="v92-faq"><h2>よくある疑問</h2><details><summary>Rail signalはどこに置く？</summary><p>Trainをそこで待たせても他経路を塞がない場所です。</p></details><details><summary>Chain signalはどこに置く？</summary><p>進入後に止まると交差や共有区間を塞ぐ場所の手前です。</p></details><details><summary>青いChain signalは異常？</summary><p>複数出口の一部だけが塞がれている状態です。Train自身の経路によって通過可否が変わります。</p></details><details><summary>信号をたくさん置けば速くなる？</summary><p>Blockを細かくしてThroughputが上がる場合もありますが、不要なChainは予約範囲を広げ逆効果になることもあります。</p></details><details><summary>単線双方向はダメ？</summary><p>可能ですが複線片方向よりSignal設計が難しく、Train数が増えるとDeadlockしやすいです。</p></details><details><summary>Station前で渋滞する？</summary><p>Train limitやWaiting areaを使い、Main lineへ待ち列を出さないようにします。</p></details><details><summary>No pathの最初の確認は？</summary><p>Signalの左右、Station向き、一方向区間を見ます。</p></details><details><summary>Train lengthはなぜ重要？</summary><p>交差点出口のBlockに編成全体が収まらないと、後部が交差点を塞ぐからです。</p></details></section><section class="v92-check"><h2>読み終わったら確認すること</h2><ol><li>この記事の手順をそのまま暗記せず、自分のSave・PC・Versionで条件が同じか確認する。</li><li>一度に複数の設定を変えず、一つ変更して症状や結果がどう変わったかを見る。</li><li>更新で変わる情報は公式ページや配布元の更新日を確認する。</li><li>失敗した場合は最後の操作だけでなく、その前に何が不足していたかまで戻って考える。</li></ol></section>
+<section class="v92-method"><h2>うまくいかない時は、答えを探す前に状態を保存する</h2>
+<p>Factorioの列車信号｜「Chain in, Rail out」を暗記する前にのように複数の要素が絡むテーマでは、設定を何度も変えているうちに「何を変えたら直ったのか」が分からなくなります。問題が起きた時点で、Version、設定、MOD一覧、PC構成、表示されたMessage、直前の変更を一度メモします。Saveや設定Fileを複製できる場合は、変更前の状態を残します。</p>
+<p>次に、原因候補を大きなカテゴリへ分けます。Game本体、設定、追加MOD/Tool、Network、Hardware/性能、Save dataのどれかです。全部を同時に疑うのではなく、最小構成へ戻して一つずつ足していきます。この方法は特定のGameだけでなく、MOD、Server、配信、VR、StorageのTroubleshootingにも共通します。</p>
+<h2>検索結果を読むときは「同じVersionか」を最初に見る</h2>
+<p>検索上位の記事や高評価Commentでも、書かれた時点では正しくても現在は前提が変わっていることがあります。投稿日、最終更新日、Game version、Tool versionを確認し、一次情報と矛盾する場合は公式の現行仕様を優先します。GameFinderでも、Communityの意見は「どう感じる人が多いか」「どこで詰まりやすいか」を知る材料として使い、仕様そのものの根拠には公式資料を優先しています。</p>
+<h2>最適化は、問題を再現できるようになってから</h2>
+<p>効率やPerformanceを上げる前に、まず同じ条件で問題を再現できるか確認します。再現条件が分かれば、変更前後を比較できます。逆に一度しか起きない問題に十個の対策を同時に入れると、改善したように見えても原因は分かりません。専門的な設定ほど、一回の大きな変更より小さな検証を積み重ねる方が確実です。</p>
+</section>
+<section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>最初に決めるべきことは、全部を上手くやることではない。</h2></div>
+<p>序盤攻略で差が出るのは、操作の上手さより「何を先に安定させるか」です。資源・研究・移動・戦闘・建築を同時に伸ばそうとすると、どこかが中途半端になります。まず一つの失敗原因を消し、その余裕で次の要素へ進む方が安定します。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>初心者が詰まりやすいのは、失敗そのものより原因を切り分けない時。</h2></div>
+<p>資源不足、移動の遅れ、装備不足、研究停滞などは一度に起こりやすいですが、対処は同時にしない方が分かりやすいです。何が最初に崩れたのかを見つけ、そこだけ直すと、次の周回でも使える判断基準になります。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+<section class="v12-related"><div class="v12-section-head"><span>似た遊び方のゲーム</span><h2>この考え方が好きなら</h2></div><div class="v12-related-grid"><a href="/games/satisfactory.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg" alt="Satisfactory" loading="lazy"><span><b>Satisfactory</b><small>自動化 / 建築</small></span></a><a href="/games/dyson-sphere-program.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg" alt="Dyson Sphere Program" loading="lazy"><span><b>Dyson Sphere Program</b><small>自動化 / 宇宙</small></span></a><a href="/games/foundry.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/983870/header.jpg" alt="FOUNDRY" loading="lazy"><span><b>FOUNDRY</b><small>自動化 / 建築</small></span></a><a href="/games/desynced-autonomous-colony-simulator.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1450900/header.jpg" alt="Desynced: Autonomous Colony Simulator" loading="lazy"><span><b>Desynced: Autonomous Colony Simulator</b><small>自動化 / コロニー</small></span></a></div></section><p class="v12-media-note">ゲーム画像は各ストア・公式配信画像を参照表示しています。権利は各権利者に帰属します。</p><section class="v9-sources"><h2>調査に使った主な情報源</h2><p>仕様は一次情報を優先し、Community情報は実際につまずきやすい点や運用上の論点を確認するために使っています。</p><ul><li><a href="https://wiki.factorio.com/Tutorial%3ATrain_signals/ja" target="_blank" rel="noopener nofollow">Factorio Wiki: Train signals</a><span>Block、Chain、Deadlock、Train length、Stacker</span></li><li><a href="https://wiki.factorio.com/Rail_signal/ja" target="_blank" rel="noopener nofollow">Factorio Wiki: Rail signal</a><span>通常信号の基本</span></li><li><a href="https://wiki.factorio.com/Rail_chain_signal/ja" target="_blank" rel="noopener nofollow">Factorio Wiki: Chain signal</a><span>連動式信号の動作</span></li><li><a href="https://wiki.factorio.com/Railway/ja" target="_blank" rel="noopener nofollow">Factorio Wiki: Railway</a><span>鉄道全体の仕様</span></li></ul></section>
+<section class="v9-editor-note"><h2>この記事の作り方</h2><p>一つのコメントや一つのブログを正解として扱わず、公式仕様と複数の実例が矛盾しないかを確認してから編集しています。Versionで変わる内容は更新日を明記します。</p></section>
+</div><aside class="v9-aside"><strong>この記事で分かること</strong><p>FactorioのRail Signal、Chain Signal、Block、交差点、No path、Deadlock、Stackerを初心者が自力で直せる考え方で解説。</p><a class="v9-btn" href="/games/factorio.html">ゲーム詳細</a></aside></div></article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

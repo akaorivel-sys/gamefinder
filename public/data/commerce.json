@@ -1,0 +1,13 @@
+{
+  "amazon": {
+    "enabled": false,
+    "associateTag": "",
+    "notice": "Amazonのアソシエイトとして、GameFinderは適格販売により収入を得る場合があります。",
+    "specialLinks": {},
+    "note": "承認前は通常のAmazon検索リンクのみ。承認後はSiteStripe等で生成した正規の特別リンクをspecialLinksへ貼り付ける。"
+  },
+  "deviceAffiliate": {
+    "enabled": false,
+    "links": {}
+  }
+}

@@ -1,0 +1,85 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ゲーム録画はSSD何TB必要？｜ビットレートから容量を逆算する | GameFinder</title><meta name="description" content="OBSなどのゲーム録画で、ビットレート、録画時間、編集用SSD、保管用HDD/NAS、Backupを分けて必要容量を考える。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/game-recording-storage.html">
+<meta property="og:title" content="ゲーム録画はSSD何TB必要？｜ビットレートから容量を逆算する | GameFinder"><meta property="og:description" content="OBSなどのゲーム録画で、ビットレート、録画時間、編集用SSD、保管用HDD/NAS、Backupを分けて必要容量を考える。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/game-recording-storage.html"><meta property="og:image" content="https://gamefinder-b6a00.web.app/assets/og.svg">
+<meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ゲーム録画はSSD何TB必要？｜ビットレートから容量を逆算する", "description": "OBSなどのゲーム録画で、ビットレート、録画時間、編集用SSD、保管用HDD/NAS、Backupを分けて必要容量を考える。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/game-recording-storage.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main>
+<article class="v9-article"><header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>ゲーム録画はSSD何TB必要？｜ビットレートから容量を逆算する</h1><div class="v23-depth-meta"><span>本文 約5,897字</span><span>目安 12分</span><span>更新 2026-08-26</span></div><p class="v9-article-hook">4TBを買うか迷う前に、1時間の録画が何GBになるか計算すればいい。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v9-byline">GameFinder編集部　・　更新 2026-08-26　・　調査記事　・　約11分</div></div></header>
+<div class="v9-article-layout"><div class="v9-article-body"><section class="v11-keypoints"><span>ここが重要</span><h2>ゲーム録画はSSD何TB必要？｜ビットレートから容量を逆算するを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature v12-generic-visual">
+<div class="v12-generic-banner"><span>TECHNICAL MODEL</span><strong>STORAGE FLOW</strong><p>複雑な設定を、四つの要素へ分解して見る。</p></div>
+<div class="v12-visual-copy"><span class="v12-kicker">STORAGE FLOW</span><h2>まず全体の流れを掴む</h2><div class="v12-diagram-grid"><div><b>Bitrate</b><span>入力</span></div><div><b>SSD</b><span>作業</span></div><div><b>Archive</b><span>保存</span></div><div><b>Backup</b><span>保護</span></div></div></div></section>
+<h2>容量はビットレート×時間でほぼ決まる</h2><p>Constant bitrate相当で考えるなら、40Mbpsの映像は1秒あたり約5MB、1時間で約18GBです。80Mbpsなら約36GB/時。実際の可変BitrateやCodecで前後しますが、購入前の概算には十分使えます。</p>
+<section class="v91-visual"><h2>保存場所を役割で分ける</h2><div class="v91-flow"><div><b>Game SSD</b><span>遊ぶGame</span></div><i>＋</i><div><b>Recording SSD</b><span>収録・編集</span></div><i>→</i><div><b>Archive</b><span>HDD / NAS</span></div><i>→</i><div><b>Backup</b><span>別Device</span></div></div></section>
+<h2>Gameと録画を同じSSDへ置く場合</h2><p>高速NVMe SSDなら同時Read/Writeに余裕があることも多いですが、容量不足の方が現実的な問題です。Game library 1.5TB、録画素材1TB、空き20%を確保したいなら2TBでは窮屈です。</p>
+<h2>編集する素材はSSD、長期保管は別でもいい</h2><p>Video editing中はRandom accessとTransfer speedが効くためSSDが快適です。編集完了後の元映像を何年も置くなら、大容量HDDやNASへ移す方がCost/TBを抑えられます。</p>
+<h2>NASはBackupそのものではない</h2><p>RAIDでDisk故障に耐えられても、誤削除・Ransomware・NAS本体故障は別問題です。重要な完成動画やProjectは別媒体/別LocationにもCopyを持ちます。</p>
+<h2>1か月の容量例</h2><p>40Mbpsで月30時間録画すると約540GB。80Mbpsなら約1.08TB。さらにProxy、Export、Cacheが増えるため、編集PC側には素材容量ぴったりではなく余裕を残します。</p>
+<h2>最初に削るのは古いGameか、録画か</h2><p>再DownloadできるGame本体と、二度と撮れない録画素材は価値が違います。容量が足りないなら、再取得可能なものから整理する方が安全です。</p>
+
+
+<section class="v93-cases"><h2>実際の容量を三つの配信スタイルで計算する</h2>
+<h3>1080p60を軽めに保存</h3><p>20Mbpsなら1時間約9GB。月20時間で約180GBです。Game本体を1TB使っていても2TB SSDで運用できる可能性がありますが、編集CacheとExportを含めて空きを残します。</p>
+<h3>高画質録画</h3><p>80Mbpsなら1時間約36GB。週10時間、月40時間なら約1.44TBです。この時点でGame libraryと同じSSDへ一年分を置くのは現実的ではありません。編集済み素材をHDD/NASへArchiveする流れが必要です。</p>
+<h3>長時間配信のLocal recording</h3><p>毎日3時間を30日録画すれば90時間です。40Mbpsでも約1.62TB。保存期間を「直近一か月」「採用Clipだけ永久」などに分けないとStorageはすぐ埋まります。</p>
+<h2>Codecで同じ画質の必要Bitrateは変わる</h2>
+<p>H.264、HEVC、AV1などCodecによって圧縮効率と編集Compatibilityが異なります。新しいCodecは容量を抑えやすい場合がありますが、古い編集SoftwareやDeviceで扱いにくいことがあります。容量だけで選ばず、録画後のWorkflowまで確認します。</p>
+<h2>録画専用SSDを分ける利点</h2>
+<p>Game installやWindows updateでMain SSDの空きが急減しても、録画領域を確保できます。編集素材を一括で消す、交換する、別PCへ移す操作も簡単です。性能目的というより管理目的で分ける価値があります。</p>
+<h2>HDD Archiveの考え方</h2>
+<p>完成済み素材や過去配信の原本はSequential readが中心なのでHDDでも十分な場合があります。編集を再開する時だけSSDへCopyします。頻繁に編集するActive projectはSSD、触らないArchiveはHDD/NASと役割を分けます。</p>
+<h2>Backup対象を全部同じにしない</h2>
+<p>再DownloadできるGameはBackup優先度が低く、設定File・Save・録画素材・編集Projectは再取得できません。Storage不足時は「消しても戻せるか」で優先順位を決めます。</p>
+<h2>容量計算の式</h2>
+<p>概算GB/時 ≒ Mbps × 0.45。20Mbpsなら約9GB、40Mbpsなら約18GB、80Mbpsなら約36GBです。AudioやContainer overheadで少し増えますが、購入前の見積もりには使えます。</p></section>
+
+<section class="v94-extra"><h2>編集Cacheが想像以上に増える</h2>
+<p>動画編集SoftwareはOriginal footageだけでなく、Proxy、Preview render、Cache、Auto-saveを作ります。素材1TBだから1TB空ければ足りるとは限りません。Active project用SSDは素材量＋Cache＋Export分を見て余裕を取ります。</p>
+<h2>「永久保存」と「一時保存」を分ける</h2>
+<p>配信全編を永久保存する必要がなければ、30日だけ原本を保持し、Clip候補だけ別Folderへ移す運用ができます。これだけで必要Storageは大きく下がります。保存Ruleを決めずにHDDを買い足し続けるより効率的です。</p>
+<h2>外付けSSDの注意</h2>
+<p>USB規格、Cable、Enclosureの性能がSSD本体より遅い場合があります。長時間録画で接続が切れるとFile破損につながるため、録画用に使うなら安定したPort/Cableを使い、Sleep設定も確認します。</p>
+<h2>Backupは完成品を優先</h2>
+<p>何十時間ものRaw footageすべてをCloudへ複製するのが高Costなら、編集Project、Thumbnail素材、完成Export、重要Clipだけでも別媒体へ残します。失った時に作り直せないものから守ります。</p></section>
+
+<section class="v95-extra"><h2>容量だけでなく書き込み持続性能を見る</h2>
+<p>短いBenchmarkで高速でも、長時間連続WriteでCacheを使い切ると速度が落ちるSSDがあります。高Bitrate録画を何時間も行う場合、録画Bitrateより十分高い持続Write性能があるかReviewやメーカー仕様を確認します。</p>
+<h2>空き容量不足は録画失敗につながる</h2>
+<p>録画開始時に十分空いていても、長時間配信で途中からDisk fullになることがあります。OBS側の残容量Monitor、Windows通知、録画前チェックを習慣化します。数十GBしか余裕がない状態で長時間録画を始めない方が安全です。</p>
+<h2>素材Folderを日付とProjectで分ける</h2>
+<p>2026-08-26_game-title_rawのように日付・Game・用途をFolder名へ入れ、編集Projectと紐付けます。数TBの素材を一つのFolderへ置くと、削除判断やBackupが難しくなります。</p>
+<h2>NASへ移した後にChecksum/再生確認</h2>
+<p>重要素材を移動したら、File sizeや再生を確認してからLocal copyを消します。大量Copyの途中で失敗しているのに元を削除するとRecoveryできません。</p>
+<h2>年間容量を先に出す</h2>
+<p>月500GBなら一年で6TB。月1TBなら12TBです。毎月SSDを追加するより、保持期間を決める、Archive HDD/NASを使う、不要部分をCutするなどWorkflowを先に設計した方がCostを抑えられます。</p></section>
+<section class="v92-faq"><h2>よくある疑問</h2><details><summary>40Mbpsは1時間何GB？</summary><p>概算で約18GBです。40÷8=5MB/s、×3600秒で約18,000MBです。</p></details><details><summary>80Mbpsなら？</summary><p>概算約36GB/時です。可変Bitrateでは内容によって前後します。</p></details><details><summary>2TB SSDで足りる？</summary><p>Game libraryと月間録画量によります。空き容量も必要なので計算して判断します。</p></details><details><summary>録画はHDDでもいい？</summary><p>録画Bitrateを安定してWriteできるHDDなら可能ですが、編集はSSDの方が快適な場合が多いです。</p></details><details><summary>NASに直接録画？</summary><p>Network速度・安定性・Software構成を確認します。まずLocal録画→後で移動する方が単純です。</p></details><details><summary>RAIDがあればBackup不要？</summary><p>不要にはなりません。誤削除やNAS本体故障には別Backupが必要です。</p></details><details><summary>古い素材を消す基準は？</summary><p>再取得可能なGame本体より、二度と撮れない素材を優先して残します。</p></details><details><summary>空き容量はどれくらい残す？</summary><p>SSD性能やUpdate作業を考え、常にぎりぎりまで埋めない方が運用しやすいです。</p></details></section><section class="v92-check"><h2>読み終わったら確認すること</h2><ol><li>この記事の手順をそのまま暗記せず、自分のSave・PC・Versionで条件が同じか確認する。</li><li>一度に複数の設定を変えず、一つ変更して症状や結果がどう変わったかを見る。</li><li>更新で変わる情報は公式ページや配布元の更新日を確認する。</li><li>失敗した場合は最後の操作だけでなく、その前に何が不足していたかまで戻って考える。</li></ol></section>
+<section class="v92-method"><h2>うまくいかない時は、答えを探す前に状態を保存する</h2>
+<p>ゲーム録画はSSD何TB必要？｜ビットレートから容量を逆算するのように複数の要素が絡むテーマでは、設定を何度も変えているうちに「何を変えたら直ったのか」が分からなくなります。問題が起きた時点で、Version、設定、MOD一覧、PC構成、表示されたMessage、直前の変更を一度メモします。Saveや設定Fileを複製できる場合は、変更前の状態を残します。</p>
+<p>次に、原因候補を大きなカテゴリへ分けます。Game本体、設定、追加MOD/Tool、Network、Hardware/性能、Save dataのどれかです。全部を同時に疑うのではなく、最小構成へ戻して一つずつ足していきます。この方法は特定のGameだけでなく、MOD、Server、配信、VR、StorageのTroubleshootingにも共通します。</p>
+<h2>検索結果を読むときは「同じVersionか」を最初に見る</h2>
+<p>検索上位の記事や高評価Commentでも、書かれた時点では正しくても現在は前提が変わっていることがあります。投稿日、最終更新日、Game version、Tool versionを確認し、一次情報と矛盾する場合は公式の現行仕様を優先します。GameFinderでも、Communityの意見は「どう感じる人が多いか」「どこで詰まりやすいか」を知る材料として使い、仕様そのものの根拠には公式資料を優先しています。</p>
+<h2>最適化は、問題を再現できるようになってから</h2>
+<p>効率やPerformanceを上げる前に、まず同じ条件で問題を再現できるか確認します。再現条件が分かれば、変更前後を比較できます。逆に一度しか起きない問題に十個の対策を同時に入れると、改善したように見えても原因は分かりません。専門的な設定ほど、一回の大きな変更より小さな検証を積み重ねる方が確実です。</p>
+</section><section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>容量不足</td><td>Mbps×時間</td><td>SSD追加だけで終わらない</td></tr><tr><td>編集が重い</td><td>Cache/Codec</td><td>素材全部SSD固定しない</td></tr><tr><td>保存が増える</td><td>保持期間</td><td>無期限保存しない</td></tr><tr><td>故障対策</td><td>Backup</td><td>RAIDだけに頼らない</td></tr></tbody></table></div></section><section class="v9-sources"><h2>調査に使った主な情報源</h2><p>仕様は一次情報を優先し、Community情報は実際につまずきやすい点や運用上の論点を確認するために使っています。</p><ul><li><a href="https://obsproject.com/kb/standard-recording-output-guide" target="_blank" rel="noopener nofollow">OBS Standard Recording Guide</a><span>録画設定の公式Knowledge Base</span></li><li><a href="https://obsproject.com/kb/audio-video-formats-guide" target="_blank" rel="noopener nofollow">OBS Audio/Video Formats</a><span>Format/Codecの基礎</span></li></ul></section>
+<section class="v9-editor-note"><h2>この記事の作り方</h2><p>一つのコメントや一つのブログを正解として扱わず、公式仕様と複数の実例が矛盾しないかを確認してから編集しています。Versionで変わる内容は更新日を明記します。</p></section>
+</div><aside class="v9-aside"><strong>この記事で分かること</strong><p>OBSなどのゲーム録画で、ビットレート、録画時間、編集用SSD、保管用HDD/NAS、Backupを分けて必要容量を考える。</p><a class="v9-btn" href="/gear/">関連Gear</a></aside></div>
+<section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>MODは「便利そうだから全部入れる」より、役割で分けた方が壊れにくい。</h2></div>
+<p>UI改善、性能改善、操作補助、Content追加、Overhaulでは壊れ方が違います。まずQoL系だけで起動を確認し、その後に大型MODを追加すると、問題が起きた時に原因を戻しやすくなります。Version更新直後は『有名MODだから安全』ではなく、対応Versionと依存関係を確認する方が重要です。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>一番避けたいのは、複数MODを同時更新して原因が分からなくなること。</h2></div>
+<p>Save互換、Loader、依存MOD、設定Fileのどこで壊れたのかを切り分けられない状態が最も復旧しにくいです。大型Update前はSaveと設定を分けてBackupし、変更は一段階ずつ行う方が安全です。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+</article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

@@ -1,0 +1,77 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ゲーム配信を始める機材｜マイクを買う前に、音の通り道を書く | GameFinder</title><meta name="description" content="PC/コンソール配信で、マイク、キャプチャーボード、音声、OBS、照明、操作デバイスの優先順位を構成から解説。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/streaming-first-setup.html"><meta property="og:title" content="ゲーム配信を始める機材｜マイクを買う前に、音の通り道を書く | GameFinder"><meta property="og:description" content="PC/コンソール配信で、マイク、キャプチャーボード、音声、OBS、照明、操作デバイスの優先順位を構成から解説。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/streaming-first-setup.html"><meta property="og:image" content="https://gamefinder-b6a00.web.app/assets/og.svg"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0b1016"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ゲーム配信を始める機材｜マイクを買う前に、音の通り道を書く", "description": "PC/コンソール配信で、マイク、キャプチャーボード、音声、OBS、照明、操作デバイスの優先順位を構成から解説。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/streaming-first-setup.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main><article class="v9-article"><header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>ゲーム配信を始める機材｜マイクを買う前に、音の通り道を書く</h1><div class="v23-depth-meta"><span>本文 約5,924字</span><span>目安 12分</span><span>更新 2026-08-26</span></div><p class="v9-article-hook">配信機材で最初に詰まるのは、画質ではなく「自分には聞こえるのにOBSには入らない」です。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v9-byline">GameFinder編集部　・　更新 2026-08-26　・　調査記事　・　約11分</div></div></header><div class="v9-article-layout"><div class="v9-article-body"><section class="v11-keypoints"><span>ここが重要</span><h2>ゲーム配信を始める機材｜マイクを買う前に、音の通り道を書くを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature v12-generic-visual">
+<div class="v12-generic-banner"><span>TECHNICAL MODEL</span><strong>STREAM PIPELINE</strong><p>複雑な設定を、四つの要素へ分解して見る。</p></div>
+<div class="v12-visual-copy"><span class="v12-kicker">STREAM PIPELINE</span><h2>まず全体の流れを掴む</h2><div class="v12-diagram-grid"><div><b>Game</b><span>映像</span></div><div><b>OBS</b><span>合成</span></div><div><b>Encoder</b><span>圧縮</span></div><div><b>Platform</b><span>配信</span></div></div></div></section>
+<p>Game配信はCameraやMicrophoneのSpec比較より、AudioとVideoがどこからどこへ流れるかを書き出す方が先です。PC一台配信、Console配信、二台PC配信では必要機材がまったく違います。高価なMicを買ってもRouteが間違っていれば配信には入りません。</p>
+<h2>PC一台配信はCapture cardが必須ではない</h2><p>Game、OBS、Voice chat、Browser、Microphoneが同じPCにあるなら、Game captureをSoftwareで取り込めます。Capture cardは「配信するなら必ず買う箱」ではありません。Console映像や別PCの映像を配信PCへ入れるときに役割が出ます。</p>
+<h2>Console配信ではPassthrough仕様まで見る</h2><p>PS/Xbox/Switchなどの映像をPCへ取り込むとき、Capture deviceをConsole→Capture→TV/Monitorへ挟むことがあります。自分は4K/120Hz/HDRで遊びたいのにCapture側のPassthroughが対応しないと、配信画質より自分のPlay環境が制限されます。</p><p>例えば現行Elgato 4K XはUSB規格やPassthrough条件を細かく公開しています。製品名の「4K」だけではなく、入力・録画・Passthroughを別々に読みます。</p>
+<h2>マイクは価格より口までの距離</h2><p>高価なCondenser micを机の奥へ置くと、声を大きく拾うためGainを上げ、Keyboard/Room noiseまで増えることがあります。比較的安価なMicでも口へ適切に近づければ、声と環境音の差を大きくできます。</p><p>Boom armは見た目の配信機材ではなく、Mic距離と角度を毎回同じにする道具です。</p>
+<h2>USB MicかXLRか</h2><p>USB micはADCやConnectionが本体にまとまり、少ない機材で始めやすい。XLR micはAudio interfaceを通し、複数Input、Gain、Headphone monitorなどを拡張しやすい。XLRだから自動的に音が良くなるわけではありません。</p><p>一人Game配信でInput一つならUSBで十分な場合があります。複数Mic、楽器、細かいRoutingを将来やりたいならXLR ecosystemの価値が上がります。</p>
+<h2>OBSでは「聞こえる音」と「配信へ送る音」を分ける</h2><p>Headsetで聞こえるGame audio、Discord、Mic、自分だけ聞きたい音。これらを全部Desktop Audio一つへ混ぜると、録画編集やMuteが難しくなります。最初は複雑なVirtual mixerへ飛びつかず、OBS側でSourceを分けられる範囲から始めます。</p><p>録画を後編集するならTrackを分ける価値もあります。ただし配信Platformへ送るTrack設定を間違えると「配信だけ無音」が起こるので、限定公開Testで確認します。</p>
+<h2>EncoderはCPUだけの仕事ではない</h2><p>OBSはHardware encoderを利用できるGPU環境があります。GameとEncodingが同じPCでも、設定次第でCPU負荷を抑えられます。ただし「Hardware encoderなら何でも最高設定」が正しいわけではなく、Game側FPS、Resolution、Bitrate、配信Platform制限と合わせます。</p>
+<h2>顔出しならCameraよりLightを先に試す</h2><p>暗いRoomでは高価なCameraでもNoiseが増えます。小さなLightを顔の斜め前から当て、背景との明るさ差を調整するだけで大きく改善する場合があります。Camera spec比較は、そのあとで十分です。</p>
+<h2>Stream Deck系は配信を数回してからでも遅くない</h2><p>Scene switch、Mute、Clip、Sound effectなどを一Buttonへ置けるのは便利ですが、最初はKeyboard shortcutでも運用できます。「毎回この操作が面倒」と分かってから買うと、どのButton数が必要か判断できます。</p>
+<h2>最初の予算配分</h2><ol><li>安定してGameが動くPC/Console環境</li><li>Microphoneと適切な位置</li><li>必要ならCapture device</li><li>Headphone/Monitor環境</li><li>顔出しならLight</li><li>操作効率化Device</li></ol><p>視聴者が最初に離脱する理由は「Stream Deckがない」ではありません。聞き取りにくい声、止まる映像、Game音とVoiceのBalanceから直します。</p>
+<section class="v97-extra">
+<h2>映像がカクつくときの三分割</h2>
+<p>OBSのStatsでDropped frames（Network）、Rendering lag（GPU描画）、Encoding lag（Encoder）を分けます。三つは原因が違います。NetworkならUpload/Route、RenderingならGameとOBSのGPU競合、EncodingならEncoder設定を見ます。</p>
+<h2>GameがGPUを100%使う場合</h2>
+<p>Game側FPS capやGraphic settingを少し下げてGPUへ余裕を残すとOBS compositorが安定する場合があります。視聴者にはGameが180fpsから165fpsへ下がることより、配信Frame dropが減る方が重要なこともあります。</p>
+<h2>Console Captureで見る三つの解像度</h2>
+<p>ConsoleからCapture Cardへ入るInput、OBSへ取り込むCapture resolution、自分のMonitorへ抜けるPassthroughは別です。4K120で遊びながら1080p60配信したいなら、Passthroughが4K120を通せるかを確認します。</p>
+<h2>Mic processingの順序</h2>
+<p>Placement/Gain→必要ならNoise suppression→Expander/Gate→Compressor→Limiterというように、元音を整えてから処理を足します。Filterを増やすほど良くなるわけではありません。各Filterを一つずつON/OFFして録音比較します。</p>
+<h2>配信開始前の本番チェック</h2>
+<p>限定公開で10分配信し、別PCまたはSmartphoneから視聴します。Gameの文字が読めるか、声がGame音に埋もれないか、左右Audio、Lip sync、Alert音量を確認します。配信者側Headphoneだけでは見つからない問題があります。</p>
+<h2>機材追加の判断基準</h2>
+<p>「毎回困る操作」が3回以上続いたら機材を検討する、というRuleを作れます。Mic位置がずれるならArm、Console配信が必要ならCapture Card、Scene操作が多いならControl pad。先に問題を定義します。</p>
+</section>
+
+<section class="v98-extra">
+<h2>音声を「自分用」と「視聴者用」に分ける</h2>
+<p>自分はGameを大きく聞きたいが、視聴者にはVoiceを前へ出したいことがあります。Headphone volumeとOBS Mixerは別に調整します。自分のWindows音量を下げた結果OBSへ入るGame音まで変わる構成もあるため、Sourceごとの挙動をTestします。</p>
+<h2>Discord通話のPrivacy</h2>
+<p>友達のVoiceを配信へ載せる場合は、配信に入ることを事前に共有します。Application Audioを分けておけば、配信へ出さず自分だけ聞く構成も作れます。会話を録音・公開する前に参加者の同意を確認する運用が重要です。</p>
+<h2>MicのPlacementを数値化する</h2>
+<p>口から10〜15cmなど自分の基準距離を決め、毎回同じ位置へArmを戻します。距離が倍になると必要Gainが増え、Room reflectionやKeyboard音との比率も変わります。Mic upgrade前にPlacement再現性を作ります。</p>
+<h2>CameraのExposureをAuto任せにしない場合</h2>
+<p>顔出し配信で画面の明るさが頻繁に変わるとCameraのAuto exposureが揺れることがあります。Lightingを一定にし、Camera softwareでExposure/White balanceを固定できるならTestします。高価なCameraでもLightingが不安定なら画質は安定しません。</p>
+<h2>配信と録画を同時にする時</h2>
+<p>Streamは1080p60、Local recordingはより高いQualityという構成もできますが、Encoder負荷とDisk書き込みが増えます。配信単独では安定していたPCが同時録画で重くなるなら、Recording encoderやQualityを別に見直します。</p>
+<h2>長時間配信の安定性Test</h2>
+<p>5分Testで問題がなくても、2〜3時間でAudio drift、Capture device disconnect、HeatによるClock低下が出る場合があります。本格運用前に一度普段の配信時間に近い長さで限定Testを行います。</p>
+<h2>買う順番の例</h2>
+<ol><li>手持ちHeadset/Mic＋OBSでTest</li><li>Mic位置が問題ならArm</li><li>音質不足ならMic/Interface</li><li>ConsoleならCapture Card</li><li>顔出しならLighting→Camera</li><li>操作負担が増えたらControl device</li></ol>
+</section>
+
+<section class="v9-final-extra">
+<h2>視聴者が離れる原因を「機材不足」と決めない</h2>
+<p>高価なCameraやMicrophoneを買っても、声がゲーム音に埋もれる、長い無音が続く、画面の文字が潰れる、配信開始時に設定確認で数分待たせる、といった問題は残ります。まず現在の配信を録画し、自分が視聴者になったつもりで最初の10分を見る方が、次に必要な改善が分かります。機材はその問題を解くと確認できた時に買います。</p>
+<h2>配信プロファイルを「安定版」として保存する</h2>
+<p>OBSの設定を試すたびに本番環境を書き換えると、良かった状態へ戻せなくなります。安定して配信できたProfileやScene Collectionを複製し、Encoder、解像度、Audio routingを試験版側で変更します。新設定が数回安定したら本番へ反映する方が、配信直前の設定事故を減らせます。</p>
+<h2>録画を聞く時は最初に音量を触らない</h2>
+<p>一度目は普段視聴する音量のまま再生し、「声を聞くために音量を上げたくなるか」「効果音で急に下げたくなるか」を確認します。そのあとMeterや数値を見ます。数値上は整っていても、視聴体験として聞きづらければMixを直す必要があります。</p>
+</section>
+<section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>Frame drop</td><td>Network/Render/Encode</td><td>Bitrateだけ触らない</td></tr><tr><td>声が埋もれる</td><td>Mic/Game Balance</td><td>高いMicへ即交換しない</td></tr><tr><td>映像が荒い</td><td>解像度/Bitrate</td><td>4K化しない</td></tr><tr><td>長時間で不安定</td><td>熱/接続</td><td>5分Testだけで判断しない</td></tr></tbody></table></div></section><section class="v9-sources v9-extra-source-list"><h2>仕様を確認した公式資料</h2><ul><li><a href="https://obsproject.com/kb/hardware-encoding" target="_blank" rel="noopener nofollow">OBS: Hardware Encoding</a><span>NVENC/AMF/QSV等のHardware encoder</span></li><li><a href="https://obsproject.com/kb/obs-studio-overview" target="_blank" rel="noopener nofollow">OBS: Overview Guide</a><span>配信/録画/Audioの基礎</span></li><li><a href="https://www.elgato.com/jp/ja/p/game-capture-4k-x" target="_blank" rel="noopener nofollow">Elgato Game Capture 4K X</a><span>CaptureとPassthroughの仕様例</span></li></ul></section><section class="v9-editor-note"><h2>この記事の作り方</h2><p>仕様は公式ストア・公式Documentを優先し、Steamレビュー集計やプレイヤー議論から実際につまずきやすい点を確認しています。コメントの寄せ集めではなく、複数の情報を照合してGameFinderの文章として再構成しています。</p></section></div><aside class="v9-aside"><strong>この記事で分かること</strong><p>PC/コンソール配信で、マイク、キャプチャーボード、音声、OBS、照明、操作デバイスの優先順位を構成から解説。</p><a class="v9-btn" href="/gear/">Gearを見る</a></aside></div>
+<section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>MODは「便利そうだから全部入れる」より、役割で分けた方が壊れにくい。</h2></div>
+<p>UI改善、性能改善、操作補助、Content追加、Overhaulでは壊れ方が違います。まずQoL系だけで起動を確認し、その後に大型MODを追加すると、問題が起きた時に原因を戻しやすくなります。Version更新直後は『有名MODだから安全』ではなく、対応Versionと依存関係を確認する方が重要です。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>一番避けたいのは、複数MODを同時更新して原因が分からなくなること。</h2></div>
+<p>Save互換、Loader、依存MOD、設定Fileのどこで壊れたのかを切り分けられない状態が最も復旧しにくいです。大型Update前はSaveと設定を分けてBackupし、変更は一段階ずつ行う方が安全です。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+</article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

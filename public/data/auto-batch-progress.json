@@ -1,0 +1,31 @@
+{
+  "batch": "v25-v29",
+  "date": "2026-08-26",
+  "target": {
+    "enrichedPlusGames": 1000,
+    "deepArticles": 1000
+  },
+  "current": {
+    "enrichedPlusGames": 400,
+    "gamesWithDeepCoverage": 84,
+    "deepArticles": 180,
+    "allArticleHtmlExcludingIndex": 731,
+    "thinLegacyArticlesRemaining": 551
+  },
+  "thisBatch": {
+    "gamesGivenTwoDeepArticles": 75,
+    "articlesUpgraded": 150,
+    "generations": 5
+  },
+  "quality": {
+    "allUpgradedAtLeast8000Chars": true,
+    "minimumChars": 8314,
+    "averageChars": 9048,
+    "maximumChars": 9902,
+    "exactDuplicateBodies": 0,
+    "brokenInternalLinks": 0,
+    "externalPromotionGate": "HOLD: verified static external rich metadata not present",
+    "repairPassApplied": 150,
+    "finalRepairApplied": 150
+  }
+}

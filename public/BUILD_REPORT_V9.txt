@@ -1,0 +1,31 @@
+# GameFinder v9 Editorial Build Report
+
+- Game database: 400
+- Deep articles: 12
+- Detailed game dossiers: 8
+- Quality sitemap URLs: 28
+- Indexable HTML: 29
+- noindex HTML retained: 1309
+- Internal root-relative link errors: 0
+
+## Deep article text density
+- frostpunk-first-20-days: 3,562 characters
+- satisfactory-first-factory: 3,228 characters
+- raft-from-plank-to-engine: 3,151 characters
+- rimworld-first-colony: 2,764 characters
+- project-zomboid-first-week: 2,695 characters
+- no-mans-sky-2026: 2,686 characters
+- factorio-first-factory: 2,659 characters
+- cities-skylines-traffic-mods: 2,453 characters
+- sim-racing-first-rig: 2,112 characters
+- streaming-first-setup: 2,045 characters
+- game-server-guide: 1,959 characters
+- pcvr-first-setup: 1,808 characters
+
+## v9 policy
+- DBは広く、記事は深く。
+- 旧量産記事・Shopping・Topic・未検証Catalogはnoindex。
+- Sitemapには品質Gateを通過したPageだけを登録。
+- 仕様は一次情報、評価は複数Communityを照合。
+- 読者向けCopyから「ニッチ」「検索意図」「高単価」等の制作側用語を排除。
+- Preview版は全Page noindex + robots Disallow。

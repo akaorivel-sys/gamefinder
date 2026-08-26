@@ -1,0 +1,62 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Discovery Engine | GameFinder</title>
+<meta name="description" content="GameFinderの10,000ゲームDiscovery Engine。ジャンル、レビュー、価格、言語、Platform、Playtimeなどを組み合わせて検索。">
+<link rel="canonical" href="https://gamefinder-b6a00.web.app/discover/"><link rel="stylesheet" href="/assets/styles.css">
+<meta name="robots" content="noindex,follow"></head><body><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main>
+<section class="v18-hero"><div class="v9-wrap">
+<span class="v13-label">DISCOVERY ENGINE / 10,000 GAMES</span>
+<h1>「高評価 × 協力 × 安い」まで、<br>一度に絞る。</h1>
+<p>タイトルを探すだけではなく、遊び方・価格・レビュー・Platform・Playtimeを組み合わせる。Metadataが不明な作品は条件一致に含めません。</p>
+<div class="v18-hero-meta"><b id="v18-total">10,000</b><span>games</span><b>6+</b><span>combined filters</span><b>4</b><span>compare slots</span></div>
+</div></section>
+
+<section class="v18-presets"><div class="v9-wrap">
+<div class="v18-section-head"><span>QUICK RECIPES</span><h2>条件を考える前に、よくある探し方から。</h2></div>
+<div class="v18-preset-grid">
+<button data-preset="coop-cheap"><b>協力 × 高評価 × $20以下</b><span>友達と遊ぶ候補</span></button>
+<button data-preset="linux-strategy"><b>Linux × Strategy</b><span>互換性から絞る</span></button>
+<button data-preset="long-play"><b>平均30時間以上 × 高評価</b><span>長く遊びたい</span></button>
+<button data-preset="japanese-high"><b>日本語 × 85%以上</b><span>言語を優先</span></button>
+<button data-preset="free-popular"><b>無料 × 高評価</b><span>まず試したい</span></button>
+<button data-preset="editor-picks"><b>Editorial Plusだけ</b><span>GameFinder深掘り済み</span></button>
+</div></div></section>
+
+<section class="v18-engine"><div class="v9-wrap">
+<div class="v18-query"><input id="v18-q" type="search" placeholder="タイトル・ジャンル・タグ・開発元を検索…"><button id="v18-random">この条件からランダム</button></div>
+
+<div class="v18-filter-grid">
+<label>レビュー<select id="v18-review"><option value="">指定なし</option><option value="90">90%以上</option><option value="85">85%以上</option><option value="80">80%以上</option><option value="70">70%以上</option></select></label>
+<label>価格<select id="v18-price"><option value="">指定なし</option><option value="free">無料</option><option value="1000">$10以下</option><option value="2000">$20以下</option><option value="3000">$30以下</option><option value="6000">$60以下</option></select></label>
+<label>Platform<select id="v18-platform"><option value="">指定なし</option><option value="windows">Windows</option><option value="mac">Mac</option><option value="linux">Linux</option></select></label>
+<label>平均Playtime<select id="v18-playtime"><option value="">指定なし</option><option value="300">5時間以上</option><option value="600">10時間以上</option><option value="1800">30時間以上</option><option value="6000">100時間以上</option></select></label>
+<label>Metadata<select id="v18-complete"><option value="">指定なし</option><option value="50">50%以上</option><option value="75">75%以上</option><option value="90">90%以上</option></select></label>
+<label>Play style<select id="v18-multi"><option value="">指定なし</option><option value="solo">Solo</option><option value="coop">Co-op</option><option value="multi">Multiplayer</option></select></label>
+<label class="check"><input id="v18-ja" type="checkbox"><span>日本語対応</span></label>
+<label class="check"><input id="v18-editorial" type="checkbox"><span>Editorial Plusのみ</span></label>
+<label>並び替え<select id="v18-sort"><option value="smart">GameFinder Smart</option><option value="review">レビュー</option><option value="popular">Review数</option><option value="playtime">平均Playtime</option><option value="price-asc">価格 安い順</option><option value="price-desc">価格 高い順</option><option value="complete">Metadata充足率</option><option value="name">名前順</option></select></label>
+</div>
+
+<div class="v18-taxonomy"><div><span>GENRES</span><div id="v18-genres"></div></div><div><span>TAGS</span><div id="v18-tags"></div></div></div>
+<div class="v18-filter-actions"><button id="v18-save">条件を保存</button><button id="v18-load">保存条件を呼び出す</button><button id="v18-reset">すべて解除</button></div>
+<div id="v18-active" class="v18-active"></div>
+
+<div class="v18-results-head"><div><b id="v18-count">0</b><span>件一致</span></div><p>不明Metadataは、条件に合うと推測せず除外します。</p></div>
+<div id="v18-results" class="v18-results"></div>
+<div class="v18-pager"><button id="v18-prev">← 前へ</button><span id="v18-page">1 / 1</span><button id="v18-next">次へ →</button></div>
+</div></section>
+
+<section class="v18-method"><div class="v9-wrap">
+<div><span>WHY THIS IS DIFFERENT</span><h2>検索結果が少ない時も、勝手に補わない。</h2></div>
+<p>たとえば「Linux対応 × Review 90%以上」を指定した時、Linux情報が未取得のゲームを『たぶん対応』として混ぜません。Metadataが揃っていない作品は除外し、検索条件の信頼性を優先します。</p>
+<a href="/metadata/">Metadata方針 →</a>
+</div></section>
+</main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button>
+
+<div id="v18-compare-bar" class="v18-compare-bar"><div><b><span id="v18-compare-count">0</span>/4 比較候補</b><div id="v18-compare-items"></div></div><div><button id="v18-clear-compare">クリア</button><a href="/compare.html">比較画面へ →</a></div></div>
+
+<script src="/js/catalog-10000.js"></script>
+<script src="/js/catalog-rich-v17.js"></script>
+<script src="/js/discovery-v18.js"></script>
+<script src="/js/v11-ui.js" defer></script>
+<script src="/js/my-v21.js"></script></body></html>

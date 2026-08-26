@@ -1,0 +1,18 @@
+GameFinder v8 / Firebase production package for gamefinder-b6a00
+
+Target: https://gamefinder-b6a00.web.app/
+Files: 1514
+HTML: 1202
+Size: 11.1 MB
+Changed text files: 1213
+Domain replacements: 7454
+Remaining old-domain refs: 0
+New-domain refs: 7454
+Internal root-relative link errors: 0
+
+Deploy into the already-working Firebase project folder:
+1. Keep firebase.json and .firebaserc created by `firebase init hosting`.
+2. Replace ONLY the contents of that folder's public directory with this ZIP's contents.
+3. Run: firebase deploy --only hosting
+4. Check: https://gamefinder-b6a00.web.app/health.txt
+5. Check: https://gamefinder-b6a00.web.app/

@@ -1,0 +1,3421 @@
+[
+  {
+    "slug": "free-games",
+    "title": "基本無料ゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "solo-games",
+    "title": "ソロ向けゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "survival-games",
+    "title": "サバイバルゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "automation-games",
+    "title": "自動化・工場ゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "long-play",
+    "title": "長く遊べるゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "raft-like",
+    "title": "Raftに似たゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-like",
+    "title": "Frostpunkに似たゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "low-spec",
+    "title": "低スペックPC向けゲーム",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "coop-games",
+    "title": "協力プレイゲーム特集",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "city-building",
+    "title": "街づくりゲーム特集",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "feature",
+    "genres": [],
+    "image": "/assets/og.svg",
+    "fallbackImage": "/assets/og.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-what-is",
+    "title": "Frostpunkとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "frostpunk",
+    "gameTitle": "Frostpunk",
+    "type": "what-is",
+    "genres": [
+      "街づくり",
+      "サバイバル",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg",
+    "fallbackImage": "/assets/covers/frostpunk.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-before-you-play",
+    "title": "Frostpunkを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "frostpunk",
+    "gameTitle": "Frostpunk",
+    "type": "before-you-play",
+    "genres": [
+      "街づくり",
+      "サバイバル",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg",
+    "fallbackImage": "/assets/covers/frostpunk.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-similar",
+    "title": "Frostpunkに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "frostpunk",
+    "gameTitle": "Frostpunk",
+    "type": "similar",
+    "genres": [
+      "街づくり",
+      "サバイバル",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg",
+    "fallbackImage": "/assets/covers/frostpunk.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "cities-skylines-what-is",
+    "title": "Cities: Skylinesとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "cities-skylines",
+    "gameTitle": "Cities: Skylines",
+    "type": "what-is",
+    "genres": [
+      "街づくり",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
+    "fallbackImage": "/assets/covers/cities-skylines.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "cities-skylines-before-you-play",
+    "title": "Cities: Skylinesを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "cities-skylines",
+    "gameTitle": "Cities: Skylines",
+    "type": "before-you-play",
+    "genres": [
+      "街づくり",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
+    "fallbackImage": "/assets/covers/cities-skylines.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "cities-skylines-similar",
+    "title": "Cities: Skylinesに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "cities-skylines",
+    "gameTitle": "Cities: Skylines",
+    "type": "similar",
+    "genres": [
+      "街づくり",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
+    "fallbackImage": "/assets/covers/cities-skylines.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "raft-what-is",
+    "title": "Raftとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "raft",
+    "gameTitle": "Raft",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+    "fallbackImage": "/assets/covers/raft.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "raft-before-you-play",
+    "title": "Raftを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "raft",
+    "gameTitle": "Raft",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+    "fallbackImage": "/assets/covers/raft.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "raft-similar",
+    "title": "Raftに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "raft",
+    "gameTitle": "Raft",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+    "fallbackImage": "/assets/covers/raft.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "satisfactory-what-is",
+    "title": "Satisfactoryとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "satisfactory",
+    "gameTitle": "Satisfactory",
+    "type": "what-is",
+    "genres": [
+      "自動化",
+      "建築",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "fallbackImage": "/assets/covers/satisfactory.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "satisfactory-before-you-play",
+    "title": "Satisfactoryを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "satisfactory",
+    "gameTitle": "Satisfactory",
+    "type": "before-you-play",
+    "genres": [
+      "自動化",
+      "建築",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "fallbackImage": "/assets/covers/satisfactory.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "satisfactory-similar",
+    "title": "Satisfactoryに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "satisfactory",
+    "gameTitle": "Satisfactory",
+    "type": "similar",
+    "genres": [
+      "自動化",
+      "建築",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "fallbackImage": "/assets/covers/satisfactory.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "no-mans-sky-what-is",
+    "title": "No Man's Skyとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "no-mans-sky",
+    "gameTitle": "No Man's Sky",
+    "type": "what-is",
+    "genres": [
+      "宇宙",
+      "探索",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+    "fallbackImage": "/assets/covers/no-mans-sky.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "no-mans-sky-before-you-play",
+    "title": "No Man's Skyを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "no-mans-sky",
+    "gameTitle": "No Man's Sky",
+    "type": "before-you-play",
+    "genres": [
+      "宇宙",
+      "探索",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+    "fallbackImage": "/assets/covers/no-mans-sky.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "no-mans-sky-similar",
+    "title": "No Man's Skyに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "no-mans-sky",
+    "gameTitle": "No Man's Sky",
+    "type": "similar",
+    "genres": [
+      "宇宙",
+      "探索",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+    "fallbackImage": "/assets/covers/no-mans-sky.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "stardew-valley-what-is",
+    "title": "Stardew Valleyとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "stardew-valley",
+    "gameTitle": "Stardew Valley",
+    "type": "what-is",
+    "genres": [
+      "農業",
+      "生活",
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "fallbackImage": "/assets/covers/stardew-valley.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "stardew-valley-before-you-play",
+    "title": "Stardew Valleyを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "stardew-valley",
+    "gameTitle": "Stardew Valley",
+    "type": "before-you-play",
+    "genres": [
+      "農業",
+      "生活",
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "fallbackImage": "/assets/covers/stardew-valley.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "stardew-valley-similar",
+    "title": "Stardew Valleyに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "stardew-valley",
+    "gameTitle": "Stardew Valley",
+    "type": "similar",
+    "genres": [
+      "農業",
+      "生活",
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "fallbackImage": "/assets/covers/stardew-valley.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "terraria-what-is",
+    "title": "Terrariaとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "terraria",
+    "gameTitle": "Terraria",
+    "type": "what-is",
+    "genres": [
+      "サンドボックス",
+      "探索",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+    "fallbackImage": "/assets/covers/terraria.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "terraria-before-you-play",
+    "title": "Terrariaを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "terraria",
+    "gameTitle": "Terraria",
+    "type": "before-you-play",
+    "genres": [
+      "サンドボックス",
+      "探索",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+    "fallbackImage": "/assets/covers/terraria.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "terraria-similar",
+    "title": "Terrariaに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "terraria",
+    "gameTitle": "Terraria",
+    "type": "similar",
+    "genres": [
+      "サンドボックス",
+      "探索",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+    "fallbackImage": "/assets/covers/terraria.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "factorio-what-is",
+    "title": "Factorioとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "factorio",
+    "gameTitle": "Factorio",
+    "type": "what-is",
+    "genres": [
+      "自動化",
+      "建築",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "fallbackImage": "/assets/covers/factorio.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "factorio-before-you-play",
+    "title": "Factorioを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "factorio",
+    "gameTitle": "Factorio",
+    "type": "before-you-play",
+    "genres": [
+      "自動化",
+      "建築",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "fallbackImage": "/assets/covers/factorio.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "factorio-similar",
+    "title": "Factorioに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "factorio",
+    "gameTitle": "Factorio",
+    "type": "similar",
+    "genres": [
+      "自動化",
+      "建築",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "fallbackImage": "/assets/covers/factorio.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "rimworld-what-is",
+    "title": "RimWorldとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "rimworld",
+    "gameTitle": "RimWorld",
+    "type": "what-is",
+    "genres": [
+      "コロニー",
+      "シミュレーション",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "rimworld-before-you-play",
+    "title": "RimWorldを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "rimworld",
+    "gameTitle": "RimWorld",
+    "type": "before-you-play",
+    "genres": [
+      "コロニー",
+      "シミュレーション",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "rimworld-similar",
+    "title": "RimWorldに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "rimworld",
+    "gameTitle": "RimWorld",
+    "type": "similar",
+    "genres": [
+      "コロニー",
+      "シミュレーション",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "oxygen-not-included-what-is",
+    "title": "Oxygen Not Includedとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "oxygen-not-included",
+    "gameTitle": "Oxygen Not Included",
+    "type": "what-is",
+    "genres": [
+      "コロニー",
+      "サバイバル",
+      "自動化"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "fallbackImage": "/assets/covers/oxygen-not-included.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "oxygen-not-included-before-you-play",
+    "title": "Oxygen Not Includedを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "oxygen-not-included",
+    "gameTitle": "Oxygen Not Included",
+    "type": "before-you-play",
+    "genres": [
+      "コロニー",
+      "サバイバル",
+      "自動化"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "fallbackImage": "/assets/covers/oxygen-not-included.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "oxygen-not-included-similar",
+    "title": "Oxygen Not Includedに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "oxygen-not-included",
+    "gameTitle": "Oxygen Not Included",
+    "type": "similar",
+    "genres": [
+      "コロニー",
+      "サバイバル",
+      "自動化"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "fallbackImage": "/assets/covers/oxygen-not-included.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dyson-sphere-program-what-is",
+    "title": "Dyson Sphere Programとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dyson-sphere-program",
+    "gameTitle": "Dyson Sphere Program",
+    "type": "what-is",
+    "genres": [
+      "自動化",
+      "宇宙",
+      "建築"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg",
+    "fallbackImage": "/assets/covers/dyson-sphere-program.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dyson-sphere-program-before-you-play",
+    "title": "Dyson Sphere Programを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dyson-sphere-program",
+    "gameTitle": "Dyson Sphere Program",
+    "type": "before-you-play",
+    "genres": [
+      "自動化",
+      "宇宙",
+      "建築"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg",
+    "fallbackImage": "/assets/covers/dyson-sphere-program.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dyson-sphere-program-similar",
+    "title": "Dyson Sphere Programに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dyson-sphere-program",
+    "gameTitle": "Dyson Sphere Program",
+    "type": "similar",
+    "genres": [
+      "自動化",
+      "宇宙",
+      "建築"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg",
+    "fallbackImage": "/assets/covers/dyson-sphere-program.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "astroneer-what-is",
+    "title": "ASTRONEERとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "astroneer",
+    "gameTitle": "ASTRONEER",
+    "type": "what-is",
+    "genres": [
+      "宇宙",
+      "探索",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
+    "fallbackImage": "/assets/covers/astroneer.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "astroneer-before-you-play",
+    "title": "ASTRONEERを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "astroneer",
+    "gameTitle": "ASTRONEER",
+    "type": "before-you-play",
+    "genres": [
+      "宇宙",
+      "探索",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
+    "fallbackImage": "/assets/covers/astroneer.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "astroneer-similar",
+    "title": "ASTRONEERに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "astroneer",
+    "gameTitle": "ASTRONEER",
+    "type": "similar",
+    "genres": [
+      "宇宙",
+      "探索",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
+    "fallbackImage": "/assets/covers/astroneer.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "core-keeper-what-is",
+    "title": "Core Keeperとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "core-keeper",
+    "gameTitle": "Core Keeper",
+    "type": "what-is",
+    "genres": [
+      "サンドボックス",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg",
+    "fallbackImage": "/assets/covers/core-keeper.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "core-keeper-before-you-play",
+    "title": "Core Keeperを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "core-keeper",
+    "gameTitle": "Core Keeper",
+    "type": "before-you-play",
+    "genres": [
+      "サンドボックス",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg",
+    "fallbackImage": "/assets/covers/core-keeper.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "core-keeper-similar",
+    "title": "Core Keeperに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "core-keeper",
+    "gameTitle": "Core Keeper",
+    "type": "similar",
+    "genres": [
+      "サンドボックス",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg",
+    "fallbackImage": "/assets/covers/core-keeper.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "valheim-what-is",
+    "title": "Valheimとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "valheim",
+    "gameTitle": "Valheim",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
+    "fallbackImage": "/assets/covers/valheim.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "valheim-before-you-play",
+    "title": "Valheimを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "valheim",
+    "gameTitle": "Valheim",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
+    "fallbackImage": "/assets/covers/valheim.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "valheim-similar",
+    "title": "Valheimに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "valheim",
+    "gameTitle": "Valheim",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
+    "fallbackImage": "/assets/covers/valheim.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "project-zomboid-what-is",
+    "title": "Project Zomboidとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "project-zomboid",
+    "gameTitle": "Project Zomboid",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "シミュレーション",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "fallbackImage": "/assets/covers/project-zomboid.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "project-zomboid-before-you-play",
+    "title": "Project Zomboidを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "project-zomboid",
+    "gameTitle": "Project Zomboid",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "シミュレーション",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "fallbackImage": "/assets/covers/project-zomboid.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "project-zomboid-similar",
+    "title": "Project Zomboidに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "project-zomboid",
+    "gameTitle": "Project Zomboid",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "シミュレーション",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "fallbackImage": "/assets/covers/project-zomboid.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dont-starve-together-what-is",
+    "title": "Don't Starve Togetherとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dont-starve-together",
+    "gameTitle": "Don't Starve Together",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
+    "fallbackImage": "/assets/covers/dont-starve-together.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dont-starve-together-before-you-play",
+    "title": "Don't Starve Togetherを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dont-starve-together",
+    "gameTitle": "Don't Starve Together",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
+    "fallbackImage": "/assets/covers/dont-starve-together.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dont-starve-together-similar",
+    "title": "Don't Starve Togetherに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dont-starve-together",
+    "gameTitle": "Don't Starve Together",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
+    "fallbackImage": "/assets/covers/dont-starve-together.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "subnautica-what-is",
+    "title": "Subnauticaとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "subnautica",
+    "gameTitle": "Subnautica",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "探索",
+      "海洋"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
+    "fallbackImage": "/assets/covers/subnautica.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "subnautica-before-you-play",
+    "title": "Subnauticaを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "subnautica",
+    "gameTitle": "Subnautica",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "探索",
+      "海洋"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
+    "fallbackImage": "/assets/covers/subnautica.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "subnautica-similar",
+    "title": "Subnauticaに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "subnautica",
+    "gameTitle": "Subnautica",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "探索",
+      "海洋"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
+    "fallbackImage": "/assets/covers/subnautica.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "grounded-what-is",
+    "title": "Groundedとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "grounded",
+    "gameTitle": "Grounded",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+    "fallbackImage": "/assets/covers/grounded.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "grounded-before-you-play",
+    "title": "Groundedを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "grounded",
+    "gameTitle": "Grounded",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+    "fallbackImage": "/assets/covers/grounded.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "grounded-similar",
+    "title": "Groundedに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "grounded",
+    "gameTitle": "Grounded",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+    "fallbackImage": "/assets/covers/grounded.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "palworld-what-is",
+    "title": "Palworldとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "palworld",
+    "gameTitle": "Palworld",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
+    "fallbackImage": "/assets/covers/palworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "palworld-before-you-play",
+    "title": "Palworldを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "palworld",
+    "gameTitle": "Palworld",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
+    "fallbackImage": "/assets/covers/palworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "palworld-similar",
+    "title": "Palworldに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "palworld",
+    "gameTitle": "Palworld",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
+    "fallbackImage": "/assets/covers/palworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "minecraft-what-is",
+    "title": "Minecraftとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "minecraft",
+    "gameTitle": "Minecraft",
+    "type": "what-is",
+    "genres": [
+      "サンドボックス",
+      "クラフト",
+      "建築"
+    ],
+    "image": "/assets/covers/minecraft.svg",
+    "fallbackImage": "/assets/covers/minecraft.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "minecraft-before-you-play",
+    "title": "Minecraftを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "minecraft",
+    "gameTitle": "Minecraft",
+    "type": "before-you-play",
+    "genres": [
+      "サンドボックス",
+      "クラフト",
+      "建築"
+    ],
+    "image": "/assets/covers/minecraft.svg",
+    "fallbackImage": "/assets/covers/minecraft.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "minecraft-similar",
+    "title": "Minecraftに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "minecraft",
+    "gameTitle": "Minecraft",
+    "type": "similar",
+    "genres": [
+      "サンドボックス",
+      "クラフト",
+      "建築"
+    ],
+    "image": "/assets/covers/minecraft.svg",
+    "fallbackImage": "/assets/covers/minecraft.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "human-fall-flat-what-is",
+    "title": "Human: Fall Flatとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "human-fall-flat",
+    "gameTitle": "Human: Fall Flat",
+    "type": "what-is",
+    "genres": [
+      "パズル",
+      "協力",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg",
+    "fallbackImage": "/assets/covers/human-fall-flat.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "human-fall-flat-before-you-play",
+    "title": "Human: Fall Flatを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "human-fall-flat",
+    "gameTitle": "Human: Fall Flat",
+    "type": "before-you-play",
+    "genres": [
+      "パズル",
+      "協力",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg",
+    "fallbackImage": "/assets/covers/human-fall-flat.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "human-fall-flat-similar",
+    "title": "Human: Fall Flatに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "human-fall-flat",
+    "gameTitle": "Human: Fall Flat",
+    "type": "similar",
+    "genres": [
+      "パズル",
+      "協力",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg",
+    "fallbackImage": "/assets/covers/human-fall-flat.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "portal-2-what-is",
+    "title": "Portal 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "portal-2",
+    "gameTitle": "Portal 2",
+    "type": "what-is",
+    "genres": [
+      "パズル",
+      "協力",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
+    "fallbackImage": "/assets/covers/portal-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "portal-2-before-you-play",
+    "title": "Portal 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "portal-2",
+    "gameTitle": "Portal 2",
+    "type": "before-you-play",
+    "genres": [
+      "パズル",
+      "協力",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
+    "fallbackImage": "/assets/covers/portal-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "portal-2-similar",
+    "title": "Portal 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "portal-2",
+    "gameTitle": "Portal 2",
+    "type": "similar",
+    "genres": [
+      "パズル",
+      "協力",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
+    "fallbackImage": "/assets/covers/portal-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "overcooked-2-what-is",
+    "title": "Overcooked! 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "overcooked-2",
+    "gameTitle": "Overcooked! 2",
+    "type": "what-is",
+    "genres": [
+      "協力",
+      "料理",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
+    "fallbackImage": "/assets/covers/overcooked-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "overcooked-2-before-you-play",
+    "title": "Overcooked! 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "overcooked-2",
+    "gameTitle": "Overcooked! 2",
+    "type": "before-you-play",
+    "genres": [
+      "協力",
+      "料理",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
+    "fallbackImage": "/assets/covers/overcooked-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "overcooked-2-similar",
+    "title": "Overcooked! 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "overcooked-2",
+    "gameTitle": "Overcooked! 2",
+    "type": "similar",
+    "genres": [
+      "協力",
+      "料理",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
+    "fallbackImage": "/assets/covers/overcooked-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "deep-rock-galactic-what-is",
+    "title": "Deep Rock Galacticとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "deep-rock-galactic",
+    "gameTitle": "Deep Rock Galactic",
+    "type": "what-is",
+    "genres": [
+      "協力",
+      "FPS",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
+    "fallbackImage": "/assets/covers/deep-rock-galactic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "deep-rock-galactic-before-you-play",
+    "title": "Deep Rock Galacticを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "deep-rock-galactic",
+    "gameTitle": "Deep Rock Galactic",
+    "type": "before-you-play",
+    "genres": [
+      "協力",
+      "FPS",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
+    "fallbackImage": "/assets/covers/deep-rock-galactic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "deep-rock-galactic-similar",
+    "title": "Deep Rock Galacticに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "deep-rock-galactic",
+    "gameTitle": "Deep Rock Galactic",
+    "type": "similar",
+    "genres": [
+      "協力",
+      "FPS",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
+    "fallbackImage": "/assets/covers/deep-rock-galactic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "elden-ring-what-is",
+    "title": "ELDEN RINGとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "elden-ring",
+    "gameTitle": "ELDEN RING",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "fallbackImage": "/assets/covers/elden-ring.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "elden-ring-before-you-play",
+    "title": "ELDEN RINGを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "elden-ring",
+    "gameTitle": "ELDEN RING",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "fallbackImage": "/assets/covers/elden-ring.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "elden-ring-similar",
+    "title": "ELDEN RINGに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "elden-ring",
+    "gameTitle": "ELDEN RING",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "fallbackImage": "/assets/covers/elden-ring.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "baldurs-gate-3-what-is",
+    "title": "Baldur's Gate 3とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "baldurs-gate-3",
+    "gameTitle": "Baldur's Gate 3",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "ターン制",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "fallbackImage": "/assets/covers/baldurs-gate-3.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "baldurs-gate-3-before-you-play",
+    "title": "Baldur's Gate 3を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "baldurs-gate-3",
+    "gameTitle": "Baldur's Gate 3",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "ターン制",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "fallbackImage": "/assets/covers/baldurs-gate-3.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "baldurs-gate-3-similar",
+    "title": "Baldur's Gate 3に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "baldurs-gate-3",
+    "gameTitle": "Baldur's Gate 3",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "ターン制",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "fallbackImage": "/assets/covers/baldurs-gate-3.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "cyberpunk-2077-what-is",
+    "title": "Cyberpunk 2077とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "cyberpunk-2077",
+    "gameTitle": "Cyberpunk 2077",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "fallbackImage": "/assets/covers/cyberpunk-2077.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "cyberpunk-2077-before-you-play",
+    "title": "Cyberpunk 2077を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "cyberpunk-2077",
+    "gameTitle": "Cyberpunk 2077",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "fallbackImage": "/assets/covers/cyberpunk-2077.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "cyberpunk-2077-similar",
+    "title": "Cyberpunk 2077に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "cyberpunk-2077",
+    "gameTitle": "Cyberpunk 2077",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "fallbackImage": "/assets/covers/cyberpunk-2077.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "the-witcher-3-what-is",
+    "title": "The Witcher 3: Wild Huntとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "the-witcher-3",
+    "gameTitle": "The Witcher 3: Wild Hunt",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "物語"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "fallbackImage": "/assets/covers/the-witcher-3.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "the-witcher-3-before-you-play",
+    "title": "The Witcher 3: Wild Huntを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "the-witcher-3",
+    "gameTitle": "The Witcher 3: Wild Hunt",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "物語"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "fallbackImage": "/assets/covers/the-witcher-3.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "the-witcher-3-similar",
+    "title": "The Witcher 3: Wild Huntに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "the-witcher-3",
+    "gameTitle": "The Witcher 3: Wild Hunt",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "物語"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "fallbackImage": "/assets/covers/the-witcher-3.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hades-what-is",
+    "title": "Hadesとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "hades",
+    "gameTitle": "Hades",
+    "type": "what-is",
+    "genres": [
+      "ローグライク",
+      "アクション",
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "fallbackImage": "/assets/covers/hades.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hades-before-you-play",
+    "title": "Hadesを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "hades",
+    "gameTitle": "Hades",
+    "type": "before-you-play",
+    "genres": [
+      "ローグライク",
+      "アクション",
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "fallbackImage": "/assets/covers/hades.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hades-similar",
+    "title": "Hadesに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "hades",
+    "gameTitle": "Hades",
+    "type": "similar",
+    "genres": [
+      "ローグライク",
+      "アクション",
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "fallbackImage": "/assets/covers/hades.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "slay-the-spire-what-is",
+    "title": "Slay the Spireとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "slay-the-spire",
+    "gameTitle": "Slay the Spire",
+    "type": "what-is",
+    "genres": [
+      "カード",
+      "ローグライク",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg",
+    "fallbackImage": "/assets/covers/slay-the-spire.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "slay-the-spire-before-you-play",
+    "title": "Slay the Spireを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "slay-the-spire",
+    "gameTitle": "Slay the Spire",
+    "type": "before-you-play",
+    "genres": [
+      "カード",
+      "ローグライク",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg",
+    "fallbackImage": "/assets/covers/slay-the-spire.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "slay-the-spire-similar",
+    "title": "Slay the Spireに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "slay-the-spire",
+    "gameTitle": "Slay the Spire",
+    "type": "similar",
+    "genres": [
+      "カード",
+      "ローグライク",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg",
+    "fallbackImage": "/assets/covers/slay-the-spire.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "vampire-survivors-what-is",
+    "title": "Vampire Survivorsとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "vampire-survivors",
+    "gameTitle": "Vampire Survivors",
+    "type": "what-is",
+    "genres": [
+      "ローグライク",
+      "アクション",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+    "fallbackImage": "/assets/covers/vampire-survivors.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "vampire-survivors-before-you-play",
+    "title": "Vampire Survivorsを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "vampire-survivors",
+    "gameTitle": "Vampire Survivors",
+    "type": "before-you-play",
+    "genres": [
+      "ローグライク",
+      "アクション",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+    "fallbackImage": "/assets/covers/vampire-survivors.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "vampire-survivors-similar",
+    "title": "Vampire Survivorsに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "vampire-survivors",
+    "gameTitle": "Vampire Survivors",
+    "type": "similar",
+    "genres": [
+      "ローグライク",
+      "アクション",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+    "fallbackImage": "/assets/covers/vampire-survivors.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "balatro-what-is",
+    "title": "Balatroとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "balatro",
+    "gameTitle": "Balatro",
+    "type": "what-is",
+    "genres": [
+      "カード",
+      "ローグライク",
+      "パズル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg",
+    "fallbackImage": "/assets/covers/balatro.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "balatro-before-you-play",
+    "title": "Balatroを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "balatro",
+    "gameTitle": "Balatro",
+    "type": "before-you-play",
+    "genres": [
+      "カード",
+      "ローグライク",
+      "パズル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg",
+    "fallbackImage": "/assets/covers/balatro.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "balatro-similar",
+    "title": "Balatroに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "balatro",
+    "gameTitle": "Balatro",
+    "type": "similar",
+    "genres": [
+      "カード",
+      "ローグライク",
+      "パズル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg",
+    "fallbackImage": "/assets/covers/balatro.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hollow-knight-what-is",
+    "title": "Hollow Knightとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "hollow-knight",
+    "gameTitle": "Hollow Knight",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "探索",
+      "メトロイドヴァニア"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+    "fallbackImage": "/assets/covers/hollow-knight.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hollow-knight-before-you-play",
+    "title": "Hollow Knightを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "hollow-knight",
+    "gameTitle": "Hollow Knight",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "探索",
+      "メトロイドヴァニア"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+    "fallbackImage": "/assets/covers/hollow-knight.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hollow-knight-similar",
+    "title": "Hollow Knightに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "hollow-knight",
+    "gameTitle": "Hollow Knight",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "探索",
+      "メトロイドヴァニア"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+    "fallbackImage": "/assets/covers/hollow-knight.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dave-the-diver-what-is",
+    "title": "DAVE THE DIVERとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dave-the-diver",
+    "gameTitle": "DAVE THE DIVER",
+    "type": "what-is",
+    "genres": [
+      "経営",
+      "探索",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+    "fallbackImage": "/assets/covers/dave-the-diver.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dave-the-diver-before-you-play",
+    "title": "DAVE THE DIVERを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dave-the-diver",
+    "gameTitle": "DAVE THE DIVER",
+    "type": "before-you-play",
+    "genres": [
+      "経営",
+      "探索",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+    "fallbackImage": "/assets/covers/dave-the-diver.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dave-the-diver-similar",
+    "title": "DAVE THE DIVERに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dave-the-diver",
+    "gameTitle": "DAVE THE DIVER",
+    "type": "similar",
+    "genres": [
+      "経営",
+      "探索",
+      "カジュアル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+    "fallbackImage": "/assets/covers/dave-the-diver.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "civilization-vi-what-is",
+    "title": "Sid Meier's Civilization VIとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "civilization-vi",
+    "gameTitle": "Sid Meier's Civilization VI",
+    "type": "what-is",
+    "genres": [
+      "ストラテジー",
+      "ターン制",
+      "歴史"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
+    "fallbackImage": "/assets/covers/civilization-vi.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "civilization-vi-before-you-play",
+    "title": "Sid Meier's Civilization VIを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "civilization-vi",
+    "gameTitle": "Sid Meier's Civilization VI",
+    "type": "before-you-play",
+    "genres": [
+      "ストラテジー",
+      "ターン制",
+      "歴史"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
+    "fallbackImage": "/assets/covers/civilization-vi.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "civilization-vi-similar",
+    "title": "Sid Meier's Civilization VIに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "civilization-vi",
+    "gameTitle": "Sid Meier's Civilization VI",
+    "type": "similar",
+    "genres": [
+      "ストラテジー",
+      "ターン制",
+      "歴史"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
+    "fallbackImage": "/assets/covers/civilization-vi.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "counter-strike-2-what-is",
+    "title": "Counter-Strike 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "counter-strike-2",
+    "gameTitle": "Counter-Strike 2",
+    "type": "what-is",
+    "genres": [
+      "FPS",
+      "対戦",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "fallbackImage": "/assets/covers/counter-strike-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "counter-strike-2-before-you-play",
+    "title": "Counter-Strike 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "counter-strike-2",
+    "gameTitle": "Counter-Strike 2",
+    "type": "before-you-play",
+    "genres": [
+      "FPS",
+      "対戦",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "fallbackImage": "/assets/covers/counter-strike-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "counter-strike-2-similar",
+    "title": "Counter-Strike 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "counter-strike-2",
+    "gameTitle": "Counter-Strike 2",
+    "type": "similar",
+    "genres": [
+      "FPS",
+      "対戦",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "fallbackImage": "/assets/covers/counter-strike-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dota-2-what-is",
+    "title": "Dota 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dota-2",
+    "gameTitle": "Dota 2",
+    "type": "what-is",
+    "genres": [
+      "MOBA",
+      "対戦",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
+    "fallbackImage": "/assets/covers/dota-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dota-2-before-you-play",
+    "title": "Dota 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dota-2",
+    "gameTitle": "Dota 2",
+    "type": "before-you-play",
+    "genres": [
+      "MOBA",
+      "対戦",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
+    "fallbackImage": "/assets/covers/dota-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dota-2-similar",
+    "title": "Dota 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dota-2",
+    "gameTitle": "Dota 2",
+    "type": "similar",
+    "genres": [
+      "MOBA",
+      "対戦",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
+    "fallbackImage": "/assets/covers/dota-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "pubg-what-is",
+    "title": "PUBG: BATTLEGROUNDSとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "pubg",
+    "gameTitle": "PUBG: BATTLEGROUNDS",
+    "type": "what-is",
+    "genres": [
+      "バトルロイヤル",
+      "FPS",
+      "対戦"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg",
+    "fallbackImage": "/assets/covers/pubg.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "pubg-before-you-play",
+    "title": "PUBG: BATTLEGROUNDSを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "pubg",
+    "gameTitle": "PUBG: BATTLEGROUNDS",
+    "type": "before-you-play",
+    "genres": [
+      "バトルロイヤル",
+      "FPS",
+      "対戦"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg",
+    "fallbackImage": "/assets/covers/pubg.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "pubg-similar",
+    "title": "PUBG: BATTLEGROUNDSに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "pubg",
+    "gameTitle": "PUBG: BATTLEGROUNDS",
+    "type": "similar",
+    "genres": [
+      "バトルロイヤル",
+      "FPS",
+      "対戦"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg",
+    "fallbackImage": "/assets/covers/pubg.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "apex-legends-what-is",
+    "title": "Apex Legendsとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "apex-legends",
+    "gameTitle": "Apex Legends",
+    "type": "what-is",
+    "genres": [
+      "バトルロイヤル",
+      "FPS",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+    "fallbackImage": "/assets/covers/apex-legends.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "apex-legends-before-you-play",
+    "title": "Apex Legendsを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "apex-legends",
+    "gameTitle": "Apex Legends",
+    "type": "before-you-play",
+    "genres": [
+      "バトルロイヤル",
+      "FPS",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+    "fallbackImage": "/assets/covers/apex-legends.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "apex-legends-similar",
+    "title": "Apex Legendsに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "apex-legends",
+    "gameTitle": "Apex Legends",
+    "type": "similar",
+    "genres": [
+      "バトルロイヤル",
+      "FPS",
+      "チーム"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+    "fallbackImage": "/assets/covers/apex-legends.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "warframe-what-is",
+    "title": "Warframeとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "warframe",
+    "gameTitle": "Warframe",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "協力",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
+    "fallbackImage": "/assets/covers/warframe.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "warframe-before-you-play",
+    "title": "Warframeを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "warframe",
+    "gameTitle": "Warframe",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "協力",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
+    "fallbackImage": "/assets/covers/warframe.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "warframe-similar",
+    "title": "Warframeに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "warframe",
+    "gameTitle": "Warframe",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "協力",
+      "SF"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
+    "fallbackImage": "/assets/covers/warframe.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "genshin-what-is",
+    "title": "原神とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "genshin",
+    "gameTitle": "原神",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "アクション"
+    ],
+    "image": "/assets/covers/genshin.svg",
+    "fallbackImage": "/assets/covers/genshin.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "genshin-before-you-play",
+    "title": "原神を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "genshin",
+    "gameTitle": "原神",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "アクション"
+    ],
+    "image": "/assets/covers/genshin.svg",
+    "fallbackImage": "/assets/covers/genshin.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "genshin-similar",
+    "title": "原神に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "genshin",
+    "gameTitle": "原神",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "オープンワールド",
+      "アクション"
+    ],
+    "image": "/assets/covers/genshin.svg",
+    "fallbackImage": "/assets/covers/genshin.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "star-rail-what-is",
+    "title": "崩壊：スターレイルとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "star-rail",
+    "gameTitle": "崩壊：スターレイル",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "ターン制",
+      "物語"
+    ],
+    "image": "/assets/covers/star-rail.svg",
+    "fallbackImage": "/assets/covers/star-rail.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "star-rail-before-you-play",
+    "title": "崩壊：スターレイルを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "star-rail",
+    "gameTitle": "崩壊：スターレイル",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "ターン制",
+      "物語"
+    ],
+    "image": "/assets/covers/star-rail.svg",
+    "fallbackImage": "/assets/covers/star-rail.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "star-rail-similar",
+    "title": "崩壊：スターレイルに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "star-rail",
+    "gameTitle": "崩壊：スターレイル",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "ターン制",
+      "物語"
+    ],
+    "image": "/assets/covers/star-rail.svg",
+    "fallbackImage": "/assets/covers/star-rail.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "zenless-zone-zero-what-is",
+    "title": "ゼンレスゾーンゼロとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "zenless-zone-zero",
+    "gameTitle": "ゼンレスゾーンゼロ",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "RPG",
+      "物語"
+    ],
+    "image": "/assets/covers/zenless-zone-zero.svg",
+    "fallbackImage": "/assets/covers/zenless-zone-zero.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "zenless-zone-zero-before-you-play",
+    "title": "ゼンレスゾーンゼロを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "zenless-zone-zero",
+    "gameTitle": "ゼンレスゾーンゼロ",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "RPG",
+      "物語"
+    ],
+    "image": "/assets/covers/zenless-zone-zero.svg",
+    "fallbackImage": "/assets/covers/zenless-zone-zero.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "zenless-zone-zero-similar",
+    "title": "ゼンレスゾーンゼロに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "zenless-zone-zero",
+    "gameTitle": "ゼンレスゾーンゼロ",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "RPG",
+      "物語"
+    ],
+    "image": "/assets/covers/zenless-zone-zero.svg",
+    "fallbackImage": "/assets/covers/zenless-zone-zero.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "pokemon-unite-what-is",
+    "title": "Pokémon UNITEとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "pokemon-unite",
+    "gameTitle": "Pokémon UNITE",
+    "type": "what-is",
+    "genres": [
+      "MOBA",
+      "対戦",
+      "チーム"
+    ],
+    "image": "/assets/covers/pokemon-unite.svg",
+    "fallbackImage": "/assets/covers/pokemon-unite.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "pokemon-unite-before-you-play",
+    "title": "Pokémon UNITEを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "pokemon-unite",
+    "gameTitle": "Pokémon UNITE",
+    "type": "before-you-play",
+    "genres": [
+      "MOBA",
+      "対戦",
+      "チーム"
+    ],
+    "image": "/assets/covers/pokemon-unite.svg",
+    "fallbackImage": "/assets/covers/pokemon-unite.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "pokemon-unite-similar",
+    "title": "Pokémon UNITEに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "pokemon-unite",
+    "gameTitle": "Pokémon UNITE",
+    "type": "similar",
+    "genres": [
+      "MOBA",
+      "対戦",
+      "チーム"
+    ],
+    "image": "/assets/covers/pokemon-unite.svg",
+    "fallbackImage": "/assets/covers/pokemon-unite.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "brawl-stars-what-is",
+    "title": "Brawl Starsとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "brawl-stars",
+    "gameTitle": "Brawl Stars",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "対戦",
+      "カジュアル"
+    ],
+    "image": "/assets/covers/brawl-stars.svg",
+    "fallbackImage": "/assets/covers/brawl-stars.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "brawl-stars-before-you-play",
+    "title": "Brawl Starsを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "brawl-stars",
+    "gameTitle": "Brawl Stars",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "対戦",
+      "カジュアル"
+    ],
+    "image": "/assets/covers/brawl-stars.svg",
+    "fallbackImage": "/assets/covers/brawl-stars.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "brawl-stars-similar",
+    "title": "Brawl Starsに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "brawl-stars",
+    "gameTitle": "Brawl Stars",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "対戦",
+      "カジュアル"
+    ],
+    "image": "/assets/covers/brawl-stars.svg",
+    "fallbackImage": "/assets/covers/brawl-stars.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "persona-5-royal-what-is",
+    "title": "Persona 5 Royalとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "persona-5-royal",
+    "gameTitle": "Persona 5 Royal",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "ストーリー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+    "fallbackImage": "/assets/covers/persona-5-royal.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "persona-5-royal-before-you-play",
+    "title": "Persona 5 Royalを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "persona-5-royal",
+    "gameTitle": "Persona 5 Royal",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "ストーリー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+    "fallbackImage": "/assets/covers/persona-5-royal.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "persona-5-royal-similar",
+    "title": "Persona 5 Royalに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "persona-5-royal",
+    "gameTitle": "Persona 5 Royal",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "ストーリー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+    "fallbackImage": "/assets/covers/persona-5-royal.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "starbound-what-is",
+    "title": "Starboundとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "starbound",
+    "gameTitle": "Starbound",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg",
+    "fallbackImage": "/assets/covers/starbound.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "starbound-before-you-play",
+    "title": "Starboundを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "starbound",
+    "gameTitle": "Starbound",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg",
+    "fallbackImage": "/assets/covers/starbound.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "starbound-similar",
+    "title": "Starboundに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "starbound",
+    "gameTitle": "Starbound",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "探索"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg",
+    "fallbackImage": "/assets/covers/starbound.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "green-hell-what-is",
+    "title": "Green Hellとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "green-hell",
+    "gameTitle": "Green Hell",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
+    "fallbackImage": "/assets/covers/green-hell.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "green-hell-before-you-play",
+    "title": "Green Hellを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "green-hell",
+    "gameTitle": "Green Hell",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
+    "fallbackImage": "/assets/covers/green-hell.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "green-hell-similar",
+    "title": "Green Hellに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "green-hell",
+    "gameTitle": "Green Hell",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
+    "fallbackImage": "/assets/covers/green-hell.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "abiotic-factor-what-is",
+    "title": "Abiotic Factorとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "abiotic-factor",
+    "gameTitle": "Abiotic Factor",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427410/header.jpg",
+    "fallbackImage": "/assets/covers/abiotic-factor.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "abiotic-factor-before-you-play",
+    "title": "Abiotic Factorを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "abiotic-factor",
+    "gameTitle": "Abiotic Factor",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427410/header.jpg",
+    "fallbackImage": "/assets/covers/abiotic-factor.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "abiotic-factor-similar",
+    "title": "Abiotic Factorに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "abiotic-factor",
+    "gameTitle": "Abiotic Factor",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427410/header.jpg",
+    "fallbackImage": "/assets/covers/abiotic-factor.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "team-fortress-2-what-is",
+    "title": "Team Fortress 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "team-fortress-2",
+    "gameTitle": "Team Fortress 2",
+    "type": "what-is",
+    "genres": [
+      "FPS",
+      "対戦"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
+    "fallbackImage": "/assets/covers/team-fortress-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "team-fortress-2-before-you-play",
+    "title": "Team Fortress 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "team-fortress-2",
+    "gameTitle": "Team Fortress 2",
+    "type": "before-you-play",
+    "genres": [
+      "FPS",
+      "対戦"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
+    "fallbackImage": "/assets/covers/team-fortress-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "team-fortress-2-similar",
+    "title": "Team Fortress 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "team-fortress-2",
+    "gameTitle": "Team Fortress 2",
+    "type": "similar",
+    "genres": [
+      "FPS",
+      "対戦"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
+    "fallbackImage": "/assets/covers/team-fortress-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dark-souls-iii-what-is",
+    "title": "DARK SOULS IIIとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dark-souls-iii",
+    "gameTitle": "DARK SOULS III",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "RPG",
+      "高難度"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg",
+    "fallbackImage": "/assets/covers/dark-souls-iii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dark-souls-iii-before-you-play",
+    "title": "DARK SOULS IIIを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dark-souls-iii",
+    "gameTitle": "DARK SOULS III",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "RPG",
+      "高難度"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg",
+    "fallbackImage": "/assets/covers/dark-souls-iii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dark-souls-iii-similar",
+    "title": "DARK SOULS IIIに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dark-souls-iii",
+    "gameTitle": "DARK SOULS III",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "RPG",
+      "高難度"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg",
+    "fallbackImage": "/assets/covers/dark-souls-iii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "monster-hunter-world-what-is",
+    "title": "Monster Hunter: Worldとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "monster-hunter-world",
+    "gameTitle": "Monster Hunter: World",
+    "type": "what-is",
+    "genres": [
+      "アクション",
+      "RPG",
+      "狩り"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg",
+    "fallbackImage": "/assets/covers/monster-hunter-world.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "monster-hunter-world-before-you-play",
+    "title": "Monster Hunter: Worldを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "monster-hunter-world",
+    "gameTitle": "Monster Hunter: World",
+    "type": "before-you-play",
+    "genres": [
+      "アクション",
+      "RPG",
+      "狩り"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg",
+    "fallbackImage": "/assets/covers/monster-hunter-world.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "monster-hunter-world-similar",
+    "title": "Monster Hunter: Worldに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "monster-hunter-world",
+    "gameTitle": "Monster Hunter: World",
+    "type": "similar",
+    "genres": [
+      "アクション",
+      "RPG",
+      "狩り"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg",
+    "fallbackImage": "/assets/covers/monster-hunter-world.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dragon-s-dogma-2-what-is",
+    "title": "Dragon’s Dogma 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dragon-s-dogma-2",
+    "gameTitle": "Dragon’s Dogma 2",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "アクション",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg",
+    "fallbackImage": "/assets/covers/dragon-s-dogma-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dragon-s-dogma-2-before-you-play",
+    "title": "Dragon’s Dogma 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dragon-s-dogma-2",
+    "gameTitle": "Dragon’s Dogma 2",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "アクション",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg",
+    "fallbackImage": "/assets/covers/dragon-s-dogma-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dragon-s-dogma-2-similar",
+    "title": "Dragon’s Dogma 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dragon-s-dogma-2",
+    "gameTitle": "Dragon’s Dogma 2",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "アクション",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg",
+    "fallbackImage": "/assets/covers/dragon-s-dogma-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "timberborn-what-is",
+    "title": "Timberbornとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "timberborn",
+    "gameTitle": "Timberborn",
+    "type": "what-is",
+    "genres": [
+      "街づくり",
+      "コロニー",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+    "fallbackImage": "/assets/covers/timberborn.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "timberborn-before-you-play",
+    "title": "Timberbornを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "timberborn",
+    "gameTitle": "Timberborn",
+    "type": "before-you-play",
+    "genres": [
+      "街づくり",
+      "コロニー",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+    "fallbackImage": "/assets/covers/timberborn.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "timberborn-similar",
+    "title": "Timberbornに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "timberborn",
+    "gameTitle": "Timberborn",
+    "type": "similar",
+    "genres": [
+      "街づくり",
+      "コロニー",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+    "fallbackImage": "/assets/covers/timberborn.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "workers-resources-soviet-republic-what-is",
+    "title": "Workers & Resources: Soviet Republicとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "workers-resources-soviet-republic",
+    "gameTitle": "Workers & Resources: Soviet Republic",
+    "type": "what-is",
+    "genres": [
+      "街づくり",
+      "経営",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg",
+    "fallbackImage": "/assets/covers/workers-resources-soviet-republic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "workers-resources-soviet-republic-before-you-play",
+    "title": "Workers & Resources: Soviet Republicを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "workers-resources-soviet-republic",
+    "gameTitle": "Workers & Resources: Soviet Republic",
+    "type": "before-you-play",
+    "genres": [
+      "街づくり",
+      "経営",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg",
+    "fallbackImage": "/assets/covers/workers-resources-soviet-republic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "workers-resources-soviet-republic-similar",
+    "title": "Workers & Resources: Soviet Republicに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "workers-resources-soviet-republic",
+    "gameTitle": "Workers & Resources: Soviet Republic",
+    "type": "similar",
+    "genres": [
+      "街づくり",
+      "経営",
+      "シミュレーション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg",
+    "fallbackImage": "/assets/covers/workers-resources-soviet-republic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "left-4-dead-2-what-is",
+    "title": "Left 4 Dead 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "left-4-dead-2",
+    "gameTitle": "Left 4 Dead 2",
+    "type": "what-is",
+    "genres": [
+      "FPS",
+      "協力",
+      "ゾンビ"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+    "fallbackImage": "/assets/covers/left-4-dead-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "left-4-dead-2-before-you-play",
+    "title": "Left 4 Dead 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "left-4-dead-2",
+    "gameTitle": "Left 4 Dead 2",
+    "type": "before-you-play",
+    "genres": [
+      "FPS",
+      "協力",
+      "ゾンビ"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+    "fallbackImage": "/assets/covers/left-4-dead-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "left-4-dead-2-similar",
+    "title": "Left 4 Dead 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "left-4-dead-2",
+    "gameTitle": "Left 4 Dead 2",
+    "type": "similar",
+    "genres": [
+      "FPS",
+      "協力",
+      "ゾンビ"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+    "fallbackImage": "/assets/covers/left-4-dead-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "overwatch-2-what-is",
+    "title": "Overwatch 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "overwatch-2",
+    "gameTitle": "Overwatch 2",
+    "type": "what-is",
+    "genres": [
+      "FPS",
+      "対戦",
+      "ヒーロー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg",
+    "fallbackImage": "/assets/covers/overwatch-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "overwatch-2-before-you-play",
+    "title": "Overwatch 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "overwatch-2",
+    "gameTitle": "Overwatch 2",
+    "type": "before-you-play",
+    "genres": [
+      "FPS",
+      "対戦",
+      "ヒーロー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg",
+    "fallbackImage": "/assets/covers/overwatch-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "overwatch-2-similar",
+    "title": "Overwatch 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "overwatch-2",
+    "gameTitle": "Overwatch 2",
+    "type": "similar",
+    "genres": [
+      "FPS",
+      "対戦",
+      "ヒーロー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg",
+    "fallbackImage": "/assets/covers/overwatch-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "sea-of-thieves-what-is",
+    "title": "Sea of Thievesとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "sea-of-thieves",
+    "gameTitle": "Sea of Thieves",
+    "type": "what-is",
+    "genres": [
+      "海賊",
+      "協力",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
+    "fallbackImage": "/assets/covers/sea-of-thieves.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "sea-of-thieves-before-you-play",
+    "title": "Sea of Thievesを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "sea-of-thieves",
+    "gameTitle": "Sea of Thieves",
+    "type": "before-you-play",
+    "genres": [
+      "海賊",
+      "協力",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
+    "fallbackImage": "/assets/covers/sea-of-thieves.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "sea-of-thieves-similar",
+    "title": "Sea of Thievesに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "sea-of-thieves",
+    "gameTitle": "Sea of Thieves",
+    "type": "similar",
+    "genres": [
+      "海賊",
+      "協力",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
+    "fallbackImage": "/assets/covers/sea-of-thieves.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "fallout-4-what-is",
+    "title": "Fallout 4とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "fallout-4",
+    "gameTitle": "Fallout 4",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg",
+    "fallbackImage": "/assets/covers/fallout-4.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "fallout-4-before-you-play",
+    "title": "Fallout 4を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "fallout-4",
+    "gameTitle": "Fallout 4",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg",
+    "fallbackImage": "/assets/covers/fallout-4.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "fallout-4-similar",
+    "title": "Fallout 4に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "fallout-4",
+    "gameTitle": "Fallout 4",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg",
+    "fallbackImage": "/assets/covers/fallout-4.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "kingdom-come-deliverance-ii-what-is",
+    "title": "Kingdom Come: Deliverance IIとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "kingdom-come-deliverance-ii",
+    "gameTitle": "Kingdom Come: Deliverance II",
+    "type": "what-is",
+    "genres": [
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+    "fallbackImage": "/assets/covers/kingdom-come-deliverance-ii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "kingdom-come-deliverance-ii-before-you-play",
+    "title": "Kingdom Come: Deliverance IIを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "kingdom-come-deliverance-ii",
+    "gameTitle": "Kingdom Come: Deliverance II",
+    "type": "before-you-play",
+    "genres": [
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+    "fallbackImage": "/assets/covers/kingdom-come-deliverance-ii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "kingdom-come-deliverance-ii-similar",
+    "title": "Kingdom Come: Deliverance IIに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "kingdom-come-deliverance-ii",
+    "gameTitle": "Kingdom Come: Deliverance II",
+    "type": "similar",
+    "genres": [
+      "RPG",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+    "fallbackImage": "/assets/covers/kingdom-come-deliverance-ii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-2-what-is",
+    "title": "Frostpunk 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "frostpunk-2",
+    "gameTitle": "Frostpunk 2",
+    "type": "what-is",
+    "genres": [
+      "街づくり",
+      "ストラテジー",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg",
+    "fallbackImage": "/assets/covers/frostpunk-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-2-before-you-play",
+    "title": "Frostpunk 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "frostpunk-2",
+    "gameTitle": "Frostpunk 2",
+    "type": "before-you-play",
+    "genres": [
+      "街づくり",
+      "ストラテジー",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg",
+    "fallbackImage": "/assets/covers/frostpunk-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "frostpunk-2-similar",
+    "title": "Frostpunk 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "frostpunk-2",
+    "gameTitle": "Frostpunk 2",
+    "type": "similar",
+    "genres": [
+      "街づくり",
+      "ストラテジー",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg",
+    "fallbackImage": "/assets/covers/frostpunk-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hearts-of-iron-iv-what-is",
+    "title": "Hearts of Iron IVとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "hearts-of-iron-iv",
+    "gameTitle": "Hearts of Iron IV",
+    "type": "what-is",
+    "genres": [
+      "ストラテジー",
+      "歴史"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
+    "fallbackImage": "/assets/covers/hearts-of-iron-iv.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hearts-of-iron-iv-before-you-play",
+    "title": "Hearts of Iron IVを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "hearts-of-iron-iv",
+    "gameTitle": "Hearts of Iron IV",
+    "type": "before-you-play",
+    "genres": [
+      "ストラテジー",
+      "歴史"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
+    "fallbackImage": "/assets/covers/hearts-of-iron-iv.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hearts-of-iron-iv-similar",
+    "title": "Hearts of Iron IVに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "hearts-of-iron-iv",
+    "gameTitle": "Hearts of Iron IV",
+    "type": "similar",
+    "genres": [
+      "ストラテジー",
+      "歴史"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
+    "fallbackImage": "/assets/covers/hearts-of-iron-iv.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "xcom-2-what-is",
+    "title": "XCOM 2とは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "xcom-2",
+    "gameTitle": "XCOM 2",
+    "type": "what-is",
+    "genres": [
+      "ストラテジー",
+      "ターン制"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg",
+    "fallbackImage": "/assets/covers/xcom-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "xcom-2-before-you-play",
+    "title": "XCOM 2を始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "xcom-2",
+    "gameTitle": "XCOM 2",
+    "type": "before-you-play",
+    "genres": [
+      "ストラテジー",
+      "ターン制"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg",
+    "fallbackImage": "/assets/covers/xcom-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "xcom-2-similar",
+    "title": "XCOM 2に似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "xcom-2",
+    "gameTitle": "XCOM 2",
+    "type": "similar",
+    "genres": [
+      "ストラテジー",
+      "ターン制"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg",
+    "fallbackImage": "/assets/covers/xcom-2.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "against-the-storm-what-is",
+    "title": "Against the Stormとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "against-the-storm",
+    "gameTitle": "Against the Storm",
+    "type": "what-is",
+    "genres": [
+      "街づくり",
+      "ローグライク",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1336490/header.jpg",
+    "fallbackImage": "/assets/covers/against-the-storm.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "against-the-storm-before-you-play",
+    "title": "Against the Stormを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "against-the-storm",
+    "gameTitle": "Against the Storm",
+    "type": "before-you-play",
+    "genres": [
+      "街づくり",
+      "ローグライク",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1336490/header.jpg",
+    "fallbackImage": "/assets/covers/against-the-storm.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "against-the-storm-similar",
+    "title": "Against the Stormに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "against-the-storm",
+    "gameTitle": "Against the Storm",
+    "type": "similar",
+    "genres": [
+      "街づくり",
+      "ローグライク",
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1336490/header.jpg",
+    "fallbackImage": "/assets/covers/against-the-storm.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "going-medieval-what-is",
+    "title": "Going Medievalとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "going-medieval",
+    "gameTitle": "Going Medieval",
+    "type": "what-is",
+    "genres": [
+      "コロニー",
+      "建築",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1029780/header.jpg",
+    "fallbackImage": "/assets/covers/going-medieval.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "going-medieval-before-you-play",
+    "title": "Going Medievalを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "going-medieval",
+    "gameTitle": "Going Medieval",
+    "type": "before-you-play",
+    "genres": [
+      "コロニー",
+      "建築",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1029780/header.jpg",
+    "fallbackImage": "/assets/covers/going-medieval.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "going-medieval-similar",
+    "title": "Going Medievalに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "going-medieval",
+    "gameTitle": "Going Medieval",
+    "type": "similar",
+    "genres": [
+      "コロニー",
+      "建築",
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1029780/header.jpg",
+    "fallbackImage": "/assets/covers/going-medieval.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "scum-what-is",
+    "title": "SCUMとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "scum",
+    "gameTitle": "SCUM",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/513710/header.jpg",
+    "fallbackImage": "/assets/covers/scum.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "scum-before-you-play",
+    "title": "SCUMを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "scum",
+    "gameTitle": "SCUM",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/513710/header.jpg",
+    "fallbackImage": "/assets/covers/scum.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "scum-similar",
+    "title": "SCUMに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "scum",
+    "gameTitle": "SCUM",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/513710/header.jpg",
+    "fallbackImage": "/assets/covers/scum.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "smalland-survive-the-wilds-what-is",
+    "title": "Smalland: Survive the Wildsとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "smalland-survive-the-wilds",
+    "gameTitle": "Smalland: Survive the Wilds",
+    "type": "what-is",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/768200/header.jpg",
+    "fallbackImage": "/assets/covers/smalland-survive-the-wilds.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "smalland-survive-the-wilds-before-you-play",
+    "title": "Smalland: Survive the Wildsを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "smalland-survive-the-wilds",
+    "gameTitle": "Smalland: Survive the Wilds",
+    "type": "before-you-play",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/768200/header.jpg",
+    "fallbackImage": "/assets/covers/smalland-survive-the-wilds.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "smalland-survive-the-wilds-similar",
+    "title": "Smalland: Survive the Wildsに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "smalland-survive-the-wilds",
+    "gameTitle": "Smalland: Survive the Wilds",
+    "type": "similar",
+    "genres": [
+      "サバイバル",
+      "クラフト",
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/768200/header.jpg",
+    "fallbackImage": "/assets/covers/smalland-survive-the-wilds.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hades-ii-what-is",
+    "title": "Hades IIとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "hades-ii",
+    "gameTitle": "Hades II",
+    "type": "what-is",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+    "fallbackImage": "/assets/covers/hades-ii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hades-ii-before-you-play",
+    "title": "Hades IIを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "hades-ii",
+    "gameTitle": "Hades II",
+    "type": "before-you-play",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+    "fallbackImage": "/assets/covers/hades-ii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "hades-ii-similar",
+    "title": "Hades IIに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "hades-ii",
+    "gameTitle": "Hades II",
+    "type": "similar",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+    "fallbackImage": "/assets/covers/hades-ii.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dead-cells-what-is",
+    "title": "Dead Cellsとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "dead-cells",
+    "gameTitle": "Dead Cells",
+    "type": "what-is",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+    "fallbackImage": "/assets/covers/dead-cells.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dead-cells-before-you-play",
+    "title": "Dead Cellsを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "dead-cells",
+    "gameTitle": "Dead Cells",
+    "type": "before-you-play",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+    "fallbackImage": "/assets/covers/dead-cells.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "dead-cells-similar",
+    "title": "Dead Cellsに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "dead-cells",
+    "gameTitle": "Dead Cells",
+    "type": "similar",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+    "fallbackImage": "/assets/covers/dead-cells.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "20-minutes-till-dawn-what-is",
+    "title": "20 Minutes Till Dawnとは？どんなゲームか・魅力・向いている人",
+    "gameSlug": "20-minutes-till-dawn",
+    "gameTitle": "20 Minutes Till Dawn",
+    "type": "what-is",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966900/header.jpg",
+    "fallbackImage": "/assets/covers/20-minutes-till-dawn.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "20-minutes-till-dawn-before-you-play",
+    "title": "20 Minutes Till Dawnを始める前に確認したい7項目｜初心者向け",
+    "gameSlug": "20-minutes-till-dawn",
+    "gameTitle": "20 Minutes Till Dawn",
+    "type": "before-you-play",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966900/header.jpg",
+    "fallbackImage": "/assets/covers/20-minutes-till-dawn.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "20-minutes-till-dawn-similar",
+    "title": "20 Minutes Till Dawnに似たゲーム7選｜次に遊ぶ候補",
+    "gameSlug": "20-minutes-till-dawn",
+    "gameTitle": "20 Minutes Till Dawn",
+    "type": "similar",
+    "genres": [
+      "ローグライク",
+      "アクション"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966900/header.jpg",
+    "fallbackImage": "/assets/covers/20-minutes-till-dawn.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-coop",
+    "title": "友達と遊べる協力ゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "協力"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "fallbackImage": "/assets/covers/elden-ring.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-survival",
+    "title": "サバイバルゲーム30選｜クラフト・探索・協力",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "サバイバル"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg",
+    "fallbackImage": "/assets/covers/starbound.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-city-builder",
+    "title": "街づくり・都市開発ゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "街づくり"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-rpg",
+    "title": "PCで遊べるRPG30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "RPG"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "fallbackImage": "/assets/covers/elden-ring.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-free",
+    "title": "基本無料PCゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "基本無料"
+    ],
+    "image": "/assets/covers/zenless-zone-zero.svg",
+    "fallbackImage": "/assets/covers/zenless-zone-zero.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-low-spec",
+    "title": "低スペックPC向けゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "低スペック"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-long-play",
+    "title": "長く遊べるPCゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "長期プレイ"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-automation",
+    "title": "自動化・工場ゲーム20選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "自動化"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "fallbackImage": "/assets/covers/satisfactory.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-horror-coop",
+    "title": "協力ホラーゲーム20選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "協力ホラー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
+    "fallbackImage": "/assets/covers/content-warning.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-strategy",
+    "title": "ストラテジーゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "ストラテジー"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "fallbackImage": "/assets/covers/rimworld.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-open-world",
+    "title": "オープンワールドゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "オープンワールド"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "fallbackImage": "/assets/covers/elden-ring.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-roguelike",
+    "title": "ローグライクゲーム30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "ローグライク"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "fallbackImage": "/assets/covers/hades.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-relaxing",
+    "title": "まったり遊べるゲーム20選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "まったり"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/613100/header.jpg",
+    "fallbackImage": "/assets/covers/house-flipper.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-management",
+    "title": "経営シミュレーション30選",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "経営"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg",
+    "fallbackImage": "/assets/covers/workers-resources-soviet-republic.svg",
+    "updated": "2026-08-25"
+  },
+  {
+    "slug": "best-space",
+    "title": "宇宙ゲーム20選｜探索・建築・戦略",
+    "gameSlug": "",
+    "gameTitle": "",
+    "type": "theme",
+    "genres": [
+      "宇宙"
+    ],
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg",
+    "fallbackImage": "/assets/covers/the-planet-crafter.svg",
+    "updated": "2026-08-25"
+  }
+]

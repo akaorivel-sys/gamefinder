@@ -1,0 +1,120 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Steam Deck / Linuxでゲームが動くか確認する｜「対応」だけでは足りない | GameFinder</title><meta name="description" content="Steam Deck・LinuxでProton、Deck Verified、Controller、Anti-Cheat、MOD、性能をどう確認するか。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/steam-deck-linux-game-check.html">
+<meta property="og:title" content="Steam Deck / Linuxでゲームが動くか確認する｜「対応」だけでは足りない | GameFinder"><meta property="og:description" content="Steam Deck・LinuxでProton、Deck Verified、Controller、Anti-Cheat、MOD、性能をどう確認するか。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/steam-deck-linux-game-check.html"><meta property="og:image" content="https://gamefinder-b6a00.web.app/assets/og.svg">
+<meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Steam Deck / Linuxでゲームが動くか確認する｜「対応」だけでは足りない", "description": "Steam Deck・LinuxでProton、Deck Verified、Controller、Anti-Cheat、MOD、性能をどう確認するか。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/steam-deck-linux-game-check.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header>
+<main><article class="v9-article">
+<header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>Steam Deck / Linuxでゲームが動くか確認する｜「対応」だけでは足りない</h1><div class="v23-depth-meta"><span>本文 約6,022字</span><span>目安 12分</span><span>更新 2026-08-26</span></div><p class="v9-article-hook">「起動する」と「快適に最後まで遊べる」は同じ意味ではありません。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v10-meta"><span>更新 2026-08-26</span><span>調査記事</span><span>本文4,000字以上</span></div></div></header>
+<div class="v9-article-layout"><div class="v9-article-body"><nav class="v10-toc"><strong>この記事の内容</strong><ol><li><a href="#VerifiedとPlayableの違い">VerifiedとPlayableの違い</a></li><li><a href="#Unsupportedでも絶対に動かないとは限らない">Unsupportedでも絶対に動かないとは限らない</a></li><li><a href="#ProtonDBを見る理由">ProtonDBを見る理由</a></li><li><a href="#古い報告をそのまま使わない">古い報告をそのまま使わない</a></li><li><a href="#30fps-40fps-60fpsのどこを狙うか">30fps/40fps/60fpsのどこを狙うか</a></li><li><a href="#画質設定はPresetより個別に見る">画質設定はPresetより個別に見る</a></li><li><a href="#UI文字サイズ">UI文字サイズ</a></li><li><a href="#Controller対応">Controller対応</a></li><li><a href="#LauncherがDeck体験を悪くすることがある">LauncherがDeck体験を悪くすることがある</a></li><li><a href="#Online-Anti-Cheat">Online Anti-Cheat</a></li><li><a href="#MOD対応">MOD対応</a></li><li><a href="#Save同期">Save同期</a></li><li><a href="#StorageとMicroSD">StorageとMicroSD</a></li><li><a href="#Dock利用">Dock利用</a></li></ol></nav><section class="v11-keypoints"><span>ここが重要</span><h2>Steam Deck / Linuxでゲームが動くか確認する｜「対応」だけでは足りないを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature v12-generic-visual">
+<div class="v12-generic-banner"><span>TECHNICAL MODEL</span><strong>COMPATIBILITY</strong><p>複雑な設定を、四つの要素へ分解して見る。</p></div>
+<div class="v12-visual-copy"><span class="v12-kicker">COMPATIBILITY</span><h2>まず全体の流れを掴む</h2><div class="v12-diagram-grid"><div><b>Verified</b><span>公式</span></div><div><b>Proton</b><span>互換層</span></div><div><b>Controls</b><span>入力</span></div><div><b>Online</b><span>Anti-Cheat</span></div></div></div></section>
+<div class="v10-callout"><b>Deck互換性の見方</b><p>Verified/Playableは入口。実際にはPerformance、文字サイズ、入力、Online、MODまで確認します。</p></div>
+<h2 id="VerifiedとPlayableの違い">VerifiedとPlayableの違い</h2>
+<p>ValveのCompatibility評価は、入力、表示、System supportなど複数条件から付けられます。Playableでも手動Keyboard呼び出しやLauncher操作が必要な場合があります。</p>
+<h2 id="Unsupportedでも絶対に動かないとは限らない">Unsupportedでも絶対に動かないとは限らない</h2>
+<p>Proton更新やCommunity workaroundで動く場合もあります。一方でAnti-CheatやDRMでOnline機能が使えないケースもあるため、最新情報を確認します。</p>
+<h2 id="ProtonDBを見る理由">ProtonDBを見る理由</h2>
+<p>同じGameでもProton Version、Launch option、Deck/Desktop Linuxで報告が異なります。最近の報告を優先します。</p>
+<h2 id="古い報告をそのまま使わない">古い報告をそのまま使わない</h2>
+<p>Game Update、Proton Update、Driverで状況が変わります。数年前の「起動しない」は現在解決している可能性があります。</p>
+<h2 id="30fps-40fps-60fpsのどこを狙うか">30fps/40fps/60fpsのどこを狙うか</h2>
+<p>Deckでは消費電力とFrame rateの交換があります。重いGameを60へ無理に合わせるより、安定40/30でBatteryとFrame timeを整える選択もあります。</p>
+<h2 id="画質設定はPresetより個別に見る">画質設定はPresetより個別に見る</h2>
+<p>Shadow、Volumetric、Reflectionなど重い項目を下げ、TextureはVRAM余裕がある範囲で維持できる場合があります。</p>
+<h2 id="UI文字サイズ">UI文字サイズ</h2>
+<p>Strategy/CRPGでは起動できても小さい文字が問題になります。Deck Verifiedだけでなく実際のUI scaleを確認します。</p>
+<h2 id="Controller対応">Controller対応</h2>
+<p>Gamepad native、Steam Input、Trackpad、Community layoutで操作性が変わります。Mouse前提Gameでも遊べる場合があります。</p>
+<h2 id="LauncherがDeck体験を悪くすることがある">LauncherがDeck体験を悪くすることがある</h2>
+<p>外部LauncherがKeyboard/Mouse入力を要求する、Updateで止まる場合があります。Game本体のPerformanceとは別問題です。</p>
+<h2 id="Online-Anti-Cheat">Online Anti-Cheat</h2>
+<p>Single playerは動いてもOnline modeだけ使えないケースがあります。購入目的がMultiplayerなら最優先で確認します。</p>
+<h2 id="MOD対応">MOD対応</h2>
+<p>Windows向けMod Managerだけを前提にしたGameでは、手動導入やDesktop modeが必要になる場合があります。</p>
+<h2 id="Save同期">Save同期</h2>
+<p>Steam Cloud対応でもGameごとに同期対象が違う場合があります。PCとDeckを行き来するなら一度Testします。</p>
+<h2 id="StorageとMicroSD">StorageとMicroSD</h2>
+<p>大容量Gameを複数入れるならSSD/MicroSDの役割を分けます。Patch時に一時空き容量が必要なGameもあります。</p>
+<h2 id="Dock利用">Dock利用</h2>
+<p>外部Monitorで高解像度へすると負荷が増えます。Handheldでは快適でも1080p/1440p出力でPerformanceが落ちることがあります。</p>
+<h2 id="GameFinderでの今後の判定">GameFinderでの今後の判定</h2>
+<p>「Deck対応」一語ではなく、起動、Performance、UI、Controller、Online、MODを別項目で持つ方が実用的です。</p>
+
+<section class="v10-deep"><h2>Proton Versionを固定する意味</h2>
+<p>最新版Protonで問題が出た場合、以前安定していたVersionへ戻すと改善することがあります。Game PropertiesからCompatibilityを指定し、変更前Versionを覚えておきます。</p>
+<h2>Proton Experimentalを常用するか</h2>
+<p>新しい修正を早く受けられる一方、全Gameで最安定とは限りません。問題のあるTitleだけ試し、安定Gameまで一括変更しない方が安全です。</p>
+<h2>Shader Cacheと初回Stutter</h2>
+<p>Game/Driverによって初回だけ処理が重い場合があります。長期的な性能不足と初回Compileを分けます。</p>
+<h2>TDP制限</h2>
+<p>軽いGameではTDPを下げてBattery時間を伸ばせます。重いGameで制限しすぎるとFrame timeが悪化します。</p>
+<h2>Frame limiterとRefresh rate</h2>
+<p>40Hz/40fps等、Panel側とFrame rateを合わせる運用で滑らかさと消費電力のBalanceを取れます。GameごとProfileを作ります。</p>
+<h2>FSR等Upscaling</h2>
+<p>内部解像度を下げてUpscaleするとPerformanceを稼げますが、UI文字や細線がぼやける場合があります。Game内UpscalerとSystem側を重ねすぎないよう比較します。</p>
+<h2>外部LauncherのKeyboard問題</h2>
+<p>初回LoginだけVirtual keyboardが必要、Touch操作が必要などGame本体外で詰まることがあります。Playable評価の理由を確認します。</p>
+<h2>Desktop ModeでのMOD導入</h2>
+<p>File managerやBrowserを使えますが、Windows向けGuideのPathをそのまま使えません。Proton prefix内のWindows風Directoryを理解する必要があります。</p>
+<h2>Game Modeへ戻って確認する</h2>
+<p>Desktop Modeで起動できてもGame ModeではController/Overlay挙動が違う場合があります。最終的に普段使うModeでTestします。</p>
+<h2>MicroSDへ置くGame</h2>
+<p>大容量だがLoad timeに敏感でないTitleをMicroSD、頻繁に遊ぶ重いTitleをSSDという分け方ができます。実際のLoad差を見ます。</p>
+<h2>DockでControllerが変わる</h2>
+<p>外部Gamepad、Keyboard/Mouse、Monitorへ移ると「Deckで遊べるか」から「Linux Desktop Gameとして快適か」へ評価軸が変わります。</p>
+<h2>Online GameはUpdateごとに確認</h2>
+<p>Anti-Cheat対応がGame側Updateで変わる可能性があり、Single playerの互換性と別です。Community最新報告を見る価値があります。</p>
+</section>
+
+<section class="v10-finish">
+<h2>ProtonDBの評価を読む時に見る場所</h2>
+<p>Gold、Platinum等の大きな評価だけではなく、報告日、DeckかDesktop Linuxか、Proton Version、Game Update後かを確認します。古い高評価報告より、直近の同じHardware条件の報告の方が現在の判断に役立ちます。</p>
+<h2>Deck Verifiedの「Playable理由」を読む</h2>
+<p>Playable判定でも、文字入力にVirtual Keyboardが必要、外部LauncherがMouse操作を要求、文字が小さいなど理由は様々です。自分が許容できる手間かを確認します。逆にその一手間だけで本編が快適なら、Playableでも十分な場合があります。</p>
+<h2>Anti-CheatはGame単位で確認する</h2>
+<p>Easy Anti-CheatやBattlEyeという名前だけで対応可否を決められません。開発側がLinux/Proton supportを有効化しているかがTitleごとに異なります。Online目的なら、購入前に現在のMultiplayer報告を確認します。</p>
+<h2>Launcher Updateで突然動かなくなるケース</h2>
+<p>Game本体は変わっていなくてもPublisher Launcherの更新でLogin画面や起動手順が壊れることがあります。起動不能になった日にはGame patchだけでなくLauncher側変更も調べます。</p>
+<h2>MOD ManagerがWindows専用の場合</h2>
+<p>Windows向け.exeでもProton/Wineで動かせる場合がありますが、Game FolderやPrefixを正しく指定する必要があります。複雑なModpackではDesktop PCで構成を作って同期する方が楽な場合もあります。</p>
+<h2>Native Linux版とProton版のどちらを使うか</h2>
+<p>Linux native buildが存在しても、更新頻度やMOD互換の都合でWindows版＋Protonの方が安定する作品があります。逆もあります。Steamの自動選択だけでなくCommunityの現行評価を確認します。</p>
+<h2>Frame pacingをFPS平均より優先する</h2>
+<p>平均45fpsでも30〜55を行き来するより、40fps固定の方が滑らかに感じる場合があります。Frame limitとRefresh rateを合わせ、最低値の安定を目標にします。</p>
+<h2>携帯時とDock時でProfileを分ける</h2>
+<p>Handheldでは800p前後とBattery重視、Dockでは1080p外部Monitorと電源接続というように条件が変わります。同じ設定を使い回さず、用途ごとにPerformance Profileを作ります。</p>
+<h2>中古Deckや容量違いを選ぶ時</h2>
+<p>SSD容量だけでなく、遊びたいGame容量、Shader cache、MOD、MicroSD運用を合計します。64/256/512GB等の差を本体価格だけでなく「何本常時入れたいか」へ置き換えて考えます。</p>
+<h2>Linuxを学ぶ必要はあるか</h2>
+<p>Verified Gameだけ遊ぶならTerminalを触らず使えることが多いです。MOD、非Steam Game、特殊Launcherへ進むほどFile path、Permission、Flatpak、Proton prefixなどLinux知識の価値が上がります。</p>
+<h2>購入前の最終確認</h2>
+<ol><li>Steam互換表示</li><li>ProtonDB直近報告</li><li>Online/Anti-Cheat</li><li>UI文字</li><li>Controller</li><li>実Performance</li><li>MOD要否</li></ol>
+<p>この七項目を見れば、「起動するらしい」だけで購入して後悔する可能性をかなり減らせます。</p>
+</section>
+<section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>起動しない</td><td>Proton/Launcher</td><td>Unsupportedだけで諦めない</td></tr><tr><td>Online不可</td><td>Anti-Cheat</td><td>Single Player結果と混同しない</td></tr><tr><td>重い</td><td>Frame time/TDP</td><td>画質全部最低にしない</td></tr><tr><td>MOD不可</td><td>Prefix/Manager</td><td>Windows手順をそのまま使わない</td></tr></tbody></table></div></section><section class="v9-sources"><h2>調査に使った主な情報源</h2><p>仕様は公式・一次情報を優先し、Community情報は運用上の論点や実際につまずきやすい点の把握に使っています。</p><ul><li><a href="https://www.steamdeck.com/en/verified" target="_blank" rel="noopener nofollow">Steam Deck Compatibility</a><span>公式Verified説明</span></li><li><a href="https://www.protondb.com/" target="_blank" rel="noopener nofollow">ProtonDB</a><span>Community互換情報</span></li><li><a href="https://github.com/ValveSoftware/Proton" target="_blank" rel="noopener nofollow">Valve Proton GitHub</a><span>Proton情報</span></li></ul></section>
+<section class="v9-editor-note"><h2>この記事の作り方</h2><p>公式仕様と複数のプレイヤー実例を分けて確認し、単なるストア説明の言い換えではなく「なぜそこで困るのか」「どう切り分けるか」まで編集しています。</p></section>
+</div><aside class="v9-aside"><strong>要点</strong><p>Steam Deck・LinuxでProton、Deck Verified、Controller、Anti-Cheat、MOD、性能をどう確認するか。</p><a class="v9-btn" href="/articles/">記事一覧へ</a><div class="v10-side-note"><b>更新確認</b><span>2026-08-26</span></div></aside></div>
+
+<section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>MODは「便利そうだから全部入れる」より、役割で分けた方が壊れにくい。</h2></div>
+<p>UI改善、性能改善、操作補助、Content追加、Overhaulでは壊れ方が違います。まずQoL系だけで起動を確認し、その後に大型MODを追加すると、問題が起きた時に原因を戻しやすくなります。Version更新直後は『有名MODだから安全』ではなく、対応Versionと依存関係を確認する方が重要です。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>一番避けたいのは、複数MODを同時更新して原因が分からなくなること。</h2></div>
+<p>Save互換、Loader、依存MOD、設定Fileのどこで壊れたのかを切り分けられない状態が最も復旧しにくいです。大型Update前はSaveと設定を分けてBackupし、変更は一段階ずつ行う方が安全です。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+</article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

@@ -1,0 +1,18 @@
+{
+  "name": "gamefinder",
+  "version": "29.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build:registries": "node scripts/build-registries.mjs",
+    "build:progress": "node scripts/build-progress.mjs",
+    "allocate": "node scripts/allocate-work.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
+    "validate:links": "node scripts/validate-links.mjs",
+    "validate:indexing": "node scripts/validate-indexing.mjs",
+    "validate:registry": "node scripts/validate-registry.mjs",
+    "validate:duplicates": "node scripts/validate-duplicates.mjs",
+    "validate": "npm run build:registries && npm run build:progress && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && node --test tests/content/*.test.mjs"
+  }
+}

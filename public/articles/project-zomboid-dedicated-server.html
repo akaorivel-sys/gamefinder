@@ -1,0 +1,109 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Project Zomboid専用サーバー｜MODを入れる前に運用を決める | GameFinder</title><meta name="description" content="Project ZomboidのDedicated Serverで、SteamCMD、Server設定、Workshop MOD、Backup、更新、友達用と公開用の違いを解説。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/project-zomboid-dedicated-server.html">
+<meta property="og:title" content="Project Zomboid専用サーバー｜MODを入れる前に運用を決める | GameFinder"><meta property="og:description" content="Project ZomboidのDedicated Serverで、SteamCMD、Server設定、Workshop MOD、Backup、更新、友達用と公開用の違いを解説。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/project-zomboid-dedicated-server.html"><meta property="og:image" content="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg">
+<meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Project Zomboid専用サーバー｜MODを入れる前に運用を決める", "description": "Project ZomboidのDedicated Serverで、SteamCMD、Server設定、Workshop MOD、Backup、更新、友達用と公開用の違いを解説。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/project-zomboid-dedicated-server.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main>
+<article class="v9-article"><header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>Project Zomboid専用サーバー｜MODを入れる前に運用を決める</h1><div class="v23-depth-meta"><span>本文 約5,851字</span><span>目安 12分</span><span>更新 2026-08-26</span></div><div class="v24-flagship-badge">FLAGSHIP · 2026年8月再調査済み</div><p class="v9-article-hook">Serverを起動することより、アップデートの日に壊さないことの方が難しい。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v9-byline">GameFinder編集部　・　更新 2026-08-26　・　調査記事　・　約10分</div></div><img class="v9-article-cover" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg" alt=""></header>
+<div class="v9-article-layout"><div class="v9-article-body"><section class="v11-keypoints"><span>ここが重要</span><h2>Project Zomboid専用サーバー｜MODを入れる前に運用を決めるを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature">
+<div class="v12-visual-image"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg" alt="Project Zomboid" loading="lazy"><div class="v12-image-overlay"><span>このゲームで起きること</span><strong>Project Zomboid</strong></div></div>
+<div class="v12-visual-copy"><span class="v12-kicker">SERVER</span><h2>文章だけでなく、構造で理解する</h2><div class="v12-diagram-grid"><div><b>CPU</b><span>処理</span></div><div><b>RAM</b><span>保持</span></div><div><b>Network</b><span>遅延</span></div><div><b>Backup</b><span>復旧</span></div></div><div class="v12-chips"><span>サバイバル</span><span>シミュレーション</span><span>協力</span><span>長く遊べる</span><span>低スペック向け</span></div></div>
+</section>
+<h2>Dedicated Serverにする理由</h2><p>HostがGameを起動している間だけ遊ぶ方式と違い、Dedicated ServerはGame clientから独立して稼働できます。友達が別々の時間に入る、Worldを長期運用する、MOD構成を固定する場合に向きます。</p>
+<section class="v91-visual"><h2>運用は4層で分ける</h2><div class="v91-flow"><div><b>Server本体</b><span>SteamCMD / Build</span></div><i>→</i><div><b>設定</b><span>INI / Sandbox</span></div><i>→</i><div><b>Workshop</b><span>MOD / Map</span></div><i>→</i><div><b>World</b><span>Save / Backup</span></div></div></section>
+<h2>SteamCMDでServerを分離する</h2><p>Community guideではValveのSteamCMDを使い、Project Zomboid Dedicated Server用AppをInstallする流れが紹介されています。Game clientとServer filesを分けると、ServerだけUpdate/Restartしやすくなります。</p>
+<h2>Server設定は「難易度」と「運用」を分ける</h2><p>Zombie数、Loot、感染などGameplay設定と、Player数、Password、Public listing、RCONなど運用設定を一緒に変えると原因が追いにくくなります。まずVanilla相当で接続確認し、その後Sandboxを調整します。</p>
+<h2>Workshop MODはIDだけでなく読み込み側も見る</h2><p>Project Zomboid ServerではWorkshop itemとGame内Mod IDが別に扱われる場面があります。古いGuideから数字だけコピーするのではなく、現在のWorkshop pageとMod descriptionでServer向け記述を確認します。</p>
+<h2>Map MODは途中追加を軽く考えない</h2><p>Mapへ新Regionを追加するMODは、既に生成済みのWorld dataやLoad orderと関係します。新規Worldで試す方が簡単な場合があり、既存Serverへ追加するなら作者の導入順を確認します。</p>
+<h2>Update前Backup</h2><p>Game update、Server build、Workshop updateが同じ日に起きると、Clientだけ更新済み、Serverだけ旧版、MODだけ旧版という組み合わせができます。Maintenance前にWorld/ConfigをBackupし、Update後に少人数で接続Testを行います。</p>
+<h2>友達用なら管理を複雑にしない</h2><p>4〜8人程度のClosed Serverなら、公開Server向けの過剰なPlugin・Admin automationを最初から積む必要はありません。Password、Backup、Restart方法、MOD一覧、Versionを共有できれば十分なことも多いです。</p>
+
+
+<section class="v93-cases"><h2>友達用Serverの現実的な運用例</h2>
+<p>平日は夜だけ4人、週末は8人まで、MODは20個程度というServerなら、公開Serverのような複雑な管理機能より「毎日Backup」「Update前停止」「MOD一覧共有」「再起動方法」の四つを確実にする方が価値があります。Server ownerだけが全部知っている状態を避け、最低一人は復旧手順を共有します。</p>
+<h2>Serverを止めずにUpdateしない</h2>
+<p>Worldへ書き込み中にProcessを強制終了するとData破損Riskがあります。正常Shutdownを行い、Backupを取り、Server buildとWorkshop itemを更新し、起動後にLogを確認します。Playersが接続したまま自動Restartする運用なら事前通知も必要です。</p>
+<h2>MOD一覧をTextで保存</h2>
+<p>Workshop link、Workshop ID、Mod ID、Version/更新日を一覧にしておけば、新しいServerへ移行するとき再構築できます。Server configだけBackupしても、数か月後に同じMOD構成を再現できないと意味がありません。</p>
+<h2>Map MODの順番を固定する</h2>
+<p>複数Map MODが同じCellへ触る場合、Load orderやCompatibility patchが重要になります。作者が指定するMap orderを優先し、Server稼働後に頻繁に並び替えません。</p>
+<h2>Server Logを捨てない</h2>
+<p>接続失敗やMOD ErrorはPlayer画面よりServer logに詳しく残る場合があります。問題が起きた時刻、Player、直前Updateを記録し、該当時間帯のLogを保管します。</p>
+<h2>VPSへ移す判断</h2>
+<p>Host PCを毎晩起動するのが負担、回線やPort設定が不安定、友達が昼間も入りたい、といった運用問題が出てからVPSを検討できます。単に「専用ServerだからVPSが必要」ではありません。</p></section>
+
+<section class="v94-extra"><h2>Server restart前の最低チェック</h2>
+<p>接続中Playerがいないか、World saveが完了しているか、Backupが作成されたか、Update対象がGame本体かMODかを確認します。Restart理由を残しておくと、問題発生時に「最後に何を変えたか」が分かります。</p>
+<h2>Admin権限を全員に配らない</h2>
+<p>友達限定Serverでも、設定変更やItem spawnなどが可能なAdmin accountは必要な人だけにします。誤操作でWorldやGameplay balanceを変える可能性があるためです。普段遊ぶAccountと管理用権限を分ける方法もあります。</p>
+<h2>Connection問題はServerが落ちているとは限らない</h2>
+<p>一人だけ接続できない場合、Server全体よりClient version、Workshop download、Firewall、Account状態を疑います。全員が同時に入れない場合はServer process、Port、Update mismatchを優先します。</p>
+<h2>長期Worldほど定期的に別名Backup</h2>
+<p>同じBackup slotだけを上書きすると、破損に気づいた時点で正常世代も消えている可能性があります。日次数世代＋大きなUpdate前のManual backupを別名で残すと復旧範囲が広がります。</p></section>
+<section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>全員が重い</td><td>Server CPU / tick</td><td>RAMだけ増やさない</td></tr><tr><td>一人だけ重い</td><td>Client / Network</td><td>Server全再構築しない</td></tr><tr><td>更新後に接続不可</td><td>Version差</td><td>Worldを消さない</td></tr><tr><td>World異常</td><td>Backup / Log</td><td>上書き保存しない</td></tr></tbody></table></div></section><section class="v92-faq"><h2>よくある疑問</h2><details><summary>Dedicated Serverは24時間PCをつける？</summary><p>自宅HostならServer PCは稼働が必要です。VPSならService側で常時稼働できます。</p></details><details><summary>SteamCMDはGame本体と別？</summary><p>Dedicated Server filesをClientと分けてInstall/Updateするために使えます。</p></details><details><summary>MODはClientだけでいい？</summary><p>Server側にも必要なMODがあります。作者説明とServer設定を確認します。</p></details><details><summary>Workshop IDとMod IDは同じ？</summary><p>別に扱われる場合があります。数字だけでなくMod descriptionのServer設定例を確認します。</p></details><details><summary>Map MODを途中追加できる？</summary><p>可能なケースもありますが生成済みWorldとの関係が複雑です。Backupし、作者手順に従います。</p></details><details><summary>Updateで入れなくなった？</summary><p>Client、Server build、Workshop MODのVersionずれを順に確認します。</p></details><details><summary>公開Server向け設定は必要？</summary><p>友達限定なら不要な機能も多いです。最小構成から始めます。</p></details><details><summary>BackupはWorldだけ？</summary><p>ConfigやMod listも同時に残すと復元後の再現が簡単です。</p></details></section><section class="v92-check"><h2>読み終わったら確認すること</h2><ol><li>この記事の手順をそのまま暗記せず、自分のSave・PC・Versionで条件が同じか確認する。</li><li>一度に複数の設定を変えず、一つ変更して症状や結果がどう変わったかを見る。</li><li>更新で変わる情報は公式ページや配布元の更新日を確認する。</li><li>失敗した場合は最後の操作だけでなく、その前に何が不足していたかまで戻って考える。</li></ol></section>
+<section class="v92-method"><h2>うまくいかない時は、答えを探す前に状態を保存する</h2>
+<p>Project Zomboid専用サーバー｜MODを入れる前に運用を決めるのように複数の要素が絡むテーマでは、設定を何度も変えているうちに「何を変えたら直ったのか」が分からなくなります。問題が起きた時点で、Version、設定、MOD一覧、PC構成、表示されたMessage、直前の変更を一度メモします。Saveや設定Fileを複製できる場合は、変更前の状態を残します。</p>
+<p>次に、原因候補を大きなカテゴリへ分けます。Game本体、設定、追加MOD/Tool、Network、Hardware/性能、Save dataのどれかです。全部を同時に疑うのではなく、最小構成へ戻して一つずつ足していきます。この方法は特定のGameだけでなく、MOD、Server、配信、VR、StorageのTroubleshootingにも共通します。</p>
+<h2>検索結果を読むときは「同じVersionか」を最初に見る</h2>
+<p>検索上位の記事や高評価Commentでも、書かれた時点では正しくても現在は前提が変わっていることがあります。投稿日、最終更新日、Game version、Tool versionを確認し、一次情報と矛盾する場合は公式の現行仕様を優先します。GameFinderでも、Communityの意見は「どう感じる人が多いか」「どこで詰まりやすいか」を知る材料として使い、仕様そのものの根拠には公式資料を優先しています。</p>
+<h2>最適化は、問題を再現できるようになってから</h2>
+<p>効率やPerformanceを上げる前に、まず同じ条件で問題を再現できるか確認します。再現条件が分かれば、変更前後を比較できます。逆に一度しか起きない問題に十個の対策を同時に入れると、改善したように見えても原因は分かりません。専門的な設定ほど、一回の大きな変更より小さな検証を積み重ねる方が確実です。</p>
+</section>
+
+<section class="v24-flagship-research">
+<div class="v24-status"><span>2026年8月の前提</span><p>2026年8月時点：Build 42.20 Stableが標準。B41を継続する場合はlegacy41 branchを分離して扱います。</p></div>
+<section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>Dedicated Serverを選ぶ前に、Persistent worldが本当に必要か決める</h2></div>
+<p>少人数でHostがいる時だけ遊ぶなら、In-game Hostの方が管理は簡単です。Dedicated Serverが必要になるのは、Host不在でもWorldを維持したい、別Machine/VPSへ負荷を分離したい、運用者を分けたい、といった理由がある時です。</p><p>『Dedicatedの方が本格的だから』だけで選ぶと、Update、Backup、Port、MOD同期、Log確認の仕事が増えます。先に人数、稼働時間、MOD数、誰が管理するかを決めてください。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>Buildを揃えることが、接続Troubleの第一条件</h2></div>
+<p>Build 42.20は2026年7月29日にStableへ入り、公式はB41 SaveがB42と互換ではないと案内しています。ServerとClientでBranchが違えば、設定を直しても接続問題は解決しません。</p><p>B41を残すGroupはlegacy41とB42 Stableを別Install/別Saveとして扱い、同じFolderへ混ぜない方が安全です。Update前にServerを停止し、SaveとConfigをBackupしてからFile更新を行います。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>MOD Serverは『Server側だけ入れる』では成立しない</h2></div>
+<p>Workshop Item ID、MOD ID、依存関係、Game BuildをServerとClientで揃える必要があります。大型Update直後はMOD作者側の対応時間もあるため、Vanilla Serverが起動・接続できる状態を先に作り、その後MODを少数ずつ戻す方が切り分けやすくなります。</p><p>接続不能になった時、PortとMODを同時に触ると原因が見えなくなります。Local接続→外部接続→MOD追加という順で段階を分けます。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>BackupはSaveだけではなくConfigとMOD一覧も残す</h2></div>
+<p>World SaveだけBackupしても、同じSandbox設定やWorkshop構成を再現できなければ復旧に時間がかかります。Server INI、Sandbox variables、MOD/Workshop一覧、Server versionを同じ日付で保存してください。</p><p>特にMapを変更するMODや大型Build移行では、更新後に問題が出てから旧Saveへ戻すだけでは足りない場合があります。動いていた環境そのものを復元できる形が理想です。</p>
+</section><section class="v24-flagship-section">
+<div class="v13-section-head"><span>深掘り</span><h2>VPS選びはPlayer上限ではなく実運用で決める</h2></div>
+<p>表記上の最大Player数だけでは必要性能は決まりません。Map規模、Zombie/Animal Simulation、MOD、接続人数、Backup圧縮などが同時に負荷を作ります。</p><p>小規模Groupなら、最初から最大枠を想定した高額Planより、CPU/RAM使用率とWorld Save sizeを見ながら増やせる構成が扱いやすいです。管理画面の使いやすさ、Snapshot/Backup、再起動、Console/Logへアクセスできるかも性能と同じくらい重要です。</p>
+</section>
+<section class="v24-sources">
+<div class="v13-section-head"><span>確認した情報</span><h2>この記事でVersion依存の判断に使ったSource</h2></div>
+<div class="v24-source-grid"><a href="https://projectzomboid.com/blog/news/2026/07/project-zomboid-build-42-20-released/" target="_blank" rel="noopener nofollow"><b>Project Zomboid公式：Build 42.20 Released</b><span>確認元 →</span></a><a href="https://projectzomboid.com/blog/news/2026/07/build-42-stable-plans/" target="_blank" rel="noopener nofollow"><b>Project Zomboid公式：Build 42 Stable Plans</b><span>確認元 →</span></a><a href="https://partner.steamgames.com/doc/sdk/uploading/distributing_gs?language=english" target="_blank" rel="noopener nofollow"><b>Valve Steamworks：Dedicated Server配布の仕組み</b><span>確認元 →</span></a><a href="https://projectzomboid.wiki/multiplayer/dedicated-servers/" target="_blank" rel="noopener nofollow"><b>Project Zomboid Community Wiki：Build 42 Dedicated Server</b><span>確認元 →</span></a></div>
+<p>Community discussionはPlayer体験の参考として使い、公式仕様とは分けています。本文は投稿文を転載せず、複数の論点を要約してGameFinder側の判断基準に組み直しています。</p>
+</section>
+</section>
+
+<section class="v24-final-framework">
+<div class="v13-section-head"><span>最後に</span><h2>この記事を実際のPlayへ落とす時の順番</h2></div>
+<ol>
+<li><b>現在のVersionを確認する。</b><p>記事公開時点とGame内表示が違う場合は、数字やUI名より現在Versionを優先します。</p></li>
+<li><b>いま起きている問題を一つにする。</b><p>資源・物流・MOD・Server・Trafficなど複数の問題が同時に見えても、最初に崩れた一箇所から直します。</p></li>
+<li><b>変更前の状態を残す。</b><p>Save、設定、MOD Profile、都市Layoutなど、戻れる状態を作ってから大きく変更します。</p></li>
+<li><b>改善したか一つの指標で見る。</b><p>変更を重ねる前に、元の問題が本当に小さくなったか確認します。</p></li>
+</ol>
+<p>GameFinderでは、固定Build orderより「条件が変わっても使える判断」を重視しています。同じ攻略をそのまま再現するより、自分のSaveで何が不足しているかを読み替えて使ってください。</p>
+</section><section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>MODは「便利そうだから全部入れる」より、役割で分けた方が壊れにくい。</h2></div>
+<p>UI改善、性能改善、操作補助、Content追加、Overhaulでは壊れ方が違います。まずQoL系だけで起動を確認し、その後に大型MODを追加すると、問題が起きた時に原因を戻しやすくなります。Version更新直後は『有名MODだから安全』ではなく、対応Versionと依存関係を確認する方が重要です。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>一番避けたいのは、複数MODを同時更新して原因が分からなくなること。</h2></div>
+<p>Save互換、Loader、依存MOD、設定Fileのどこで壊れたのかを切り分けられない状態が最も復旧しにくいです。大型Update前はSaveと設定を分けてBackupし、変更は一段階ずつ行う方が安全です。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+<section class="v12-related"><div class="v12-section-head"><span>似た遊び方のゲーム</span><h2>この考え方が好きなら</h2></div><div class="v12-related-grid"><a href="/games/abiotic-factor.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427410/header.jpg" alt="Abiotic Factor" loading="lazy"><span><b>Abiotic Factor</b><small>サバイバル / クラフト</small></span></a><a href="/games/smalland-survive-the-wilds.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/768200/header.jpg" alt="Smalland: Survive the Wilds" loading="lazy"><span><b>Smalland: Survive the Wilds</b><small>サバイバル / クラフト</small></span></a><a href="/games/unturned.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/304930/header.jpg" alt="Unturned" loading="lazy"><span><b>Unturned</b><small>サバイバル / クラフト</small></span></a><a href="/games/icarus.html"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg" alt="ICARUS" loading="lazy"><span><b>ICARUS</b><small>サバイバル / クラフト</small></span></a></div></section><p class="v12-media-note">ゲーム画像は各ストア・公式配信画像を参照表示しています。権利は各権利者に帰属します。</p><section class="v9-sources"><h2>調査に使った主な情報源</h2><p>仕様は一次情報を優先し、Community情報は実際につまずきやすい点や運用上の論点を確認するために使っています。</p><ul><li><a href="https://developer.valvesoftware.com/wiki/SteamCMD" target="_blank" rel="noopener nofollow">Valve Developer Community: SteamCMD</a><span>SteamCMDの一次情報</span></li><li><a href="https://steamcommunity.com/sharedfiles/manageguide/?id=2998345477" target="_blank" rel="noopener nofollow">Steam Community: PZ Dedicated Server guide</a><span>Server install・Network・MOD・Save移行の実例</span></li></ul></section>
+<section class="v9-editor-note"><h2>この記事の作り方</h2><p>一つのコメントや一つのブログを正解として扱わず、公式仕様と複数の実例が矛盾しないかを確認してから編集しています。Versionで変わる内容は更新日を明記します。</p></section>
+</div><aside class="v9-aside"><strong>この記事で分かること</strong><p>Project ZomboidのDedicated Serverで、SteamCMD、Server設定、Workshop MOD、Backup、更新、友達用と公開用の違いを解説。</p><a class="v9-btn" href="/games/project-zomboid.html">ゲーム詳細</a></aside></div></article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

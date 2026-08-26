@@ -1,0 +1,72 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OBSのゲーム音・Discord・マイクを分ける｜音が二重になる原因から | GameFinder</title><meta name="description" content="OBS Studioでゲーム音、Discord、マイクを分け、二重取り込み、Monitor、音量、Console captureを切り分ける。"><link rel="canonical" href="https://gamefinder-b6a00.web.app/articles/obs-game-audio-routing.html">
+<meta property="og:title" content="OBSのゲーム音・Discord・マイクを分ける｜音が二重になる原因から | GameFinder"><meta property="og:description" content="OBS Studioでゲーム音、Discord、マイクを分け、二重取り込み、Monitor、音量、Console captureを切り分ける。"><meta property="og:url" content="https://gamefinder-b6a00.web.app/articles/obs-game-audio-routing.html"><meta property="og:image" content="https://gamefinder-b6a00.web.app/assets/og.svg">
+<meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "OBSのゲーム音・Discord・マイクを分ける｜音が二重になる原因から", "description": "OBS Studioでゲーム音、Discord、マイクを分け、二重取り込み、Monitor、音量、Console captureを切り分ける。", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "inLanguage": "ja", "mainEntityOfPage": "https://gamefinder-b6a00.web.app/articles/obs-game-audio-routing.html", "author": {"@type": "Organization", "name": "GameFinder編集部"}, "publisher": {"@type": "Organization", "name": "GameFinder"}}</script><meta name="robots" content="noindex,follow"></head><body><div class="v11-progress"><span></span></div><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header><main>
+<article class="v9-article"><header class="v9-article-head"><div><a class="v9-back" href="/articles/">← 読みもの</a><h1>OBSのゲーム音・Discord・マイクを分ける｜音が二重になる原因から</h1><div class="v23-depth-meta"><span>本文 約5,741字</span><span>目安 11分</span><span>更新 2026-08-26</span></div><p class="v9-article-hook">「自分には聞こえる」と「配信に入っている」は、別の経路です。</p><button class="v21-read-btn" data-read-later data-label>＋ あとで読む</button><div class="v9-byline">GameFinder編集部　・　更新 2026-08-26　・　調査記事　・　約10分</div></div></header>
+<div class="v9-article-layout"><div class="v9-article-body"><section class="v11-keypoints"><span>ここが重要</span><h2>OBSのゲーム音・Discord・マイクを分ける｜音が二重になる原因からを読む前に</h2><div><p>現在のVersionや自分の環境と条件が同じか確認します。</p><p>一度に複数項目を変えず、原因を一つずつ切り分けます。</p></div></section><section class="v12-visual-feature v12-generic-visual">
+<div class="v12-generic-banner"><span>TECHNICAL MODEL</span><strong>AUDIO ROUTING</strong><p>複雑な設定を、四つの要素へ分解して見る。</p></div>
+<div class="v12-visual-copy"><span class="v12-kicker">AUDIO ROUTING</span><h2>まず全体の流れを掴む</h2><div class="v12-diagram-grid"><div><b>Mic</b><span>声</span></div><div><b>Game</b><span>ゲーム音</span></div><div><b>Discord</b><span>通話</span></div><div><b>Track</b><span>分離</span></div></div></div></section>
+<section class="v91-visual"><h2>視聴者へ届く音を一本ずつ描く</h2><div class="v91-flow"><div><b>Mic</b><span>Input</span></div><div><b>Game</b><span>Application</span></div><div><b>Discord</b><span>Application</span></div><i>→</i><div><b>OBS Mixer</b><span>Track / Volume / Monitor</span></div></div></section>
+<h2>二重音の第一候補</h2><p>OBS公式Audio Sourcesは、Settings→AudioでGlobal deviceとして取得しているDeviceを、SceneへAudio Input/Output Captureとしてもう一度追加するとEchoの原因になると警告しています。音が二重ならFilterより先にSource一覧を確認します。</p>
+<h2>Applicationごとに分ける理由</h2><p>Game、Discord、Browser、Musicを別Sourceにすると、配信へ出す音量を個別調整できます。録画Trackを分ければ編集時にGameだけ下げることも可能です。すべてをDesktop Audio一つへ混ぜる構成は簡単ですが、後から分離できません。</p>
+<h2>Meterの見方</h2><p>OBSの2026年Audio Mixer Guideでは、Red/Yellow/Green zone、Peak、VUなどの指標が説明されています。SpeechとGame soundは同じ見た目のLevelでも体感Volumeが違うため、最終判断は録画を聞いて行います。</p>
+<h2>GainをOBSだけで上げすぎない</h2><p>調整はMic本体/Audio Interface→OS→OBSの順で確認します。入力段階で小さすぎるSignalをOBSで大きくするとNoiseも目立ちます。逆に入力段階でClippingしていれば、OBS Faderを下げても歪みは戻りません。</p>
+<h2>Monitoringで自分だけ二重に聞こえる場合</h2><p>MicのHardware direct monitoringとOBSのAudio Monitoringを同時に聞けば、少し遅れた二重音になることがあります。視聴者側の二重音なのか、自分のMonitorだけなのかを録画で分けます。</p>
+<h2>ConsoleではCapture CardがAudio Sourceにもなる</h2><p>OBS公式FAQでは、Console映像をCapture deviceのVideo Capture Sourceとして取り込む方法が基本として案内されています。Capture Card経由のAudioと別のLine-inを同時に取っていると二重化することがあります。</p>
+<h2>配信前チェック</h2><ol><li>Micだけ録画。</li><li>Game追加。</li><li>Discord追加。</li><li>Headphoneで録画を確認。</li><li>左右、Echo、Clip、音ズレを確認。</li></ol>
+
+
+<section class="v93-cases"><h2>音声トラブルを症状ごとに分ける</h2>
+<h3>視聴者にGame音が聞こえない</h3><p>MixerのMeterが動くか確認します。動かないならSource/Device選択、OS出力先、Application Audio Capture対象を確認。Meterが動くのに録画へ入らないならAdvanced Audio PropertiesのTrack assignmentを見ます。</p>
+<h3>声が小さいがGainを上げるとNoiseが増える</h3><p>Micを口へ近づけ、物理Gainを適正化し、PC fanやKeyboardから離します。その後Noise suppression/Expanderを少量使います。遠いMicをSoftwareで大幅増幅するより、入力段階を改善します。</p>
+<h3>Discordだけ配信から消したい</h3><p>Desktop Audioに全部混ぜている場合は分離できません。Application Audio Capture等でGameとDiscordを別Sourceにし、配信Track/録画TrackのAssignmentを分けます。</p>
+<h3>Headphoneには正常だが録画が二重</h3><p>Global Audio DeviceとScene Sourceの重複、Capture Card音とLine-inの重複を確認します。Mixerに同じ音が二本あるかMuteして一つずつTestします。</p>
+<h2>声の基準を一度決める</h2>
+<p>毎回GameごとにMic Faderを触るとBalanceが崩れます。Mic側を基準に固定し、Game/DiscordをMicへ合わせて下げる方が管理しやすいです。OBS Meterと耳の両方で判断します。</p>
+<h2>録画Trackと配信Trackを分ける設計</h2>
+<p>Track 1を配信Mix、Track 2をMic、Track 3をGame、Track 4をDiscordのように分けると編集自由度が上がります。ただし配信Platformへ送るTrack指定を誤ると無音になるため、短いTest recording/Private streamで確認します。</p>
+<h2>Latencyを感じるMonitoring</h2>
+<p>OBS Monitoringは処理を通った後の音なので遅延があります。自分の声をReal-timeで聞きたい場合、Audio InterfaceやMicのDirect Monitoringが向くことがあります。両方を同時ONにすると二重に聞こえるため、用途を分けます。</p></section>
+
+<section class="v94-extra"><h2>Sample rateを揃える</h2>
+<p>Audio Interface、Windows、OBSでSample rateがばらばらだと、環境によってResamplingや同期問題の原因になることがあります。一般的な配信では48kHzが多く、DeviceとOBS設定を同じ値へ揃えると管理しやすいです。</p>
+<h2>Compressorは声を「大きくする」だけではない</h2>
+<p>大声と小声の差を狭め、聞き取りやすいRangeへ整えるために使えます。ただし強くかけすぎると息遣いやRoom noiseまで持ち上がります。まずMic placementとGainを整えてから軽く使います。</p>
+<h2>Limiterを最後の安全網にする</h2>
+<p>突然の大声でClippingしないようPeakを抑える用途があります。Limiterが常に動き続けるなら入力やCompressor設定が高すぎる可能性があります。日常音量をLimiterで押し潰して作るのではありません。</p>
+<h2>録画とLiveでMixを分ける</h2>
+<p>LiveではBGMを小さく入れたいが、編集用録画ではBGMを除きたい、といった要件があります。Track assignmentを設計しておけば、一つのOBS Sceneでも出力ごとに残す音を変えられます。</p></section>
+<section class="v92-faq"><h2>よくある疑問</h2><details><summary>ゲーム音だけ聞こえない？</summary><p>Game/Application sourceがMixerへ入っているか、Mute、Track assignment、OS出力先を確認します。</p></details><details><summary>自分の声だけ二重？</summary><p>Hardware direct monitoringとOBS monitoring、またはGlobalとScene sourceの二重取得を疑います。</p></details><details><summary>Discordだけ録画から外せる？</summary><p>Application audioを分離しTrack assignmentを分ければ可能です。</p></details><details><summary>MicはRedまで振らせる？</summary><p>Clipping近くまで常用する必要はありません。OBS Meterと実際の録音を両方確認します。</p></details><details><summary>Gameと声を同じ音量にする？</summary><p>Meterが同じでも体感音量は違います。Voiceが内容として聞き取れるBalanceを優先します。</p></details><details><summary>Consoleの音が二重？</summary><p>Capture device音と別Line/Monitor音を同時取得していないか確認します。</p></details><details><summary>配信前Testは何分？</summary><p>普段のGame/通話を含む5〜10分程度を録画して聞くと多くの問題を見つけられます。</p></details><details><summary>OBS設定をBackupできる？</summary><p>Profile/Scene Collectionを分け、変更前に設定を複製しておくと戻しやすいです。</p></details></section><section class="v92-check"><h2>読み終わったら確認すること</h2><ol><li>この記事の手順をそのまま暗記せず、自分のSave・PC・Versionで条件が同じか確認する。</li><li>一度に複数の設定を変えず、一つ変更して症状や結果がどう変わったかを見る。</li><li>更新で変わる情報は公式ページや配布元の更新日を確認する。</li><li>失敗した場合は最後の操作だけでなく、その前に何が不足していたかまで戻って考える。</li></ol></section>
+<section class="v92-method"><h2>うまくいかない時は、答えを探す前に状態を保存する</h2>
+<p>OBSのゲーム音・Discord・マイクを分ける｜音が二重になる原因からのように複数の要素が絡むテーマでは、設定を何度も変えているうちに「何を変えたら直ったのか」が分からなくなります。問題が起きた時点で、Version、設定、MOD一覧、PC構成、表示されたMessage、直前の変更を一度メモします。Saveや設定Fileを複製できる場合は、変更前の状態を残します。</p>
+<p>次に、原因候補を大きなカテゴリへ分けます。Game本体、設定、追加MOD/Tool、Network、Hardware/性能、Save dataのどれかです。全部を同時に疑うのではなく、最小構成へ戻して一つずつ足していきます。この方法は特定のGameだけでなく、MOD、Server、配信、VR、StorageのTroubleshootingにも共通します。</p>
+<h2>検索結果を読むときは「同じVersionか」を最初に見る</h2>
+<p>検索上位の記事や高評価Commentでも、書かれた時点では正しくても現在は前提が変わっていることがあります。投稿日、最終更新日、Game version、Tool versionを確認し、一次情報と矛盾する場合は公式の現行仕様を優先します。GameFinderでも、Communityの意見は「どう感じる人が多いか」「どこで詰まりやすいか」を知る材料として使い、仕様そのものの根拠には公式資料を優先しています。</p>
+<h2>最適化は、問題を再現できるようになってから</h2>
+<p>効率やPerformanceを上げる前に、まず同じ条件で問題を再現できるか確認します。再現条件が分かれば、変更前後を比較できます。逆に一度しか起きない問題に十個の対策を同時に入れると、改善したように見えても原因は分かりません。専門的な設定ほど、一回の大きな変更より小さな検証を積み重ねる方が確実です。</p>
+</section><section class="v12-table-section"><div class="v12-section-head"><span>まず切り分ける</span><h2>迷ったときの切り分け表</h2></div><div class="v12-table-wrap"><table><thead><tr><th>状況</th><th>最初に見る</th><th>避けたい対応</th></tr></thead><tbody><tr><td>二重音声</td><td>Source重複</td><td>Filter追加しない</td></tr><tr><td>Discord混入</td><td>Track分離</td><td>Desktop Audio任せにしない</td></tr><tr><td>声が小さい</td><td>Mic距離/Gain</td><td>Gainだけ上げない</td></tr><tr><td>無音</td><td>Track assignment</td><td>Device総入替しない</td></tr></tbody></table></div></section><section class="v9-sources"><h2>調査に使った主な情報源</h2><p>仕様は一次情報を優先し、Community情報は実際につまずきやすい点や運用上の論点を確認するために使っています。</p><ul><li><a href="https://obsproject.com/kb/audio-mixer-guide" target="_blank" rel="noopener nofollow">OBS Audio Mixer Guide</a><span>2026年のMixer/Level公式Guide</span></li><li><a href="https://obsproject.com/kb/audio-sources" target="_blank" rel="noopener nofollow">OBS Audio Sources</a><span>二重取得の注意</span></li><li><a href="https://obsproject.com/kb/faq-game-capture" target="_blank" rel="noopener nofollow">OBS Console Capture FAQ</a><span>Console captureの公式案内</span></li><li><a href="https://obsproject.com/kb/quick-start-guide" target="_blank" rel="noopener nofollow">OBS Quick Start</a><span>配信前のTest recording</span></li></ul></section>
+<section class="v9-editor-note"><h2>この記事の作り方</h2><p>一つのコメントや一つのブログを正解として扱わず、公式仕様と複数の実例が矛盾しないかを確認してから編集しています。Versionで変わる内容は更新日を明記します。</p></section>
+</div><aside class="v9-aside"><strong>この記事で分かること</strong><p>OBS Studioでゲーム音、Discord、マイクを分け、二重取り込み、Monitor、音量、Console captureを切り分ける。</p><a class="v9-btn" href="/gear/">関連Gear</a></aside></div>
+<section class="v23-editorial-upgrade">
+<div class="v13-section-head"><span>判断基準</span><h2>MODは「便利そうだから全部入れる」より、役割で分けた方が壊れにくい。</h2></div>
+<p>UI改善、性能改善、操作補助、Content追加、Overhaulでは壊れ方が違います。まずQoL系だけで起動を確認し、その後に大型MODを追加すると、問題が起きた時に原因を戻しやすくなります。Version更新直後は『有名MODだから安全』ではなく、対応Versionと依存関係を確認する方が重要です。</p>
+<div class="v23-decision-grid">
+<article><b>先に見る</b><p>今いちばん不足しているもの、または失敗に直結しているものを一つ特定する。</p></article>
+<article><b>後回しにする</b><p>便利ではあるが、今の失敗原因を直接解決しない改善は後へ回す。</p></article>
+<article><b>比較する</b><p>変更前後で一つの指標を見る。複数条件を同時に変えない。</p></article>
+</div>
+</section>
+
+<section class="v23-failure-mode">
+<div class="v13-section-head"><span>失敗しやすいところ</span><h2>一番避けたいのは、複数MODを同時更新して原因が分からなくなること。</h2></div>
+<p>Save互換、Loader、依存MOD、設定Fileのどこで壊れたのかを切り分けられない状態が最も復旧しにくいです。大型Update前はSaveと設定を分けてBackupし、変更は一段階ずつ行う方が安全です。</p>
+<div class="v23-checklist">
+<span>症状を記録</span><i>→</i><span>最初に崩れた箇所を特定</span><i>→</i><span>一項目だけ変更</span><i>→</i><span>再現性を見る</span>
+</div>
+</section>
+
+<section class="v23-version-note">
+<div><span>この記事の使い方</span><h2>Version・Platform・MOD有無を分けて読む。</h2></div>
+<p>攻略情報は条件が違うと結論も変わります。この記事では固定の「正解手順」を押し付けるより、条件が変わっても使える判断基準を優先しています。特にUpdate直後、Experimental branch、MOD導入環境では、本文の数字やUI名より考え方を先に使ってください。</p>
+</section>
+</article></main><footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button><script src="/js/v11-ui.js" defer></script><script src="/js/my-v21.js"></script></body></html>

@@ -1,0 +1,102 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10,000ゲームカタログ | GameFinder</title>
+<meta name="description" content="GameFinderの10,000ゲームカタログ。400本は詳細データ付き、さらにSteamの実在ゲーム一覧をEnriched Coreとして統合。">
+<link rel="canonical" href="https://gamefinder-b6a00.web.app/catalog/"><link rel="stylesheet" href="/assets/styles.css">
+<meta name="robots" content="noindex,follow"></head><body><header class="v11-header"><div class="v9-wrap v11-header-inner"><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><nav class="v11-desktop-nav"><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a></nav><div class="v11-header-actions"><a class="v11-search-link" href="/search.html">検索</a><button class="v11-menu-btn" data-menu-toggle aria-expanded="false"><span></span><span></span></button></div></div><nav class="v11-mobile-nav" data-mobile-nav><a href="/catalog/">10,000ゲーム</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a><a href="/gear/">Gear</a><a href="/favorites.html">お気に入り</a><a href="/compare.html">比較</a></nav></header>
+<main>
+<section class="v15-catalog-hero"><div class="v9-wrap">
+<span class="v13-label">10,000 GAME CATALOG</span>
+<h1>名前から探すなら、<br>10,000本まで広げる。</h1>
+<p>10,000本すべてをEnrichedへ昇格。400本はEditorial Plus、残りはEnriched Coreとして、確認できる情報だけを持たせます。</p>
+<div class="v15-catalog-stats"><div><b id="catalog-count">400</b><span>読み込み済み</span></div><div><b>400</b><span>詳細データ付き</span></div><div><b>9,600</b><span>Enriched Core</span></div></div>
+</div></section>
+
+<section class="v15-catalog-search"><div class="v9-wrap">
+<div class="v15-search-box"><input id="catalog-q" type="search" placeholder="ゲーム名を入力… 例: Factorio / Portal / Persona" autocomplete="off"><button id="catalog-clear" type="button">クリア</button></div>
+<div class="v17-rich-filters">
+<label>ジャンル<select id="f-genre"><option value="">すべて</option></select></label>
+<label>レビュー<select id="f-review"><option value="">すべて</option><option value="90">90%以上</option><option value="80">80%以上</option><option value="70">70%以上</option></select></label>
+<label>価格<select id="f-price"><option value="">すべて</option><option value="free">無料</option><option value="1000">〜$10</option><option value="2000">〜$20</option><option value="3000">〜$30</option></select></label>
+<label>言語<select id="f-lang"><option value="">すべて</option><option value="ja">日本語</option></select></label>
+<label>Platform<select id="f-platform"><option value="">すべて</option><option value="windows">Windows</option><option value="mac">Mac</option><option value="linux">Linux</option></select></label>
+<label>情報密度<select id="f-complete"><option value="">すべて</option><option value="75">75%以上</option><option value="50">50%以上</option></select></label>
+</div><div class="v15-catalog-note"><span>詳細条件で探したい場合</span><a href="/#games">400本の詳細検索を使う →</a></div>
+<p id="catalog-status">Steamゲーム一覧を読み込んでいます…</p>
+<div id="catalog-results" class="v15-catalog-grid"></div>
+<div class="v15-catalog-pager"><button id="catalog-prev">← 前へ</button><span id="catalog-page">1 / 1</span><button id="catalog-next">次へ →</button></div>
+</div></section>
+
+<section class="v15-data-policy"><div class="v9-wrap">
+<h2>10,000本を、同じ深さだとは言いません。</h2>
+<p>10,000本すべてがEnrichedですが、深さを二段階に分けます。Editorial PlusはGameFinder独自のジャンル・遊び方・比較軸まで確認済み。Enriched Coreは実在タイトル/AppID・公式Store・画像・出典・更新基準日までを持ち、未確認のジャンル・日本語・必要スペックはnullのまま残します。</p>
+<p class="v15-source-credit">Catalog source: jsnli/steamappidlist（Steam Store API由来のゲームAppID一覧）。GameFinderは同データをタイトル発見用途に利用します。</p>
+</div></section>
+</main>
+<footer class="v11-footer"><div class="v9-wrap"><div class="v11-footer-grid"><div><a class="v11-brand" href="/"><span class="v11-brand-mark">GF</span><span class="v11-brand-name">GameFinder</span></a><p>ゲームを選ぶ前と、遊び始めたあと。検索だけでは足りないところまで。</p></div><div><strong>探す</strong><a href="/catalog/">ゲーム</a><a href="/discover/">探す</a><a href="/articles/">読みもの</a><a href="/topics/">テーマ</a><a href="/community/">Player Voices</a><a href="/metadata/">Metadata</a><a href="/lab/">Lab</a></div><div><strong>サイト</strong><a href="/about.html">編集方針</a><a href="/sources.html">情報源</a><a href="/advertising.html">広告について</a><a href="/privacy.html">プライバシー</a></div></div><div class="v11-footer-bottom"><span>GameFinder</span><span>Updated 2026</span></div></div></footer><button class="v11-top" data-top>↑</button>
+<script src="/js/catalog-10000.js"></script><script src="/js/catalog-rich-v17.js"></script>
+<script>
+(() => {
+ let all=[], filtered=[], page=1; const PER=60;
+ const q=document.getElementById("catalog-q"), status=document.getElementById("catalog-status"), results=document.getElementById("catalog-results");
+ const count=document.getElementById("catalog-count"), pageEl=document.getElementById("catalog-page");
+ const safe=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ function steamURL(x){ return x.appid ? `https://store.steampowered.com/app/${x.appid}/` : "#"; }
+ function render(){
+   const pages=Math.max(1,Math.ceil(filtered.length/PER)); page=Math.min(page,pages);
+   const slice=filtered.slice((page-1)*PER,page*PER);
+   results.innerHTML=slice.map(x=>`<article class="v15-catalog-card">
+     <div class="v15-catalog-cover"><img loading="lazy" src="${safe(x.image||"/assets/og.svg")}" onerror="this.src='/assets/og.svg'" alt=""></div>
+     <div class="v15-catalog-card-body"><span class="v15-tier ${x.enrichment}">${x.enrichment==="enriched"?"ENRICHED":"ENRICHED CORE"}</span>
+     <h2>${safe(x.name)}</h2>
+     <div class="v17-meta-row">
+       ${(x.genres||[]).slice(0,2).map(g=>`<span>${safe(g)}</span>`).join("")}
+       ${x.review_score!=null?`<span>${Math.round(x.review_score*100)}% positive</span>`:""}
+       ${x.price_cents!=null?`<span>${x.price_cents===0?"Free":"$"+(x.price_cents/100).toFixed(2)}</span>`:""}
+     </div>
+     <p>${x.summary?safe(x.summary):`Metadata ${Number(x.metadata_completeness||0)}% complete · source: ${safe(x.metadata_source||x.source||"Steam identity")}`}</p>
+     <div class="v17-complete"><i style="width:${Math.max(4,Number(x.metadata_completeness||0))}%"></i></div>
+     <div class="v15-catalog-links">${x.slug?`<a href="/catalog/">GameFinder →</a>`:""}<a href="${steamURL(x)}" target="_blank" rel="noopener nofollow">Steam →</a></div></div>
+   </article>`).join("");
+   pageEl.textContent=`${page} / ${pages}`;
+   status.textContent=`${filtered.length.toLocaleString()}件を表示対象にしています`;
+   document.getElementById("catalog-prev").disabled=page<=1;
+   document.getElementById("catalog-next").disabled=page>=pages;
+ }
+ function filter(){
+   const t=q.value.trim().toLowerCase(); page=1;
+   const genre=document.getElementById("f-genre").value;
+   const rev=Number(document.getElementById("f-review").value||0);
+   const price=document.getElementById("f-price").value;
+   const lang=document.getElementById("f-lang").value;
+   const platform=document.getElementById("f-platform").value;
+   const complete=Number(document.getElementById("f-complete").value||0);
+   filtered=all.filter(x=>{
+     if(t && !x.name.toLowerCase().includes(t)) return false;
+     if(genre && !(x.genres||[]).includes(genre)) return false;
+     if(rev && !(x.review_score!=null && x.review_score*100>=rev)) return false;
+     if(price==="free" && x.price_cents!==0) return false;
+     if(price && price!=="free" && !(x.price_cents!=null && x.price_cents<=Number(price))) return false;
+     if(lang==="ja" && x.japanese!==true) return false;
+     if(platform && x["platform_"+platform]!==true) return false;
+     if(complete && Number(x.metadata_completeness||0)<complete) return false;
+     return true;
+   });
+   render();
+ }
+ window.GameFinderRichCatalog.then(items=>{
+   all=items; filtered=items; count.textContent=items.length.toLocaleString();
+   const genres=[...new Set(items.flatMap(x=>x.genres||[]))].sort((a,b)=>a.localeCompare(b));
+   const sel=document.getElementById("f-genre");
+   genres.slice(0,120).forEach(g=>sel.insertAdjacentHTML("beforeend",`<option>${safe(g)}</option>`));
+   ["f-genre","f-review","f-price","f-lang","f-platform","f-complete"].forEach(id=>document.getElementById(id).addEventListener("change",filter));
+   render();
+ });
+ q.addEventListener("input",filter);
+ document.getElementById("catalog-clear").onclick=()=>{q.value="";filter();q.focus();};
+ document.getElementById("catalog-prev").onclick=()=>{page--;render();scrollTo({top:350,behavior:"smooth"});};
+ document.getElementById("catalog-next").onclick=()=>{page++;render();scrollTo({top:350,behavior:"smooth"});};
+})();
+</script>
+<script src="/js/routes-v22.js"></script><script src="/js/v11-ui.js" defer></script>
+<script src="/js/my-v21.js"></script></body></html>

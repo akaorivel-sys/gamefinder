@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "notice": "承認済みの提携先だけ設定してください。",
+  "links": {
+    "gaming-pc": "",
+    "sim-racing": "",
+    "vr": "",
+    "streaming": "",
+    "flight-sim": "",
+    "storage": "",
+    "display": "",
+    "network": "",
+    "books-goods": ""
+  }
+}

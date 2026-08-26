@@ -1,0 +1,33 @@
+{
+  "version": "v17",
+  "target": 10000,
+  "fields": {
+    "appid": "Steam application ID",
+    "name": "title",
+    "developer": "developer",
+    "publisher": "publisher",
+    "genres": "verified store/SteamSpy genres",
+    "tags": "SteamSpy/community tags when available",
+    "languages": "supported languages when available",
+    "japanese": "derived only from verified language list",
+    "price_cents": "current/source-snapshot price",
+    "initial_price_cents": "original/source-snapshot price",
+    "discount_pct": "discount at source snapshot",
+    "positive": "positive review count",
+    "negative": "negative review count",
+    "review_score": "positive/(positive+negative)",
+    "owners": "SteamSpy estimate range",
+    "average_forever_min": "average SteamSpy playtime",
+    "median_forever_min": "median SteamSpy playtime",
+    "ccu": "concurrent/player-count source field when available",
+    "platform_windows": "platform support",
+    "platform_mac": "platform support",
+    "platform_linux": "platform support",
+    "release_date": "release date",
+    "required_age": "age field when available",
+    "metadata_completeness": "0-100 calculated from verified fields",
+    "metadata_source": "source attribution",
+    "metadata_checked": "source snapshot/update date"
+  },
+  "rule": "Unknown fields remain null. No genre/language/review/price inference from title."
+}

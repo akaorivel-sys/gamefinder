@@ -1,0 +1,21 @@
+{
+  "version": "v16",
+  "targetGames": 10000,
+  "levels": {
+    "editorial-plus": {
+      "count": 400,
+      "meaning": "GameFinder editorial metadata + comparison attributes + selected dossiers/articles"
+    },
+    "enriched-core": {
+      "count": 9600,
+      "meaning": "Real Steam title/AppID + official store/image linkage + source/update metadata. Unknown editorial attributes remain null."
+    }
+  },
+  "catalogLiteRetired": true,
+  "sourceChecked": "2026-08-26",
+  "safety": {
+    "excludeAdultSexualTitles": true,
+    "excludeGamblingTitles": true,
+    "note": "Age-restricted/adult or gambling-related titles are filtered out of the teen-facing catalog; safe replacements are pulled from later entries until the target count is reached."
+  }
+}
