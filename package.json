@@ -3,7 +3,9 @@
   "version": "29.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build:registries": "node scripts/build-registries.mjs",
     "build:progress": "node scripts/build-progress.mjs",
@@ -13,6 +15,8 @@
     "validate:indexing": "node scripts/validate-indexing.mjs",
     "validate:registry": "node scripts/validate-registry.mjs",
     "validate:duplicates": "node scripts/validate-duplicates.mjs",
-    "validate": "npm run build:registries && npm run build:progress && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && node --test tests/content/*.test.mjs"
+    "validate": "npm run build:registries && npm run build:progress && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && node --test tests/content/*.test.mjs",
+    "validate:tests": "node --test tests/content/*.test.mjs",
+    "validate:ci": "node scripts/build-registries.mjs --check && node scripts/build-progress.mjs --check && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && npm run validate:tests"
   }
 }
