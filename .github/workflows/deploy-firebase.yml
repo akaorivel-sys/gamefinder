@@ -1,0 +1,63 @@
+name: deploy-firebase
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  checks: write
+
+concurrency:
+  group: firebase-production
+  cancel-in-progress: false
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout approved main
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Re-run quality gate
+        run: npm run validate:ci
+
+      - name: Verify deploy target and noindex marker
+        shell: bash
+        run: |
+          test "$(node -p "require('./.firebaserc').projects.default")" = "gamefinder-b6a00"
+          test -f public/index.html
+          test ! -d public/public
+          grep -Eq '^gamefinder-v[0-9]+$' public/health.txt
+          grep -Eq 'Disallow:[[:space:]]*/' public/robots.txt
+
+      - name: Deploy Firebase Hosting live channel
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GAMEFINDER_B6A00 }}'
+          projectId: gamefinder-b6a00
+          channelId: live
+          entryPoint: .
+
+      - name: Verify live deployment
+        shell: bash
+        run: |
+          expected="$(cat public/health.txt)"
+          for attempt in $(seq 1 12); do
+            actual="$(curl -fsSL --max-time 10 https://gamefinder-b6a00.web.app/health.txt || true)"
+            if [ "$actual" = "$expected" ]; then
+              echo "Live marker verified: $actual"
+              exit 0
+            fi
+            echo "Attempt $attempt/12: live marker is '$actual', expected '$expected'"
+            sleep 10
+          done
+          echo "Firebase live verification failed"
+          exit 1
