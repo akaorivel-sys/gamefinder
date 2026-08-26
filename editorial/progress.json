@@ -1,0 +1,59 @@
+{
+  "targets": {
+    "games": 1000,
+    "deepArticles": 1000
+  },
+  "current": {
+    "games": 399,
+    "enrichedOrEditorialGames": 84,
+    "deepMarkedArticles": 180,
+    "deepQualifiedArticles": 158,
+    "totalArticles": 731
+  },
+  "queue": {
+    "total": 534,
+    "queuedAvailable": 509,
+    "assigned": 25,
+    "prReady": 0,
+    "failed": 0,
+    "complete": 0
+  },
+  "workers": {
+    "a": {
+      "assigned": 5,
+      "workload": 15,
+      "complete": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    "b": {
+      "assigned": 5,
+      "workload": 15,
+      "complete": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    "c": {
+      "assigned": 5,
+      "workload": 15,
+      "complete": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    "d": {
+      "assigned": 5,
+      "workload": 15,
+      "complete": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    "e": {
+      "assigned": 5,
+      "workload": 15,
+      "complete": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "generatedAt": "GENERATED_AT_RUNTIME"
+}
