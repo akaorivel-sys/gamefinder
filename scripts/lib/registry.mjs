@@ -97,6 +97,7 @@ export function buildRegistries(publicDir) {
       title,
       gameSlug,
       depth:isDeep?'deep':'thin',
+      deepQualified:isDeep && body.length>=8000,
       visibleChars:body.length,
       indexing:getRobots(raw),
       sourceCount:uniqueSources.length,
