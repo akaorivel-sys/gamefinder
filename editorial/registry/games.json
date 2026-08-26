@@ -1,0 +1,3992 @@
+[
+  {
+    "id": 1,
+    "slug": "frostpunk",
+    "title": "Frostpunk",
+    "appid": 323190,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 2,
+    "slug": "cities-skylines",
+    "title": "Cities: Skylines",
+    "appid": 255710,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 3,
+    "slug": "raft",
+    "title": "Raft",
+    "appid": 648800,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 4,
+    "slug": "satisfactory",
+    "title": "Satisfactory",
+    "appid": 526870,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 5,
+    "slug": "no-mans-sky",
+    "title": "No Man's Sky",
+    "appid": 275850,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 6,
+    "slug": "stardew-valley",
+    "title": "Stardew Valley",
+    "appid": 413150,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 7,
+    "slug": "terraria",
+    "title": "Terraria",
+    "appid": 105600,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 8,
+    "slug": "factorio",
+    "title": "Factorio",
+    "appid": 427520,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 9,
+    "slug": "rimworld",
+    "title": "RimWorld",
+    "appid": 294100,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 10,
+    "slug": "oxygen-not-included",
+    "title": "Oxygen Not Included",
+    "appid": 457140,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 11,
+    "slug": "dyson-sphere-program",
+    "title": "Dyson Sphere Program",
+    "appid": 1366540,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 12,
+    "slug": "astroneer",
+    "title": "ASTRONEER",
+    "appid": 361420,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 13,
+    "slug": "core-keeper",
+    "title": "Core Keeper",
+    "appid": 1621690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 14,
+    "slug": "valheim",
+    "title": "Valheim",
+    "appid": 892970,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 15,
+    "slug": "project-zomboid",
+    "title": "Project Zomboid",
+    "appid": 108600,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 16,
+    "slug": "dont-starve-together",
+    "title": "Don't Starve Together",
+    "appid": 322330,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 17,
+    "slug": "subnautica",
+    "title": "Subnautica",
+    "appid": 264710,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 18,
+    "slug": "grounded",
+    "title": "Grounded",
+    "appid": 962130,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 19,
+    "slug": "palworld",
+    "title": "Palworld",
+    "appid": 1623730,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 20,
+    "slug": "minecraft",
+    "title": "Minecraft",
+    "appid": null,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 21,
+    "slug": "human-fall-flat",
+    "title": "Human: Fall Flat",
+    "appid": 477160,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 22,
+    "slug": "portal-2",
+    "title": "Portal 2",
+    "appid": 620,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 23,
+    "slug": "overcooked-2",
+    "title": "Overcooked! 2",
+    "appid": 728880,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 24,
+    "slug": "deep-rock-galactic",
+    "title": "Deep Rock Galactic",
+    "appid": 548430,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 25,
+    "slug": "elden-ring",
+    "title": "ELDEN RING",
+    "appid": 1245620,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 26,
+    "slug": "baldurs-gate-3",
+    "title": "Baldur's Gate 3",
+    "appid": 1086940,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 27,
+    "slug": "cyberpunk-2077",
+    "title": "Cyberpunk 2077",
+    "appid": 1091500,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 28,
+    "slug": "the-witcher-3",
+    "title": "The Witcher 3: Wild Hunt",
+    "appid": 292030,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 29,
+    "slug": "hades",
+    "title": "Hades",
+    "appid": 1145360,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 30,
+    "slug": "slay-the-spire",
+    "title": "Slay the Spire",
+    "appid": 646570,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 31,
+    "slug": "vampire-survivors",
+    "title": "Vampire Survivors",
+    "appid": 1794680,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 32,
+    "slug": "balatro",
+    "title": "Balatro",
+    "appid": 2379780,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 33,
+    "slug": "hollow-knight",
+    "title": "Hollow Knight",
+    "appid": 367520,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 34,
+    "slug": "dave-the-diver",
+    "title": "DAVE THE DIVER",
+    "appid": 1868140,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 35,
+    "slug": "civilization-vi",
+    "title": "Sid Meier's Civilization VI",
+    "appid": 289070,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 36,
+    "slug": "counter-strike-2",
+    "title": "Counter-Strike 2",
+    "appid": 730,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 37,
+    "slug": "dota-2",
+    "title": "Dota 2",
+    "appid": 570,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 38,
+    "slug": "pubg",
+    "title": "PUBG: BATTLEGROUNDS",
+    "appid": 578080,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 39,
+    "slug": "apex-legends",
+    "title": "Apex Legends",
+    "appid": 1172470,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 40,
+    "slug": "warframe",
+    "title": "Warframe",
+    "appid": 230410,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 41,
+    "slug": "genshin",
+    "title": "原神",
+    "appid": null,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 42,
+    "slug": "star-rail",
+    "title": "崩壊：スターレイル",
+    "appid": null,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 43,
+    "slug": "zenless-zone-zero",
+    "title": "ゼンレスゾーンゼロ",
+    "appid": null,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 44,
+    "slug": "pokemon-unite",
+    "title": "Pokémon UNITE",
+    "appid": null,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 45,
+    "slug": "brawl-stars",
+    "title": "Brawl Stars",
+    "appid": null,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 46,
+    "slug": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "appid": 2358720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 47,
+    "slug": "sekiro-shadows-die-twice",
+    "title": "Sekiro: Shadows Die Twice",
+    "appid": 814380,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 48,
+    "slug": "dark-souls-iii",
+    "title": "DARK SOULS III",
+    "appid": 374320,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 49,
+    "slug": "lies-of-p",
+    "title": "Lies of P",
+    "appid": 1627720,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 50,
+    "slug": "nioh-2-the-complete-edition",
+    "title": "Nioh 2 – The Complete Edition",
+    "appid": 1325200,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 51,
+    "slug": "wo-long-fallen-dynasty",
+    "title": "Wo Long: Fallen Dynasty",
+    "appid": 1448440,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 52,
+    "slug": "monster-hunter-world",
+    "title": "Monster Hunter: World",
+    "appid": 582010,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 53,
+    "slug": "monster-hunter-rise",
+    "title": "Monster Hunter Rise",
+    "appid": 1446780,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 54,
+    "slug": "monster-hunter-wilds",
+    "title": "Monster Hunter Wilds",
+    "appid": 2246340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 55,
+    "slug": "hogwarts-legacy",
+    "title": "Hogwarts Legacy",
+    "appid": 990080,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 56,
+    "slug": "the-elder-scrolls-v-skyrim-special-edition",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "appid": 489830,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 57,
+    "slug": "fallout-4",
+    "title": "Fallout 4",
+    "appid": 377160,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 58,
+    "slug": "starfield",
+    "title": "Starfield",
+    "appid": 1716740,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 59,
+    "slug": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "appid": 1174180,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 60,
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "appid": 271590,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 61,
+    "slug": "kingdom-come-deliverance",
+    "title": "Kingdom Come: Deliverance",
+    "appid": 379430,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 62,
+    "slug": "kingdom-come-deliverance-ii",
+    "title": "Kingdom Come: Deliverance II",
+    "appid": 1771300,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 63,
+    "slug": "mount-blade-ii-bannerlord",
+    "title": "Mount & Blade II: Bannerlord",
+    "appid": 261550,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 64,
+    "slug": "dragon-s-dogma-2",
+    "title": "Dragon’s Dogma 2",
+    "appid": 2054970,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 65,
+    "slug": "nier-automata",
+    "title": "NieR:Automata",
+    "appid": 524220,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 66,
+    "slug": "nier-replicant-ver-1-22474487139",
+    "title": "NieR Replicant ver.1.22474487139...",
+    "appid": 1113560,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 67,
+    "slug": "final-fantasy-vii-remake-intergrade",
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "appid": 1462040,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 68,
+    "slug": "final-fantasy-xv-windows-edition",
+    "title": "FINAL FANTASY XV WINDOWS EDITION",
+    "appid": 637650,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 69,
+    "slug": "persona-5-royal",
+    "title": "Persona 5 Royal",
+    "appid": 1687950,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 70,
+    "slug": "persona-3-reload",
+    "title": "Persona 3 Reload",
+    "appid": 2161700,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 71,
+    "slug": "persona-4-golden",
+    "title": "Persona 4 Golden",
+    "appid": 1113000,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 72,
+    "slug": "metaphor-refantazio",
+    "title": "Metaphor: ReFantazio",
+    "appid": 2679460,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 73,
+    "slug": "yakuza-0",
+    "title": "Yakuza 0",
+    "appid": 638970,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 74,
+    "slug": "yakuza-kiwami",
+    "title": "Yakuza Kiwami",
+    "appid": 834530,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 75,
+    "slug": "yakuza-kiwami-2",
+    "title": "Yakuza Kiwami 2",
+    "appid": 927380,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 76,
+    "slug": "yakuza-like-a-dragon",
+    "title": "Yakuza: Like a Dragon",
+    "appid": 1235140,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 77,
+    "slug": "like-a-dragon-infinite-wealth",
+    "title": "Like a Dragon: Infinite Wealth",
+    "appid": 2072450,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 78,
+    "slug": "judgment",
+    "title": "Judgment",
+    "appid": 2058180,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 79,
+    "slug": "lost-judgment",
+    "title": "Lost Judgment",
+    "appid": 2058190,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 80,
+    "slug": "disco-elysium-the-final-cut",
+    "title": "Disco Elysium - The Final Cut",
+    "appid": 632470,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 81,
+    "slug": "divinity-original-sin-2",
+    "title": "Divinity: Original Sin 2",
+    "appid": 435150,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 82,
+    "slug": "octopath-traveler",
+    "title": "OCTOPATH TRAVELER",
+    "appid": 921570,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 83,
+    "slug": "octopath-traveler-ii",
+    "title": "OCTOPATH TRAVELER II",
+    "appid": 1971650,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 84,
+    "slug": "sea-of-stars",
+    "title": "Sea of Stars",
+    "appid": 1244090,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 85,
+    "slug": "chained-echoes",
+    "title": "Chained Echoes",
+    "appid": 1229240,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 86,
+    "slug": "frostpunk-2",
+    "title": "Frostpunk 2",
+    "appid": 1601580,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 87,
+    "slug": "cities-skylines-ii",
+    "title": "Cities: Skylines II",
+    "appid": 949230,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 88,
+    "slug": "crusader-kings-iii",
+    "title": "Crusader Kings III",
+    "appid": 1158310,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 89,
+    "slug": "europa-universalis-iv",
+    "title": "Europa Universalis IV",
+    "appid": 236850,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 90,
+    "slug": "hearts-of-iron-iv",
+    "title": "Hearts of Iron IV",
+    "appid": 394360,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 91,
+    "slug": "stellaris",
+    "title": "Stellaris",
+    "appid": 281990,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 92,
+    "slug": "victoria-3",
+    "title": "Victoria 3",
+    "appid": 529340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 93,
+    "slug": "sid-meier-s-civilization-vii",
+    "title": "Sid Meier’s Civilization VII",
+    "appid": 1295660,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 94,
+    "slug": "age-of-empires-ii-definitive-edition",
+    "title": "Age of Empires II: Definitive Edition",
+    "appid": 813780,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 95,
+    "slug": "age-of-empires-iv-anniversary-edition",
+    "title": "Age of Empires IV: Anniversary Edition",
+    "appid": 1466860,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 96,
+    "slug": "total-war-warhammer-iii",
+    "title": "Total War: WARHAMMER III",
+    "appid": 1142710,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 97,
+    "slug": "total-war-three-kingdoms",
+    "title": "Total War: THREE KINGDOMS",
+    "appid": 779340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 98,
+    "slug": "xcom-2",
+    "title": "XCOM 2",
+    "appid": 268500,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 99,
+    "slug": "into-the-breach",
+    "title": "Into the Breach",
+    "appid": 590380,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 100,
+    "slug": "against-the-storm",
+    "title": "Against the Storm",
+    "appid": 1336490,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 101,
+    "slug": "timberborn",
+    "title": "Timberborn",
+    "appid": 1062090,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 102,
+    "slug": "banished",
+    "title": "Banished",
+    "appid": 242920,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 103,
+    "slug": "prison-architect",
+    "title": "Prison Architect",
+    "appid": 233450,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 104,
+    "slug": "planet-zoo",
+    "title": "Planet Zoo",
+    "appid": 703080,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 105,
+    "slug": "planet-coaster",
+    "title": "Planet Coaster",
+    "appid": 493340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 106,
+    "slug": "two-point-hospital",
+    "title": "Two Point Hospital",
+    "appid": 535930,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 107,
+    "slug": "two-point-campus",
+    "title": "Two Point Campus",
+    "appid": 1649080,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 108,
+    "slug": "game-dev-tycoon",
+    "title": "Game Dev Tycoon",
+    "appid": 239820,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 109,
+    "slug": "software-inc",
+    "title": "Software Inc.",
+    "appid": 362620,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 110,
+    "slug": "workers-resources-soviet-republic",
+    "title": "Workers & Resources: Soviet Republic",
+    "appid": 784150,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 111,
+    "slug": "transport-fever-2",
+    "title": "Transport Fever 2",
+    "appid": 1066780,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 112,
+    "slug": "railway-empire",
+    "title": "Railway Empire",
+    "appid": 503940,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 113,
+    "slug": "anno-1800",
+    "title": "Anno 1800",
+    "appid": 916440,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 114,
+    "slug": "foundation",
+    "title": "Foundation",
+    "appid": 690830,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 115,
+    "slug": "manor-lords",
+    "title": "Manor Lords",
+    "appid": 1363080,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 116,
+    "slug": "going-medieval",
+    "title": "Going Medieval",
+    "appid": 1029780,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 117,
+    "slug": "surviving-mars",
+    "title": "Surviving Mars",
+    "appid": 464920,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 118,
+    "slug": "they-are-billions",
+    "title": "They Are Billions",
+    "appid": 644930,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 119,
+    "slug": "northgard",
+    "title": "Northgard",
+    "appid": 466560,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 120,
+    "slug": "dorfromantik",
+    "title": "Dorfromantik",
+    "appid": 1455840,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 121,
+    "slug": "mini-metro",
+    "title": "Mini Metro",
+    "appid": 287980,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 122,
+    "slug": "mini-motorways",
+    "title": "Mini Motorways",
+    "appid": 1127500,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 123,
+    "slug": "townscaper",
+    "title": "Townscaper",
+    "appid": 1291340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 124,
+    "slug": "islanders",
+    "title": "ISLANDERS",
+    "appid": 1046030,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 125,
+    "slug": "worldbox-god-simulator",
+    "title": "WorldBox - God Simulator",
+    "appid": 1206560,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 126,
+    "slug": "the-sims-4",
+    "title": "The Sims 4",
+    "appid": 1222670,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 127,
+    "slug": "shapez-2",
+    "title": "shapez 2",
+    "appid": 2162800,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 128,
+    "slug": "starbound",
+    "title": "Starbound",
+    "appid": 211820,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 129,
+    "slug": "subnautica-below-zero",
+    "title": "Subnautica: Below Zero",
+    "appid": 848450,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 130,
+    "slug": "the-forest",
+    "title": "The Forest",
+    "appid": 242760,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 131,
+    "slug": "sons-of-the-forest",
+    "title": "Sons Of The Forest",
+    "appid": 1326470,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 132,
+    "slug": "green-hell",
+    "title": "Green Hell",
+    "appid": 815370,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 133,
+    "slug": "7-days-to-die",
+    "title": "7 Days to Die",
+    "appid": 251570,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 134,
+    "slug": "ark-survival-evolved",
+    "title": "ARK: Survival Evolved",
+    "appid": 346110,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 135,
+    "slug": "ark-survival-ascended",
+    "title": "ARK: Survival Ascended",
+    "appid": 2399830,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 136,
+    "slug": "conan-exiles",
+    "title": "Conan Exiles",
+    "appid": 440900,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 137,
+    "slug": "don-t-starve",
+    "title": "Don't Starve",
+    "appid": 219740,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 138,
+    "slug": "v-rising",
+    "title": "V Rising",
+    "appid": 1604030,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 139,
+    "slug": "enshrouded",
+    "title": "Enshrouded",
+    "appid": 1203620,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 140,
+    "slug": "once-human",
+    "title": "Once Human",
+    "appid": 2139460,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 141,
+    "slug": "dayz",
+    "title": "DayZ",
+    "appid": 221100,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 142,
+    "slug": "scum",
+    "title": "SCUM",
+    "appid": 513710,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 143,
+    "slug": "the-long-dark",
+    "title": "The Long Dark",
+    "appid": 305620,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 144,
+    "slug": "stranded-deep",
+    "title": "Stranded Deep",
+    "appid": 313120,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 145,
+    "slug": "icarus",
+    "title": "ICARUS",
+    "appid": 1149460,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 146,
+    "slug": "space-engineers",
+    "title": "Space Engineers",
+    "appid": 244850,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 147,
+    "slug": "kerbal-space-program",
+    "title": "Kerbal Space Program",
+    "appid": 220200,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 148,
+    "slug": "the-planet-crafter",
+    "title": "The Planet Crafter",
+    "appid": 1284190,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 149,
+    "slug": "forever-skies",
+    "title": "Forever Skies",
+    "appid": 1641960,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 150,
+    "slug": "abiotic-factor",
+    "title": "Abiotic Factor",
+    "appid": 427410,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 151,
+    "slug": "pacific-drive",
+    "title": "Pacific Drive",
+    "appid": 1458140,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 152,
+    "slug": "smalland-survive-the-wilds",
+    "title": "Smalland: Survive the Wilds",
+    "appid": 768200,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 153,
+    "slug": "medieval-dynasty",
+    "title": "Medieval Dynasty",
+    "appid": 1129580,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 154,
+    "slug": "my-time-at-sandrock",
+    "title": "My Time at Sandrock",
+    "appid": 1084600,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 155,
+    "slug": "my-time-at-portia",
+    "title": "My Time at Portia",
+    "appid": 666140,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 156,
+    "slug": "hades-ii",
+    "title": "Hades II",
+    "appid": 1145350,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 157,
+    "slug": "dead-cells",
+    "title": "Dead Cells",
+    "appid": 588650,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 158,
+    "slug": "risk-of-rain-2",
+    "title": "Risk of Rain 2",
+    "appid": 632360,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 159,
+    "slug": "rogue-legacy-2",
+    "title": "Rogue Legacy 2",
+    "appid": 1253920,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 160,
+    "slug": "enter-the-gungeon",
+    "title": "Enter the Gungeon",
+    "appid": 311690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 161,
+    "slug": "the-binding-of-isaac-rebirth",
+    "title": "The Binding of Isaac: Rebirth",
+    "appid": 250900,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 162,
+    "slug": "ftl-faster-than-light",
+    "title": "FTL: Faster Than Light",
+    "appid": 212680,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 163,
+    "slug": "darkest-dungeon",
+    "title": "Darkest Dungeon",
+    "appid": 262060,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 164,
+    "slug": "darkest-dungeon-ii",
+    "title": "Darkest Dungeon II",
+    "appid": 1940340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 165,
+    "slug": "inscryption",
+    "title": "Inscryption",
+    "appid": 1092790,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 166,
+    "slug": "loop-hero",
+    "title": "Loop Hero",
+    "appid": 1282730,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 167,
+    "slug": "brotato",
+    "title": "Brotato",
+    "appid": 1942280,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 168,
+    "slug": "20-minutes-till-dawn",
+    "title": "20 Minutes Till Dawn",
+    "appid": 1966900,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 169,
+    "slug": "celeste",
+    "title": "Celeste",
+    "appid": 504230,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 170,
+    "slug": "cuphead",
+    "title": "Cuphead",
+    "appid": 268910,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 171,
+    "slug": "ori-and-the-blind-forest-definitive-edition",
+    "title": "Ori and the Blind Forest: Definitive Edition",
+    "appid": 387290,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 172,
+    "slug": "ori-and-the-will-of-the-wisps",
+    "title": "Ori and the Will of the Wisps",
+    "appid": 1057090,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 173,
+    "slug": "katana-zero",
+    "title": "Katana ZERO",
+    "appid": 460950,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 174,
+    "slug": "hotline-miami",
+    "title": "Hotline Miami",
+    "appid": 219150,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 175,
+    "slug": "hotline-miami-2-wrong-number",
+    "title": "Hotline Miami 2: Wrong Number",
+    "appid": 274170,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 176,
+    "slug": "shovel-knight-treasure-trove",
+    "title": "Shovel Knight: Treasure Trove",
+    "appid": 250760,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 177,
+    "slug": "a-hat-in-time",
+    "title": "A Hat in Time",
+    "appid": 253230,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 178,
+    "slug": "psychonauts-2",
+    "title": "Psychonauts 2",
+    "appid": 607080,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 179,
+    "slug": "hi-fi-rush",
+    "title": "Hi-Fi RUSH",
+    "appid": 1817230,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 180,
+    "slug": "ghostrunner",
+    "title": "Ghostrunner",
+    "appid": 1139900,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 181,
+    "slug": "ghostrunner-2",
+    "title": "Ghostrunner 2",
+    "appid": 2144740,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 182,
+    "slug": "devil-may-cry-5",
+    "title": "Devil May Cry 5",
+    "appid": 601150,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 183,
+    "slug": "bayonetta",
+    "title": "Bayonetta",
+    "appid": 460790,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 184,
+    "slug": "metal-gear-rising-revengeance",
+    "title": "METAL GEAR RISING: REVENGEANCE",
+    "appid": 235460,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 185,
+    "slug": "remnant-ii",
+    "title": "Remnant II",
+    "appid": 1282100,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 186,
+    "slug": "left-4-dead-2",
+    "title": "Left 4 Dead 2",
+    "appid": 550,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 187,
+    "slug": "back-4-blood",
+    "title": "Back 4 Blood",
+    "appid": 924970,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 188,
+    "slug": "payday-2",
+    "title": "PAYDAY 2",
+    "appid": 218620,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 189,
+    "slug": "payday-3",
+    "title": "PAYDAY 3",
+    "appid": 1272080,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 190,
+    "slug": "destiny-2",
+    "title": "Destiny 2",
+    "appid": 1085660,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 191,
+    "slug": "halo-infinite",
+    "title": "Halo Infinite",
+    "appid": 1240440,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 192,
+    "slug": "halo-the-master-chief-collection",
+    "title": "Halo: The Master Chief Collection",
+    "appid": 976730,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 193,
+    "slug": "team-fortress-2",
+    "title": "Team Fortress 2",
+    "appid": 440,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 194,
+    "slug": "overwatch-2",
+    "title": "Overwatch 2",
+    "appid": 2357570,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 195,
+    "slug": "marvel-rivals",
+    "title": "Marvel Rivals",
+    "appid": 2767030,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 196,
+    "slug": "the-finals",
+    "title": "THE FINALS",
+    "appid": 2073850,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 197,
+    "slug": "tom-clancy-s-rainbow-six-siege",
+    "title": "Tom Clancy's Rainbow Six Siege",
+    "appid": 359550,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 198,
+    "slug": "battlefield-2042",
+    "title": "Battlefield 2042",
+    "appid": 1517290,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 199,
+    "slug": "battlefield-v",
+    "title": "Battlefield V",
+    "appid": 1238810,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 200,
+    "slug": "battlefield-1",
+    "title": "Battlefield 1",
+    "appid": 1238840,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 201,
+    "slug": "call-of-duty",
+    "title": "Call of Duty",
+    "appid": 1938090,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 202,
+    "slug": "hunt-showdown-1896",
+    "title": "Hunt: Showdown 1896",
+    "appid": 594650,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 203,
+    "slug": "dead-by-daylight",
+    "title": "Dead by Daylight",
+    "appid": 381210,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 204,
+    "slug": "phasmophobia",
+    "title": "Phasmophobia",
+    "appid": 739630,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 205,
+    "slug": "lethal-company",
+    "title": "Lethal Company",
+    "appid": 1966720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 206,
+    "slug": "content-warning",
+    "title": "Content Warning",
+    "appid": 2881650,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 207,
+    "slug": "among-us",
+    "title": "Among Us",
+    "appid": 945360,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 208,
+    "slug": "goose-goose-duck",
+    "title": "Goose Goose Duck",
+    "appid": 1568590,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 209,
+    "slug": "vrchat",
+    "title": "VRChat",
+    "appid": 438100,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 210,
+    "slug": "garry-s-mod",
+    "title": "Garry's Mod",
+    "appid": 4000,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 211,
+    "slug": "half-life-2",
+    "title": "Half-Life 2",
+    "appid": 220,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 212,
+    "slug": "black-mesa",
+    "title": "Black Mesa",
+    "appid": 362890,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 213,
+    "slug": "the-stanley-parable-ultra-deluxe",
+    "title": "The Stanley Parable: Ultra Deluxe",
+    "appid": 1703340,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 214,
+    "slug": "superliminal",
+    "title": "Superliminal",
+    "appid": 1049410,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 215,
+    "slug": "it-takes-two",
+    "title": "It Takes Two",
+    "appid": 1426210,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 216,
+    "slug": "a-way-out",
+    "title": "A Way Out",
+    "appid": 1222700,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 217,
+    "slug": "plateup",
+    "title": "PlateUp!",
+    "appid": 1599600,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 218,
+    "slug": "moving-out",
+    "title": "Moving Out",
+    "appid": 996770,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 219,
+    "slug": "resident-evil-2",
+    "title": "Resident Evil 2",
+    "appid": 883710,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 220,
+    "slug": "resident-evil-3",
+    "title": "Resident Evil 3",
+    "appid": 952060,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 221,
+    "slug": "resident-evil-4",
+    "title": "Resident Evil 4",
+    "appid": 2050650,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 222,
+    "slug": "resident-evil-7-biohazard",
+    "title": "Resident Evil 7 biohazard",
+    "appid": 418370,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 223,
+    "slug": "resident-evil-village",
+    "title": "Resident Evil Village",
+    "appid": 1196590,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 224,
+    "slug": "amnesia-the-dark-descent",
+    "title": "Amnesia: The Dark Descent",
+    "appid": 57300,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 225,
+    "slug": "amnesia-the-bunker",
+    "title": "Amnesia: The Bunker",
+    "appid": 1944430,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 226,
+    "slug": "outlast",
+    "title": "Outlast",
+    "appid": 238320,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 227,
+    "slug": "outlast-2",
+    "title": "Outlast 2",
+    "appid": 414700,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 228,
+    "slug": "alien-isolation",
+    "title": "Alien: Isolation",
+    "appid": 214490,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 229,
+    "slug": "soma",
+    "title": "SOMA",
+    "appid": 282140,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 230,
+    "slug": "little-nightmares",
+    "title": "Little Nightmares",
+    "appid": 424840,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 231,
+    "slug": "little-nightmares-ii",
+    "title": "Little Nightmares II",
+    "appid": 860510,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 232,
+    "slug": "devour",
+    "title": "DEVOUR",
+    "appid": 1274570,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 233,
+    "slug": "labyrinthine",
+    "title": "Labyrinthine",
+    "appid": 1302240,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 234,
+    "slug": "escape-the-backrooms",
+    "title": "Escape the Backrooms",
+    "appid": 1943950,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 235,
+    "slug": "dredge",
+    "title": "DREDGE",
+    "appid": 1562430,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 236,
+    "slug": "spiritfarer-farewell-edition",
+    "title": "Spiritfarer: Farewell Edition",
+    "appid": 972660,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 237,
+    "slug": "graveyard-keeper",
+    "title": "Graveyard Keeper",
+    "appid": 599140,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 238,
+    "slug": "cult-of-the-lamb",
+    "title": "Cult of the Lamb",
+    "appid": 1313140,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 239,
+    "slug": "moonlighter",
+    "title": "Moonlighter",
+    "appid": 606150,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 240,
+    "slug": "potion-craft-alchemist-simulator",
+    "title": "Potion Craft: Alchemist Simulator",
+    "appid": 1210320,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 241,
+    "slug": "travellers-rest",
+    "title": "Travellers Rest",
+    "appid": 1139980,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 242,
+    "slug": "house-flipper",
+    "title": "House Flipper",
+    "appid": 613100,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 243,
+    "slug": "house-flipper-2",
+    "title": "House Flipper 2",
+    "appid": 1190970,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 244,
+    "slug": "powerwash-simulator",
+    "title": "PowerWash Simulator",
+    "appid": 1290000,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 245,
+    "slug": "euro-truck-simulator-2",
+    "title": "Euro Truck Simulator 2",
+    "appid": 227300,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 246,
+    "slug": "american-truck-simulator",
+    "title": "American Truck Simulator",
+    "appid": 270880,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 247,
+    "slug": "farming-simulator-22",
+    "title": "Farming Simulator 22",
+    "appid": 1248130,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 248,
+    "slug": "car-mechanic-simulator-2021",
+    "title": "Car Mechanic Simulator 2021",
+    "appid": 1190000,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 249,
+    "slug": "snowrunner",
+    "title": "SnowRunner",
+    "appid": 1465360,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 250,
+    "slug": "beamng-drive",
+    "title": "BeamNG.drive",
+    "appid": 284160,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 251,
+    "slug": "assetto-corsa",
+    "title": "Assetto Corsa",
+    "appid": 244210,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り済み",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 252,
+    "slug": "assetto-corsa-competizione",
+    "title": "Assetto Corsa Competizione",
+    "appid": 805550,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 253,
+    "slug": "forza-horizon-5",
+    "title": "Forza Horizon 5",
+    "appid": 1551360,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 254,
+    "slug": "forza-horizon-4",
+    "title": "Forza Horizon 4",
+    "appid": 1293830,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 255,
+    "slug": "fishing-planet",
+    "title": "Fishing Planet",
+    "appid": 380600,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 256,
+    "slug": "thehunter-call-of-the-wild",
+    "title": "theHunter: Call of the Wild",
+    "appid": 518790,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 257,
+    "slug": "star-wars-jedi-fallen-order",
+    "title": "STAR WARS Jedi: Fallen Order",
+    "appid": 1172380,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 258,
+    "slug": "star-wars-jedi-survivor",
+    "title": "STAR WARS Jedi: Survivor",
+    "appid": 1774580,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 259,
+    "slug": "control-ultimate-edition",
+    "title": "Control Ultimate Edition",
+    "appid": 870780,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 260,
+    "slug": "death-stranding-director-s-cut",
+    "title": "DEATH STRANDING DIRECTOR’S CUT",
+    "appid": 1850570,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 261,
+    "slug": "ghost-of-tsushima-director-s-cut",
+    "title": "Ghost of Tsushima DIRECTOR’S CUT",
+    "appid": 2215430,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 262,
+    "slug": "god-of-war",
+    "title": "God of War",
+    "appid": 1593500,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 263,
+    "slug": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "appid": 2322010,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 264,
+    "slug": "horizon-zero-dawn-complete-edition",
+    "title": "Horizon Zero Dawn Complete Edition",
+    "appid": 1151640,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 265,
+    "slug": "horizon-forbidden-west-complete-edition",
+    "title": "Horizon Forbidden West Complete Edition",
+    "appid": 2420110,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 266,
+    "slug": "days-gone",
+    "title": "Days Gone",
+    "appid": 1259420,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 267,
+    "slug": "the-last-of-us-part-i",
+    "title": "The Last of Us Part I",
+    "appid": 1888930,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 268,
+    "slug": "marvel-s-spider-man-remastered",
+    "title": "Marvel’s Spider-Man Remastered",
+    "appid": 1817070,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 269,
+    "slug": "marvel-s-spider-man-miles-morales",
+    "title": "Marvel’s Spider-Man: Miles Morales",
+    "appid": 1817190,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 270,
+    "slug": "marvel-s-spider-man-2",
+    "title": "Marvel’s Spider-Man 2",
+    "appid": 2651280,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 271,
+    "slug": "uncharted-legacy-of-thieves-collection",
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "appid": 1659420,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 272,
+    "slug": "ratchet-clank-rift-apart",
+    "title": "Ratchet & Clank: Rift Apart",
+    "appid": 1895880,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 273,
+    "slug": "unturned",
+    "title": "Unturned",
+    "appid": 304930,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 274,
+    "slug": "naraka-bladepoint",
+    "title": "NARAKA: BLADEPOINT",
+    "appid": 1203220,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-25",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 275,
+    "slug": "warface-clutch",
+    "title": "Warface: Clutch",
+    "appid": 291480,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 276,
+    "slug": "world-of-tanks-blitz",
+    "title": "World of Tanks Blitz",
+    "appid": 444200,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 277,
+    "slug": "sea-of-thieves",
+    "title": "Sea of Thieves",
+    "appid": 1172620,
+    "editorialStatus": "deep",
+    "editorialLabel": "深掘り記事2本以上",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "公式ストア等で最終確認"
+  },
+  {
+    "id": 278,
+    "slug": "portal",
+    "title": "Portal",
+    "appid": 400,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 279,
+    "slug": "path-of-exile",
+    "title": "Path of Exile",
+    "appid": 238960,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 280,
+    "slug": "fallout-new-vegas",
+    "title": "Fallout: New Vegas",
+    "appid": 22380,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 281,
+    "slug": "mass-effect-legendary-edition",
+    "title": "Mass Effect Legendary Edition",
+    "appid": 1328670,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 282,
+    "slug": "tropico-6",
+    "title": "Tropico 6",
+    "appid": 492720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 283,
+    "slug": "noita",
+    "title": "Noita",
+    "appid": 881100,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 284,
+    "slug": "outer-wilds",
+    "title": "Outer Wilds",
+    "appid": 753640,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 285,
+    "slug": "return-of-the-obra-dinn",
+    "title": "Return of the Obra Dinn",
+    "appid": 653530,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 286,
+    "slug": "my-summer-car",
+    "title": "My Summer Car",
+    "appid": 516750,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 287,
+    "slug": "teardown",
+    "title": "Teardown",
+    "appid": 1167630,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 288,
+    "slug": "universe-sandbox",
+    "title": "Universe Sandbox",
+    "appid": 230290,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 289,
+    "slug": "nine-sols",
+    "title": "Nine Sols",
+    "appid": 1809540,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 290,
+    "slug": "blasphemous",
+    "title": "Blasphemous",
+    "appid": 774361,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 291,
+    "slug": "blasphemous-2",
+    "title": "Blasphemous 2",
+    "appid": 2114740,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 292,
+    "slug": "ender-lilies-quietus-of-the-knights",
+    "title": "ENDER LILIES: Quietus of the Knights",
+    "appid": 1369630,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 293,
+    "slug": "animal-well",
+    "title": "ANIMAL WELL",
+    "appid": 813230,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 294,
+    "slug": "axiom-verge",
+    "title": "Axiom Verge",
+    "appid": 332200,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 295,
+    "slug": "guacamelee-2",
+    "title": "Guacamelee! 2",
+    "appid": 534550,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 296,
+    "slug": "skul-the-hero-slayer",
+    "title": "Skul: The Hero Slayer",
+    "appid": 1147560,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 297,
+    "slug": "have-a-nice-death",
+    "title": "Have a Nice Death",
+    "appid": 1740720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 298,
+    "slug": "deaths-door",
+    "title": "Death's Door",
+    "appid": 894020,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 299,
+    "slug": "tunic",
+    "title": "TUNIC",
+    "appid": 553420,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 300,
+    "slug": "cocoon",
+    "title": "COCOON",
+    "appid": 1497440,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 301,
+    "slug": "chants-of-sennaar",
+    "title": "Chants of Sennaar",
+    "appid": 1931770,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 302,
+    "slug": "the-talos-principle",
+    "title": "The Talos Principle",
+    "appid": 257510,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 303,
+    "slug": "the-talos-principle-2",
+    "title": "The Talos Principle 2",
+    "appid": 835960,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 304,
+    "slug": "the-witness",
+    "title": "The Witness",
+    "appid": 210970,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 305,
+    "slug": "baba-is-you",
+    "title": "Baba Is You",
+    "appid": 736260,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 306,
+    "slug": "human-resource-machine",
+    "title": "Human Resource Machine",
+    "appid": 375820,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 307,
+    "slug": "opus-magnum",
+    "title": "Opus Magnum",
+    "appid": 558990,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 308,
+    "slug": "shapez",
+    "title": "shapez",
+    "appid": 1318690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 309,
+    "slug": "captain-of-industry",
+    "title": "Captain of Industry",
+    "appid": 1594320,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 310,
+    "slug": "techtonica",
+    "title": "Techtonica",
+    "appid": 1457320,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 311,
+    "slug": "foundry",
+    "title": "FOUNDRY",
+    "appid": 983870,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 312,
+    "slug": "hydroneer",
+    "title": "Hydroneer",
+    "appid": 1106840,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 313,
+    "slug": "autonauts",
+    "title": "Autonauts",
+    "appid": 979120,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 314,
+    "slug": "desynced-autonomous-colony-simulator",
+    "title": "Desynced: Autonomous Colony Simulator",
+    "appid": 1450900,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 315,
+    "slug": "mindustry",
+    "title": "Mindustry",
+    "appid": 1127400,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 316,
+    "slug": "space-haven",
+    "title": "Space Haven",
+    "appid": 979110,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 317,
+    "slug": "cosmoteer-starship-architect-commander",
+    "title": "Cosmoteer: Starship Architect & Commander",
+    "appid": 799600,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 318,
+    "slug": "dwarf-fortress",
+    "title": "Dwarf Fortress",
+    "appid": 975370,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 319,
+    "slug": "clanfolk",
+    "title": "Clanfolk",
+    "appid": 1700870,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 320,
+    "slug": "norland",
+    "title": "Norland",
+    "appid": 1857090,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 321,
+    "slug": "songs-of-syx",
+    "title": "Songs of Syx",
+    "appid": 1162750,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 322,
+    "slug": "farthest-frontier",
+    "title": "Farthest Frontier",
+    "appid": 1044720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 323,
+    "slug": "kingdoms-reborn",
+    "title": "Kingdoms Reborn",
+    "appid": 1307890,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 324,
+    "slug": "settlement-survival",
+    "title": "Settlement Survival",
+    "appid": 1509510,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 325,
+    "slug": "endzone-a-world-apart",
+    "title": "Endzone - A World Apart",
+    "appid": 933820,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 326,
+    "slug": "ixion",
+    "title": "IXION",
+    "appid": 1113120,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 327,
+    "slug": "per-aspera",
+    "title": "Per Aspera",
+    "appid": 803050,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 328,
+    "slug": "terraformers",
+    "title": "Terraformers",
+    "appid": 1244800,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 329,
+    "slug": "surviving-the-aftermath",
+    "title": "Surviving the Aftermath",
+    "appid": 684450,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 330,
+    "slug": "railway-empire-2",
+    "title": "Railway Empire 2",
+    "appid": 1644320,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 331,
+    "slug": "openttd",
+    "title": "OpenTTD",
+    "appid": 1536610,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 332,
+    "slug": "stacklands",
+    "title": "Stacklands",
+    "appid": 1948280,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 333,
+    "slug": "parkitect",
+    "title": "Parkitect",
+    "appid": 453090,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 334,
+    "slug": "project-hospital",
+    "title": "Project Hospital",
+    "appid": 868360,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 335,
+    "slug": "big-ambitions",
+    "title": "Big Ambitions",
+    "appid": 1331550,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 336,
+    "slug": "mad-games-tycoon-2",
+    "title": "Mad Games Tycoon 2",
+    "appid": 1342330,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 337,
+    "slug": "papers-please",
+    "title": "Papers, Please",
+    "appid": 239030,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 338,
+    "slug": "this-war-of-mine",
+    "title": "This War of Mine",
+    "appid": 282070,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 339,
+    "slug": "beholder",
+    "title": "Beholder",
+    "appid": 475550,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 340,
+    "slug": "not-for-broadcast",
+    "title": "Not For Broadcast",
+    "appid": 1147550,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 341,
+    "slug": "road-96",
+    "title": "Road 96",
+    "appid": 1466640,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 342,
+    "slug": "suzerain",
+    "title": "Suzerain",
+    "appid": 1207650,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 343,
+    "slug": "pentiment",
+    "title": "Pentiment",
+    "appid": 1205520,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 344,
+    "slug": "citizen-sleeper",
+    "title": "Citizen Sleeper",
+    "appid": 1578650,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 345,
+    "slug": "signalis",
+    "title": "SIGNALIS",
+    "appid": 1262350,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 346,
+    "slug": "omori",
+    "title": "OMORI",
+    "appid": 1150690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 348,
+    "slug": "gris",
+    "title": "GRIS",
+    "appid": 683320,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 349,
+    "slug": "a-short-hike",
+    "title": "A Short Hike",
+    "appid": 1055540,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 350,
+    "slug": "coffee-talk",
+    "title": "Coffee Talk",
+    "appid": 914800,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 351,
+    "slug": "dishonored",
+    "title": "Dishonored",
+    "appid": 205100,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 352,
+    "slug": "dishonored-2",
+    "title": "Dishonored 2",
+    "appid": 403640,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 353,
+    "slug": "prey",
+    "title": "Prey",
+    "appid": 480490,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 354,
+    "slug": "bioshock-remastered",
+    "title": "BioShock Remastered",
+    "appid": 409710,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 355,
+    "slug": "bioshock-2-remastered",
+    "title": "BioShock 2 Remastered",
+    "appid": 409720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 356,
+    "slug": "bioshock-infinite",
+    "title": "BioShock Infinite",
+    "appid": 8870,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 357,
+    "slug": "doom",
+    "title": "DOOM",
+    "appid": 379720,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 358,
+    "slug": "doom-eternal",
+    "title": "DOOM Eternal",
+    "appid": 782330,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 359,
+    "slug": "wolfenstein-the-new-order",
+    "title": "Wolfenstein: The New Order",
+    "appid": 201810,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 360,
+    "slug": "wolfenstein-ii-the-new-colossus",
+    "title": "Wolfenstein II: The New Colossus",
+    "appid": 612880,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 361,
+    "slug": "titanfall-2",
+    "title": "Titanfall 2",
+    "appid": 1237970,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 362,
+    "slug": "metro-2033-redux",
+    "title": "Metro 2033 Redux",
+    "appid": 286690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 363,
+    "slug": "metro-last-light-redux",
+    "title": "Metro: Last Light Redux",
+    "appid": 287390,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 364,
+    "slug": "metro-exodus",
+    "title": "Metro Exodus",
+    "appid": 412020,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 365,
+    "slug": "far-cry-3",
+    "title": "Far Cry 3",
+    "appid": 220240,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 366,
+    "slug": "far-cry-4",
+    "title": "Far Cry 4",
+    "appid": 298110,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 367,
+    "slug": "far-cry-5",
+    "title": "Far Cry 5",
+    "appid": 552520,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 368,
+    "slug": "watch-dogs-2",
+    "title": "Watch_Dogs 2",
+    "appid": 447040,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 369,
+    "slug": "sleeping-dogs-definitive-edition",
+    "title": "Sleeping Dogs: Definitive Edition",
+    "appid": 307690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 370,
+    "slug": "mount-blade-warband",
+    "title": "Mount & Blade: Warband",
+    "appid": 48700,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 371,
+    "slug": "kenshi",
+    "title": "Kenshi",
+    "appid": 233860,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 372,
+    "slug": "dragons-dogma-dark-arisen",
+    "title": "Dragon's Dogma: Dark Arisen",
+    "appid": 367500,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 373,
+    "slug": "grim-dawn",
+    "title": "Grim Dawn",
+    "appid": 219990,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 374,
+    "slug": "torchlight-ii",
+    "title": "Torchlight II",
+    "appid": 200710,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 375,
+    "slug": "last-epoch",
+    "title": "Last Epoch",
+    "appid": 899770,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 376,
+    "slug": "warhammer-vermintide-2",
+    "title": "Warhammer: Vermintide 2",
+    "appid": 552500,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 377,
+    "slug": "warhammer-40-000-darktide",
+    "title": "Warhammer 40,000: Darktide",
+    "appid": 1361210,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 378,
+    "slug": "remnant-from-the-ashes",
+    "title": "Remnant: From the Ashes",
+    "appid": 617290,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 379,
+    "slug": "chivalry-2",
+    "title": "Chivalry 2",
+    "appid": 1824220,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 380,
+    "slug": "mordhau",
+    "title": "MORDHAU",
+    "appid": 629760,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 381,
+    "slug": "barotrauma",
+    "title": "Barotrauma",
+    "appid": 602960,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 382,
+    "slug": "we-were-here",
+    "title": "We Were Here",
+    "appid": 582500,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 383,
+    "slug": "keep-talking-and-nobody-explodes",
+    "title": "Keep Talking and Nobody Explodes",
+    "appid": 341800,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 384,
+    "slug": "moving-out-2",
+    "title": "Moving Out 2",
+    "appid": 1641700,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 385,
+    "slug": "gang-beasts",
+    "title": "Gang Beasts",
+    "appid": 285900,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 386,
+    "slug": "totally-accurate-battle-simulator",
+    "title": "Totally Accurate Battle Simulator",
+    "appid": 508440,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 387,
+    "slug": "besiege",
+    "title": "Besiege",
+    "appid": 346010,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 388,
+    "slug": "trailmakers",
+    "title": "Trailmakers",
+    "appid": 585420,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 389,
+    "slug": "scrap-mechanic",
+    "title": "Scrap Mechanic",
+    "appid": 387990,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 390,
+    "slug": "stormworks-build-and-rescue",
+    "title": "Stormworks: Build and Rescue",
+    "appid": 573090,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 391,
+    "slug": "sunkenland",
+    "title": "Sunkenland",
+    "appid": 2080690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 392,
+    "slug": "voidtrain",
+    "title": "Voidtrain",
+    "appid": 1159690,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 393,
+    "slug": "sengoku-dynasty",
+    "title": "Sengoku Dynasty",
+    "appid": 1702010,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 394,
+    "slug": "bellwright",
+    "title": "Bellwright",
+    "appid": 1812450,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 395,
+    "slug": "the-escapists-2",
+    "title": "The Escapists 2",
+    "appid": 641990,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 396,
+    "slug": "inside",
+    "title": "INSIDE",
+    "appid": 304430,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 397,
+    "slug": "gorogoa",
+    "title": "Gorogoa",
+    "appid": 557600,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 398,
+    "slug": "the-room",
+    "title": "The Room",
+    "appid": 288160,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 399,
+    "slug": "the-room-two",
+    "title": "The Room Two",
+    "appid": 425580,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  },
+  {
+    "id": 400,
+    "slug": "the-room-three",
+    "title": "The Room Three",
+    "appid": 456750,
+    "editorialStatus": "catalog",
+    "editorialLabel": "カタログ",
+    "verifiedAt": "2026-08-26",
+    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認"
+  }
+]

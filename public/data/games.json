@@ -13535,35 +13535,6 @@
     "editorialLabel": "カタログ"
   },
   {
-    "id": 347,
-    "slug": "spiritfarer-farewell-edition-972660",
-    "title": "Spiritfarer®: Farewell Edition",
-    "platform": "PC",
-    "genres": [
-      "生活",
-      "物語",
-      "協力"
-    ],
-    "priceType": "paid",
-    "priceLabel": "有料",
-    "multiplayer": "ソロ・協力",
-    "japanese": null,
-    "flags": [],
-    "summary": "船を育てながら魂との別れを描く生活アドベンチャー。",
-    "bestFor": "",
-    "discoveryScore": 5.8,
-    "affiliateKey": "spiritfarer-farewell-edition-972660",
-    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/972660/header.jpg",
-    "appid": 972660,
-    "imageSource": "Steam Store",
-    "verifiedAt": "2026-08-26",
-    "fallbackImage": "/assets/covers/spiritfarer-farewell-edition-972660.svg",
-    "pcLoadEditorial": "要確認",
-    "sourceNote": "カタログ登録。日本語・価格・仕様は公式ストアで要確認",
-    "editorialStatus": "catalog",
-    "editorialLabel": "カタログ"
-  },
-  {
     "id": 348,
     "slug": "gris",
     "title": "GRIS",
