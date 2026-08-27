@@ -1,5 +1,7 @@
 import { validateAssignment, validateBatchState } from './schema.mjs';
 
+const ISO=/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/;
+
 const BATCH_TRANSITIONS={
   DRAFT:new Set(['ALLOCATED']),
   ALLOCATED:new Set(['ACTIVE']),
@@ -27,7 +29,7 @@ const ASSIGNMENT_TRANSITIONS={
 
 const contextFields=context=>{
   if (!context || typeof context!=='object') throw new Error('context is required');
-  if (typeof context.at!=='string' || context.at==='') throw new Error('at is required');
+  if (typeof context.at!=='string' || !ISO.test(context.at)) throw new Error('at is invalid');
   if (typeof context.reason!=='string' || context.reason==='') throw new Error('reason is required');
   return context;
 };

@@ -16,8 +16,8 @@
           "task_type": {"enum": ["source_refresh", "internal_link_pass", "editorial_rewrite", "article_upgrade", "article_create", "dossier_upgrade", "game_enrichment"]},
           "priority": {"type": "number"},
           "status": {"enum": ["queued", "blocked", "completed"]},
-          "depends_on": {"type": "array", "items": {"type": "string"}},
-          "expected_paths": {"type": "array", "items": {"type": "string", "pattern": "^(?!/)(?!.*\\\\)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"}}
+          "depends_on": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"}},
+          "expected_paths": {"type": "array", "items": {"type": "string", "pattern": "^(?!/)(?!.*\\\\)(?!.*//)(?!.*(?:^|/)(?:\\.|\\.\\.)(?:/|$)).+$"}}
         }
       }
     }

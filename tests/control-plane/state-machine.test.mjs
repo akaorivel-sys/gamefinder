@@ -63,3 +63,10 @@ test('requires injected timestamps for immutable transition records', async () =
   const { transitionAssignment }=await import('../../scripts/lib/control-plane/state-machine.mjs');
   assert.throws(()=>transitionAssignment(assignment('ALLOCATED'),'DISPATCHED',{reason:'dispatch'}),/at/);
 });
+
+test('rejects malformed injected transition timestamps before appending history', async () => {
+  const { transitionBatch }=await import('../../scripts/lib/control-plane/state-machine.mjs');
+  const original=batch('DRAFT');
+  assert.throws(()=>transitionBatch(original,'ALLOCATED',{at:'not-a-timestamp',reason:'allocate'}),/at/);
+  assert.deepEqual(original,batch('DRAFT'));
+});

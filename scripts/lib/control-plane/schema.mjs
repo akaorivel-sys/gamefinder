@@ -6,6 +6,7 @@ const APPROVAL_STATES=new Set(['PENDING','APPROVED','REJECTED']);
 const WORKERS=new Set(['a','b','c','d','e']);
 const SHA=/^[0-9a-f]{40}$/;
 const ID=/^[a-z0-9][a-z0-9-]*$/;
+const QUEUE_ID=/^[a-z][a-z0-9-]*$/;
 const BATCH_ID=/^batch-[0-9]{4,}$/;
 const ISO=/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/;
 
@@ -19,6 +20,7 @@ const member=(value,field,allowed)=>{ if (!allowed.has(value)) fail(field); };
 const timestamp=(value,field)=>string(value,field,ISO);
 const sha=(value,field)=>string(value,field,SHA);
 const id=(value,field)=>string(value,field,ID);
+const queueId=(value,field='queue_id')=>string(value,field,QUEUE_ID);
 const batchId=(value,field='batch_id')=>string(value,field,BATCH_ID);
 const worker=(value,field='worker_id')=>member(value,field,WORKERS);
 
@@ -27,13 +29,18 @@ const ownedPath=(value,field)=>{
   if (value.startsWith('/') || value.includes('\\') || value.split('/').some(part=>part==='' || part==='.' || part==='..')) fail(field);
 };
 
-const history=(value,field='history')=>{
+const history=(value,field='history',states=undefined)=>{
   array(value,field);
   value.forEach((entry,index)=>{
     object(entry,`${field}.${index}`);
     required(entry,['from','to','at','reason']);
-    string(entry.from,`${field}.${index}.from`);
-    string(entry.to,`${field}.${index}.to`);
+    if (states) {
+      member(entry.from,`${field}.${index}.from`,states);
+      member(entry.to,`${field}.${index}.to`,states);
+    } else {
+      string(entry.from,`${field}.${index}.from`);
+      string(entry.to,`${field}.${index}.to`);
+    }
     timestamp(entry.at,`${field}.${index}.at`);
     string(entry.reason,`${field}.${index}.reason`);
   });
@@ -71,7 +78,7 @@ export const normalizeQueue=input=>{
   object(input);
   required(input,['schema_version','queue_id','tasks']);
   if (input.schema_version!==2) fail('schema_version');
-  id(input.queue_id,'queue_id');
+  queueId(input.queue_id);
   array(input.tasks,'tasks');
   input.tasks.forEach((task,index)=>queueTask(task,index,2));
   return {schema_version:2,queue_id:input.queue_id,tasks:input.tasks.map(task=>({...task,depends_on:[...task.depends_on],expected_paths:[...task.expected_paths],source_schema_version:2,eligible:true}))};
@@ -79,7 +86,7 @@ export const normalizeQueue=input=>{
 
 export const validateBatchState=value=>{
   object(value); required(value,['schema_version','batch_id','state','base_sha','created_at','updated_at','history']);
-  if (value.schema_version!==2) fail('schema_version'); batchId(value.batch_id); member(value.state,'state',BATCH_STATES); sha(value.base_sha,'base_sha'); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history); return value;
+  if (value.schema_version!==2) fail('schema_version'); batchId(value.batch_id); member(value.state,'state',BATCH_STATES); sha(value.base_sha,'base_sha'); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history,'history',BATCH_STATES); return value;
 };
 
 export const validateAssignment=value=>{
@@ -87,7 +94,7 @@ export const validateAssignment=value=>{
   if (value.schema_version!==2) fail('schema_version'); id(value.assignment_id,'assignment_id'); batchId(value.batch_id); integer(value.wave,'wave',1); worker(value.worker_id); integer(value.attempt,'attempt',1); member(value.state,'state',ASSIGNMENT_STATES);
   array(value.task_ids,'task_ids',1); value.task_ids.forEach((taskId,index)=>id(taskId,`task_ids.${index}`));
   array(value.expected_paths,'expected_paths',1); value.expected_paths.forEach((expectedPath,index)=>ownedPath(expectedPath,`expected_paths.${index}`));
-  sha(value.base_sha,'base_sha'); string(value.branch,'branch',/^workers\/batch-[0-9]{4,}\/[a-e]-wave-[0-9]{3,}$/); ownedPath(value.worktree_path,'worktree_path'); string(value.result_path,'result_path',/^editorial\/results\/v2\/[a-z0-9-]+\.json$/); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history); return value;
+  sha(value.base_sha,'base_sha'); string(value.branch,'branch',/^workers\/batch-[0-9]{4,}\/[a-e]-wave-[0-9]{3,}$/); ownedPath(value.worktree_path,'worktree_path'); string(value.result_path,'result_path',/^editorial\/results\/v2\/[a-z0-9-]+\.json$/); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history,'history',ASSIGNMENT_STATES); return value;
 };
 
 export const validateWorkerResult=value=>{

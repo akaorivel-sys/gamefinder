@@ -10,6 +10,18 @@
     "base_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
     "created_at": {"type": "string", "format": "date-time"},
     "updated_at": {"type": "string", "format": "date-time"},
-    "history": {"type": "array"}
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "at", "reason"],
+        "properties": {
+          "from": {"enum": ["DRAFT", "ALLOCATED", "ACTIVE", "REVIEW", "INTEGRATION_PREPARED", "APPROVAL_PENDING", "APPROVED", "COMPLETE", "INTERRUPTED"]},
+          "to": {"enum": ["DRAFT", "ALLOCATED", "ACTIVE", "REVIEW", "INTEGRATION_PREPARED", "APPROVAL_PENDING", "APPROVED", "COMPLETE", "INTERRUPTED"]},
+          "at": {"type": "string", "format": "date-time"},
+          "reason": {"type": "string"}
+        }
+      }
+    }
   }
 }

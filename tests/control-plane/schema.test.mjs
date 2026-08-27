@@ -106,3 +106,39 @@ test('nested JSON Schema enums and required fields match runtime validator behav
   for (const status of outcomeSchema.properties.status.enum) api.validateWorkerResult({...result(),task_outcomes:[{task_id:'task-1',status}]});
   assert.throws(()=>api.validateWorkerResult({...result(),task_outcomes:[{task_id:'task-1'}]}),/task_outcomes\.0\.status/);
 });
+
+test('schema identity and path patterns reject the same malformed values as runtime validation', async () => {
+  const { normalizeQueue, validateAssignment, validateSessionState }=await import('../../scripts/lib/control-plane/schema.mjs');
+  const queueSchema=readSchema('queue-v2.schema.json');
+  const taskSchema=queueSchema.properties.tasks.items.properties;
+  const assignmentSchema=readSchema('assignment-v2.schema.json');
+  const sessionSchema=readSchema('session-state-v2.schema.json');
+  const checks=[
+    [queueSchema.properties.queue_id.pattern,'1'],
+    [taskSchema.depends_on.items.pattern,'bad id'],
+    [taskSchema.expected_paths.items.pattern,'public//example.html'],
+    [taskSchema.expected_paths.items.pattern,'public/./example.html'],
+    [assignmentSchema.properties.task_ids.items.pattern,'bad id'],
+    [sessionSchema.properties.outstanding_assignment_ids.items.pattern,'bad id']
+  ];
+  for (const [pattern,invalid] of checks) assert.doesNotMatch(invalid,new RegExp(pattern));
+  assert.throws(()=>normalizeQueue({...queue(),queue_id:'1'}),/queue_id/);
+  assert.throws(()=>normalizeQueue({...queue(),tasks:[{...queue().tasks[0],depends_on:['bad id']}]}),/tasks\.0\.depends_on\.0/);
+  assert.throws(()=>normalizeQueue({...queue(),tasks:[{...queue().tasks[0],expected_paths:['public/./example.html']}]}),/tasks\.0\.expected_paths\.0/);
+  assert.throws(()=>validateAssignment({...assignment(),task_ids:['bad id']}),/task_ids\.0/);
+  assert.throws(()=>validateSessionState({...session(),outstanding_assignment_ids:['bad id']}),/outstanding_assignment_ids\.0/);
+});
+
+test('batch and assignment history schemas constrain state records like runtime validation', async () => {
+  const { validateAssignment, validateBatchState }=await import('../../scripts/lib/control-plane/schema.mjs');
+  const batchSchema=readSchema('batch-state-v2.schema.json');
+  const assignmentSchema=readSchema('assignment-v2.schema.json');
+  for (const [schema,valid,validate] of [[batchSchema,batch(),validateBatchState],[assignmentSchema,assignment(),validateAssignment]]) {
+    const item=schema.properties.history.items;
+    assert.ok(item,'history schema declares record items');
+    assert.deepEqual(item.required,['from','to','at','reason']);
+    assert.ok(item.properties.from.enum.includes(valid.state));
+    validate({...valid,history:[{from:valid.state,to:valid.state,at,reason:'recorded'}]});
+    assert.throws(()=>validate({...valid,history:[{from:'NOT_A_STATE',to:valid.state,at,reason:'recorded'}]}),/history\.0\.from/);
+  }
+});
