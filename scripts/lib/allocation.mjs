@@ -9,6 +9,8 @@ export const TASK_WEIGHTS={
 };
 export const ALLOWED_TASK_TYPES=new Set(Object.keys(TASK_WEIGHTS));
 
+export { allocateWave } from './control-plane/wave.mjs';
+
 export function allocateTasks(tasks,workers=['a','b','c','d','e']) {
   const eligible=tasks.filter(t=>t.status==='queued' && ALLOWED_TASK_TYPES.has(t.task_type))
     .sort((a,b)=>(b.priority??0)-(a.priority??0) || String(a.task_id).localeCompare(String(b.task_id)));
