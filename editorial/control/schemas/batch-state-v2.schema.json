@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameFinder batch state v2",
+  "type": "object",
+  "required": ["schema_version", "batch_id", "state", "base_sha", "created_at", "updated_at", "history"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "batch_id": {"type": "string", "pattern": "^batch-[0-9]{4,}$"},
+    "state": {"enum": ["DRAFT", "ALLOCATED", "ACTIVE", "REVIEW", "INTEGRATION_PREPARED", "APPROVAL_PENDING", "APPROVED", "COMPLETE", "INTERRUPTED"]},
+    "base_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "history": {"type": "array"}
+  }
+}

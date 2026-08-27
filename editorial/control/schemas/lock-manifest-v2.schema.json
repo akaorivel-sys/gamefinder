@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameFinder lock manifest v2",
+  "type": "object",
+  "required": ["schema_version", "batch_id", "locks", "updated_at"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "batch_id": {"type": "string", "pattern": "^batch-[0-9]{4,}$"},
+    "locks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["assignment_id", "worker_id", "wave", "path", "state", "acquired_at", "updated_at"],
+        "properties": {
+          "assignment_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "worker_id": {"enum": ["a", "b", "c", "d", "e"]},
+          "wave": {"type": "integer", "minimum": 1},
+          "path": {"type": "string", "pattern": "^(?!/)(?!.*\\\\)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"},
+          "state": {"enum": ["HELD", "RELEASED"]},
+          "acquired_at": {"type": "string", "format": "date-time"},
+          "updated_at": {"type": "string", "format": "date-time"}
+        }
+      }
+    },
+    "updated_at": {"type": "string", "format": "date-time"}
+  }
+}
