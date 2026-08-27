@@ -15,10 +15,13 @@ export const allocateWave=({tasks,batch,workers,locks,maxWorkers})=>{
   const assignments=batch?.assignments??[];
   const dependency=evaluateDependencies(tasks,batch?.completed_task_ids??[]);
   if (dependency.errors.length) return {assignments:[],blocked_task_ids:[...dependency.blocked_task_ids],errors:[...dependency.errors]};
-  const activeWorkers=new Set(assignments.filter(assignment=>ACTIVE_ASSIGNMENT_STATES.has(assignment.state)).map(assignment=>assignment.worker_id));
+  const activeWorkers=new Set([
+    ...assignments.filter(assignment=>ACTIVE_ASSIGNMENT_STATES.has(assignment.state)).map(assignment=>assignment.worker_id),
+    ...workers.filter(workerActive).map(workerId)
+  ]);
   const activeTaskIds=new Set(assignments.filter(assignment=>ACTIVE_ASSIGNMENT_STATES.has(assignment.state)).flatMap(assignment=>assignment.task_ids??[]));
   const availableWorkers=[...new Set([...workers]
-    .filter(worker=>!workerActive(worker) && !activeWorkers.has(workerId(worker)))
+    .filter(worker=>!activeWorkers.has(workerId(worker)))
     .map(workerId)
   )].sort()
     .slice(0,Math.min(maxWorkers??3,3));

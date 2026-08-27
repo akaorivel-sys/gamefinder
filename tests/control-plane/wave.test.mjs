@@ -49,6 +49,13 @@ test('deduplicates worker IDs before selecting a Wave', () => {
   assert.deepEqual(result.assignments.map(assignment=>[assignment.worker_id,assignment.task_ids]),[['a',['first']],['b',['second']]]);
 });
 
+test('excludes an active Worker ID across mixed Worker representations', () => {
+  const result=allocateWave({
+    tasks:[task('first',100)],batch:batch(),workers:[{worker_id:'a',state:'RUNNING'},'a','b'],locks:locks(),maxWorkers:3
+  });
+  assert.deepEqual(result.assignments.map(assignment=>[assignment.worker_id,assignment.task_ids]),[['b',['first']]]);
+});
+
 test('filters unfinished dependencies and locked or conflicting owned paths', () => {
   const result=allocateWave({
     tasks:[

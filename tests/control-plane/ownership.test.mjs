@@ -27,6 +27,12 @@ test('acquires exclusive immutable locks for an assignment', () => {
   assert.throws(()=>acquireLocks(locked,assignment({assignment_id:'assignment-0002-b-001-01',worker_id:'b'}),at),/locked/);
 });
 
+test('rejects a reused assignment ID with a different Worker or Wave', () => {
+  const locked=acquireLocks(manifest(),assignment(),at);
+  assert.throws(()=>acquireLocks(locked,assignment({worker_id:'b'}),at),/locked identity/);
+  assert.throws(()=>acquireLocks(locked,assignment({wave:2}),at),/locked identity/);
+});
+
 test('allows only an explicit release and retains held locks after interruption', () => {
   const locked=acquireLocks(manifest(),assignment(),at);
   const interrupted={...assignment(),state:'INTERRUPTED'};

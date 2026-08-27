@@ -24,6 +24,7 @@ export const acquireLocks=(manifest,assignment,at)=>{
   for (const path of paths) {
     const existing=next.locks.find(lock=>lock.path===path && lock.state==='HELD');
     if (existing && existing.assignment_id!==assignment.assignment_id) throw new Error(`path is locked: ${path}`);
+    if (existing && (existing.worker_id!==assignment.worker_id || existing.wave!==assignment.wave)) throw new Error(`locked identity does not match: ${path}`);
   }
   for (const path of paths) {
     if (!next.locks.some(lock=>lock.path===path && lock.assignment_id===assignment.assignment_id && lock.state==='HELD')) {
