@@ -1,4 +1,7 @@
-const TASK_TYPES=new Set(['source_refresh','internal_link_pass','editorial_rewrite','article_upgrade','article_create','dossier_upgrade','game_enrichment']);
+import { CLASSIFICATIONS, classifyTask, validateDispatchMetadata } from './resource-routing.mjs';
+
+const TASK_TYPES=new Set(['source_refresh','internal_link_pass','editorial_rewrite','article_upgrade','article_create','dossier_upgrade','game_enrichment','validation_run','registry_build','progress_build','control_plane_validation','repository_change','parallel_code_change','content_generation','article_writing','content_batch_apply']);
+const CLASSIFICATION_SET=new Set(CLASSIFICATIONS);
 const QUEUE_STATUSES=new Set(['queued','blocked','completed']);
 const BATCH_STATES=new Set(['DRAFT','ALLOCATED','ACTIVE','REVIEW','INTEGRATION_PREPARED','APPROVAL_PENDING','APPROVED','COMPLETE','INTERRUPTED']);
 const ASSIGNMENT_STATES=new Set(['ALLOCATED','DISPATCHED','RUNNING','RESULT_READY','REVIEW_PASSED','INTEGRATED','REVIEW_REJECTED','INTERRUPTED','BLOCKED','FAILED']);
@@ -61,12 +64,13 @@ const queueTask=(task,index,version)=>{
     if (task.expected_paths===undefined) fail(`${field}.expected_paths`,'is required');
     array(task.expected_paths,`${field}.expected_paths`);
     task.expected_paths.forEach((expectedPath,pathIndex)=>ownedPath(expectedPath,`${field}.expected_paths.${pathIndex}`));
+    if (task.classification!==undefined) member(task.classification,`${field}.classification`,CLASSIFICATION_SET);
   }
 };
 
 const normalizedV1Task=(task,index)=>{
   queueTask(task,index,1);
-  const base={task_id:task.task_id,task_type:task.task_type,priority:task.priority,status:task.status,depends_on:[...task.depends_on],expected_paths:[],source_schema_version:1,eligible:false};
+  const base={task_id:task.task_id,task_type:task.task_type,priority:task.priority,status:task.status,depends_on:[...task.depends_on],expected_paths:[],classification:classifyTask(task),source_schema_version:1,eligible:false};
   if ((task.task_type==='article_upgrade' || task.task_type==='article_create') && typeof task.article_slug==='string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(task.article_slug)) {
     return {...base,expected_paths:[`public/articles/${task.article_slug}.html`],eligible:true};
   }
@@ -81,29 +85,29 @@ export const normalizeQueue=input=>{
   queueId(input.queue_id);
   array(input.tasks,'tasks');
   input.tasks.forEach((task,index)=>queueTask(task,index,2));
-  return {schema_version:2,queue_id:input.queue_id,tasks:input.tasks.map(task=>({...task,depends_on:[...task.depends_on],expected_paths:[...task.expected_paths],source_schema_version:2,eligible:true}))};
+  return {schema_version:2,queue_id:input.queue_id,tasks:input.tasks.map(task=>({...task,depends_on:[...task.depends_on],expected_paths:[...task.expected_paths],classification:classifyTask(task),source_schema_version:2,eligible:true}))};
 };
 
 export const validateBatchState=value=>{
-  object(value); required(value,['schema_version','batch_id','state','base_sha','created_at','updated_at','history']);
-  if (value.schema_version!==2) fail('schema_version'); batchId(value.batch_id); member(value.state,'state',BATCH_STATES); sha(value.base_sha,'base_sha'); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history,'history',BATCH_STATES); return value;
+  object(value); required(value,['schema_version','batch_id','state','base_sha','classification','execution_route','worker_count','dispatch_reason','created_at','updated_at','history']);
+  if (value.schema_version!==2) fail('schema_version'); batchId(value.batch_id); member(value.state,'state',BATCH_STATES); sha(value.base_sha,'base_sha'); validateDispatchMetadata(value); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history,'history',BATCH_STATES); return value;
 };
 
 export const validateAssignment=value=>{
-  object(value); required(value,['schema_version','assignment_id','batch_id','wave','worker_id','attempt','state','task_ids','expected_paths','base_sha','branch','worktree_path','result_path','created_at','updated_at','history']);
+  object(value); required(value,['schema_version','assignment_id','batch_id','wave','worker_id','attempt','state','task_ids','expected_paths','base_sha','branch','worktree_path','result_path','classification','execution_route','worker_count','dispatch_reason','created_at','updated_at','history']);
   if (value.schema_version!==2) fail('schema_version'); id(value.assignment_id,'assignment_id'); batchId(value.batch_id); integer(value.wave,'wave',1); worker(value.worker_id); integer(value.attempt,'attempt',1); member(value.state,'state',ASSIGNMENT_STATES);
   array(value.task_ids,'task_ids',1); value.task_ids.forEach((taskId,index)=>id(taskId,`task_ids.${index}`));
   array(value.expected_paths,'expected_paths',1); value.expected_paths.forEach((expectedPath,index)=>ownedPath(expectedPath,`expected_paths.${index}`));
-  sha(value.base_sha,'base_sha'); string(value.branch,'branch',/^workers\/batch-[0-9]{4,}\/[a-e]-wave-[0-9]{3,}$/); ownedPath(value.worktree_path,'worktree_path'); string(value.result_path,'result_path',/^editorial\/results\/v2\/[a-z0-9-]+\.json$/); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history,'history',ASSIGNMENT_STATES); return value;
+  sha(value.base_sha,'base_sha'); string(value.branch,'branch',/^workers\/batch-[0-9]{4,}\/[a-e]-wave-[0-9]{3,}$/); ownedPath(value.worktree_path,'worktree_path'); string(value.result_path,'result_path',/^editorial\/results\/v2\/[a-z0-9-]+\.json$/); validateDispatchMetadata(value); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); history(value.history,'history',ASSIGNMENT_STATES); return value;
 };
 
 export const validateWorkerResult=value=>{
-  object(value); required(value,['schema_version','result_id','batch_id','wave','assignment_id','worker_id','base_sha','commit_sha','task_outcomes','changed_paths','validation','created_at','completed_at','notes']);
+  object(value); required(value,['schema_version','result_id','batch_id','wave','assignment_id','worker_id','base_sha','commit_sha','task_outcomes','changed_paths','validation','classification','execution_route','worker_count','dispatch_reason','created_at','completed_at','notes']);
   if (value.schema_version!==2) fail('schema_version'); id(value.result_id,'result_id'); batchId(value.batch_id); integer(value.wave,'wave',1); id(value.assignment_id,'assignment_id'); worker(value.worker_id); sha(value.base_sha,'base_sha'); sha(value.commit_sha,'commit_sha');
   array(value.task_outcomes,'task_outcomes',1); value.task_outcomes.forEach((outcome,index)=>{ const field=`task_outcomes.${index}`; object(outcome,field); if (outcome.task_id===undefined) fail(`${field}.task_id`,'is required'); if (outcome.status===undefined) fail(`${field}.status`,'is required'); id(outcome.task_id,`${field}.task_id`); member(outcome.status,`${field}.status`,new Set(['COMPLETED','BLOCKED','FAILED'])); });
   array(value.changed_paths,'changed_paths'); value.changed_paths.forEach((changedPath,index)=>ownedPath(changedPath,`changed_paths.${index}`));
   array(value.validation,'validation',1); value.validation.forEach((check,index)=>{ object(check,`validation.${index}`); required(check,['command','exit_code']); string(check.command,`validation.${index}.command`); integer(check.exit_code,`validation.${index}.exit_code`); });
-  timestamp(value.created_at,'created_at'); timestamp(value.completed_at,'completed_at'); string(value.notes,'notes'); return value;
+  validateDispatchMetadata(value); timestamp(value.created_at,'created_at'); timestamp(value.completed_at,'completed_at'); string(value.notes,'notes'); return value;
 };
 
 export const validateLockManifest=value=>{
@@ -112,9 +116,11 @@ export const validateLockManifest=value=>{
 };
 
 export const validateSessionState=value=>{
-  object(value); required(value,['schema_version','session_id','batch_id','mode','last_completed_phase','outstanding_assignment_ids','next_action','created_at','updated_at']); if (value.schema_version!==2) fail('schema_version'); id(value.session_id,'session_id'); batchId(value.batch_id); member(value.mode,'mode',new Set(['t','a'])); string(value.last_completed_phase,'last_completed_phase'); array(value.outstanding_assignment_ids,'outstanding_assignment_ids'); value.outstanding_assignment_ids.forEach((assignmentId,index)=>id(assignmentId,`outstanding_assignment_ids.${index}`)); string(value.next_action,'next_action'); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); return value;
+  object(value); required(value,['schema_version','session_id','batch_id','mode','last_completed_phase','outstanding_assignment_ids','next_action','classification','execution_route','worker_count','dispatch_reason','created_at','updated_at']); if (value.schema_version!==2) fail('schema_version'); id(value.session_id,'session_id'); batchId(value.batch_id); member(value.mode,'mode',new Set(['t','a'])); string(value.last_completed_phase,'last_completed_phase'); array(value.outstanding_assignment_ids,'outstanding_assignment_ids'); value.outstanding_assignment_ids.forEach((assignmentId,index)=>id(assignmentId,`outstanding_assignment_ids.${index}`)); string(value.next_action,'next_action'); validateDispatchMetadata(value); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); return value;
 };
 
 export const validateApproval=value=>{
-  object(value); required(value,['schema_version','batch_id','status','created_at','updated_at']); if (value.schema_version!==2) fail('schema_version'); batchId(value.batch_id); member(value.status,'status',APPROVAL_STATES); timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); return value;
+  object(value); required(value,['schema_version','batch_id','status','integration_branch','integration_head','created_at','updated_at']); if (value.schema_version!==2) fail('schema_version'); batchId(value.batch_id); member(value.status,'status',APPROVAL_STATES); string(value.integration_branch,'integration_branch',/^integration\/batch-[0-9]{4,}$/); sha(value.integration_head,'integration_head');
+  if (value.status!=='PENDING') { required(value,['actor','reason','decided_at']); string(value.actor,'actor'); string(value.reason,'reason'); timestamp(value.decided_at,'decided_at'); }
+  timestamp(value.created_at,'created_at'); timestamp(value.updated_at,'updated_at'); return value;
 };

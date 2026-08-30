@@ -3,7 +3,7 @@ import test from 'node:test';
 import { allocateWave } from '../../scripts/lib/allocation.mjs';
 
 const sha='a'.repeat(40);
-const task=(task_id,priority,task_type='source_refresh',overrides={})=>({task_id,priority,task_type,status:'queued',depends_on:[],expected_paths:[`public/articles/${task_id}.html`],...overrides});
+const task=(task_id,priority,task_type='source_refresh',overrides={})=>({task_id,priority,task_type,status:'queued',depends_on:[],expected_paths:[`scripts/synthetic/${task_id}.mjs`],...overrides});
 const batch=(overrides={})=>({batch_id:'batch-0002',wave:1,base_sha:sha,created_at:'2026-08-27T00:00:00.000Z',assignments:[],completed_task_ids:[],allow_reassignment_task_ids:[],...overrides});
 const locks=(entries=[])=>({schema_version:2,batch_id:'batch-0002',locks:entries,updated_at:'2026-08-27T00:00:00.000Z'});
 
@@ -35,13 +35,21 @@ test('requires explicit approved reassignment and increments its attempt', () =>
   assert.deepEqual(approved.assignments.map(assignment=>[assignment.worker_id,assignment.task_ids,assignment.attempt]),[['a',['retry'],2]]);
 });
 
-test('keeps fresh and retried tasks in assignments with their own attempt numbers', () => {
+test('keeps separate attempt groups on distinct Workers and never shares one worktree', () => {
   const result=allocateWave({
+    tasks:[task('retry',100),task('fresh',90)],
+    batch:batch({assignments:[{assignment_id:'assignment-0002-a-001-01',worker_id:'a',task_ids:['retry'],attempt:1,state:'FAILED'}],allow_reassignment_task_ids:['retry']}),
+    workers:['a','b'],locks:locks(),maxWorkers:2
+  });
+  assert.deepEqual(result.assignments.map(assignment=>[assignment.worker_id,assignment.task_ids,assignment.attempt]),[['a',['retry'],2],['b',['fresh'],1]]);
+
+  const oneWorker=allocateWave({
     tasks:[task('retry',100),task('fresh',90)],
     batch:batch({assignments:[{assignment_id:'assignment-0002-a-001-01',worker_id:'a',task_ids:['retry'],attempt:1,state:'FAILED'}],allow_reassignment_task_ids:['retry']}),
     workers:['a'],locks:locks(),maxWorkers:1
   });
-  assert.deepEqual(result.assignments.map(assignment=>[assignment.task_ids,assignment.attempt]),[[['retry'],2],[['fresh'],1]]);
+  assert.deepEqual(oneWorker.assignments.map(assignment=>[assignment.worker_id,assignment.task_ids,assignment.attempt]),[['a',['retry'],2]]);
+  assert.deepEqual(oneWorker.blocked_task_ids,['fresh']);
 });
 
 test('deduplicates worker IDs before selecting a Wave', () => {
@@ -61,12 +69,12 @@ test('filters unfinished dependencies and locked or conflicting owned paths', ()
     tasks:[
       task('blocked-dependency',100,'source_refresh',{depends_on:['done']}),
       task('done',1,'source_refresh',{status:'blocked'}),
-      task('locked-path',90,'source_refresh',{expected_paths:['public/articles/locked.html']}),
-      task('free-path',80,'source_refresh',{expected_paths:['public/articles/free.html']}),
-      task('same-free-path',70,'source_refresh',{expected_paths:['public/articles/free.html']})
+      task('locked-path',90,'source_refresh',{expected_paths:['scripts/synthetic/locked.mjs']}),
+      task('free-path',80,'source_refresh',{expected_paths:['scripts/synthetic/free.mjs']}),
+      task('same-free-path',70,'source_refresh',{expected_paths:['scripts/synthetic/free.mjs']})
     ],
     batch:batch(), workers:['a','b','c'],
-    locks:locks([{assignment_id:'assignment-0002-e-001-01',worker_id:'e',wave:1,path:'public/articles/locked.html',state:'HELD',acquired_at:'2026-08-27T00:00:00.000Z',updated_at:'2026-08-27T00:00:00.000Z'}]), maxWorkers:3
+    locks:locks([{assignment_id:'assignment-0002-e-001-01',worker_id:'e',wave:1,path:'scripts/synthetic/locked.mjs',state:'HELD',acquired_at:'2026-08-27T00:00:00.000Z',updated_at:'2026-08-27T00:00:00.000Z'}]), maxWorkers:3
   });
   assert.deepEqual(result.assignments.map(assignment=>assignment.task_ids),[['free-path']]);
   assert.deepEqual(result.blocked_task_ids,['blocked-dependency','locked-path','same-free-path']);

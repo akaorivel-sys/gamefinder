@@ -2,6 +2,9 @@ const forbidden=path=>path==='.firebaserc'
   || path==='firebase.json'
   || path==='public/index.html'
   || path==='public/robots.txt'
+  || path.startsWith('public/articles/')
+  || path.startsWith('public/games/')
+  || path.startsWith('public/data/')
   || path.startsWith('.github/workflows/')
   || path.startsWith('public/public/')
   || path.startsWith('editorial/queue/assignments/batch-0001-');

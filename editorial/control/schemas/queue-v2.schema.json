@@ -13,7 +13,8 @@
         "required": ["task_id", "task_type", "priority", "status", "depends_on", "expected_paths"],
         "properties": {
           "task_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
-          "task_type": {"enum": ["source_refresh", "internal_link_pass", "editorial_rewrite", "article_upgrade", "article_create", "dossier_upgrade", "game_enrichment"]},
+          "task_type": {"enum": ["source_refresh", "internal_link_pass", "editorial_rewrite", "article_upgrade", "article_create", "dossier_upgrade", "game_enrichment", "validation_run", "registry_build", "progress_build", "control_plane_validation", "repository_change", "parallel_code_change", "content_generation", "article_writing", "content_batch_apply"]},
+          "classification": {"enum": ["local_script", "repository_change", "parallel_code_change", "content_generation", "article_writing", "content_application"]},
           "priority": {"type": "number"},
           "status": {"enum": ["queued", "blocked", "completed"]},
           "depends_on": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"}},

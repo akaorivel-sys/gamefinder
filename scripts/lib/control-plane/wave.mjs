@@ -49,13 +49,16 @@ export const allocateWave=({tasks,batch,workers,locks,maxWorkers})=>{
       blocked.push(task.task_id);
       continue;
     }
-    const bin=[...bins].sort((a,b)=>a.workload_units-b.workload_units || a.worker_id.localeCompare(b.worker_id))[0];
+    const attempt=historicalAttempts(assignments,task.task_id)+1;
+    const bin=bins
+      .filter(candidate=>candidate.entries.length===0 || candidate.entries.every(entry=>entry.attempt===attempt))
+      .sort((a,b)=>a.workload_units-b.workload_units || a.worker_id.localeCompare(b.worker_id))[0];
     if (!bin) {
       blocked.push(task.task_id);
       continue;
     }
     const workload_units=TASK_WEIGHTS[task.task_type]??1;
-    bin.entries.push({task_id:task.task_id,expected_paths:paths,workload_units,attempt:historicalAttempts(assignments,task.task_id)+1});
+    bin.entries.push({task_id:task.task_id,expected_paths:paths,workload_units,attempt});
     bin.workload_units+=workload_units;
     paths.forEach(path=>selectedPaths.add(path));
   }

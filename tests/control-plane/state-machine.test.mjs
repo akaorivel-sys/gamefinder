@@ -4,8 +4,8 @@ import test from 'node:test';
 const at='2026-08-27T00:00:00.000Z';
 const later='2026-08-27T00:01:00.000Z';
 const sha='a'.repeat(40);
-const batch=state=>({schema_version:2,batch_id:'batch-0002',state,base_sha:sha,created_at:at,updated_at:at,history:[]});
-const assignment=state=>({schema_version:2,assignment_id:'assignment-0002-a-001-01',batch_id:'batch-0002',wave:1,worker_id:'a',attempt:1,state,task_ids:['task-1'],expected_paths:['public/articles/example.html'],base_sha:sha,branch:'workers/batch-0002/a-wave-001',worktree_path:'worktrees/batch-0002/a-wave-001',result_path:'editorial/results/v2/result-0002-a-001-01.json',created_at:at,updated_at:at,history:[]});
+const batch=state=>({schema_version:2,batch_id:'batch-0002',state,base_sha:sha,classification:'repository_change',execution_route:'codex-master',worker_count:0,dispatch_reason:'Master owns this repository change',created_at:at,updated_at:at,history:[]});
+const assignment=state=>({schema_version:2,assignment_id:'assignment-0002-a-001-01',batch_id:'batch-0002',wave:1,worker_id:'a',attempt:1,state,task_ids:['task-1'],expected_paths:['public/articles/example.html'],base_sha:sha,branch:'workers/batch-0002/a-wave-001',worktree_path:'worktrees/batch-0002/a-wave-001',result_path:'editorial/results/v2/result-0002-a-001-01.json',classification:'parallel_code_change',execution_route:'codex-worker-wave',worker_count:1,dispatch_reason:'one independent code unit benefits from delegation',created_at:at,updated_at:at,history:[]});
 const context={at:later,reason:'verified evidence'};
 
 test('transitions a batch through its legal history with injected timestamps', async () => {
