@@ -85,8 +85,8 @@
 - [x] Document the final pipeline, failure behavior, and audited GitHub settings without changing repository settings.
 - [x] Mark completed plan steps and record RED/GREEN evidence.
 - [x] Run all release-safety tests, Control Plane validation tests, `npm run validate:control-plane`, `npm run validate:ci`, and `git diff --check` before the documentation commit.
-- [ ] Verify forbidden target changes are zero, the worktree is clean after commit, and Push/PR/Merge/Deploy counts are zero.
-- [ ] Commit the documentation and perform final verification on the clean branch.
+- [x] Verify forbidden target changes are zero, the worktree is clean after commit, and Push/PR/Merge/Deploy counts are zero.
+- [x] Commit the documentation and perform final verification on the clean branch.
 
 ## TDD and validation evidence
 
@@ -96,3 +96,4 @@
 - Release Safety GREEN: 16/16 tests passed and the repository report showed one production Workflow, one PR Preview Workflow, and one `live` declaration.
 - Control Plane integration: 7/7 validation tests passed after Workflow ownership moved to Release Safety.
 - Pre-documentation verification: `validate:control-plane`, `validate:ci` (including existing content tests 7/7), and `git diff --check` passed.
+- Post-implementation verification: Control Plane 134/134, Release Safety 16/16, `validate:control-plane`, `validate:ci`, and existing content tests 7/7 passed; forbidden target changes were zero.
