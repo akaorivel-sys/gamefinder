@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a local, resumable Master/Worker control plane that dispatches at most three assignment-driven Workers per Wave, integrates only Master-approved commits, and stops at user approval without touching GitHub or Firebase.
+**Goal:** Build a local, resumable, resource-aware Control Plane that defaults to zero Codex Workers, dispatches at most three assignment-driven optional Workers only for beneficial parallel code work, integrates only Master-approved commits, and stops at user approval without touching GitHub or Firebase.
 
-**Architecture:** Preserve the legacy queue and Batch 0001 as read-only v1 inputs, and layer v2 batch, assignment, Result, lock, session, and approval records under append-oriented control directories. Keep pure schema/state/allocation logic separate from guarded Git worktree operations, then compose them through deterministic `t`, session-continuous `a`, reconciliation, validation, and a temporary synthetic repository.
+**Architecture:** GPT Master and GPT Content Workers produce completed Content Batches; Codex Master accepts that boundary and owns repository application, code, registry, validation, Git, review, and integration preparation. Preserve the legacy queue and Batch 0001 as read-only v1 inputs, and layer v2 batch, assignment, Result, lock, session, and approval records under append-oriented control directories. Put pure task classification and resource routing before the existing optional Wave primitive, keep schema/state/allocation logic separate from guarded Git worktree operations, then compose them through deterministic `t`, session-continuous `a`, reconciliation, validation, and a temporary synthetic repository.
 
 **Tech Stack:** Node.js 22+ ESM, built-in `node:test`, JSON/JSON Schema, Git worktrees, project-scoped Codex Agent TOML.
 
@@ -19,6 +19,8 @@
 - Do not create `public/public`.
 - Preserve `noindex,follow` and `robots.txt` `Disallow: /`.
 - Dispatch at most three Workers in one Wave.
+- Codex Workers A-E are a default-off optional code pool. Do not assign content generation, article writing, research, or editorial prose to them.
+- Every `t`/`a` round selects `local-script`, `codex-master`, `codex-worker-wave`, or `external-content-input`; `worker_count` defaults to zero.
 - All production code follows a recorded RED -> expected failure -> minimal GREEN -> PASS cycle.
 - Synthetic verification uses a temporary repository and no-op files only.
 
@@ -109,7 +111,31 @@
 - [ ] **Step 4: Implement resume/cleanup guards.** Resume reports protected state without overwriting; cleanup removes only an exact verified-clean registered worktree.
 - [ ] **Step 5: Run focused tests, `git worktree list --porcelain`, and commit.** Commit as `feat: guard worker worktree lifecycle`.
 
-### Task 5: Add assignment-driven Worker Agents and Result writer
+### Task 5: Add resource-aware routing and persist dispatch decisions
+
+**Files:**
+- Create: `scripts/lib/control-plane/resource-routing.mjs`
+- Create: `tests/control-plane/resource-routing.test.mjs`
+- Modify: `scripts/lib/control-plane/schema.mjs`
+- Modify: `editorial/control/schemas/batch-state-v2.schema.json`
+- Modify: `editorial/control/schemas/assignment-v2.schema.json`
+- Modify: `editorial/control/schemas/worker-result-v2.schema.json`
+- Modify: `editorial/control/schemas/session-state-v2.schema.json`
+- Modify: `tests/control-plane/schema.test.mjs`
+- Modify: `tests/control-plane/state-machine.test.mjs`
+
+**Interfaces:**
+- Produces: `classifyTask(task)`, `selectExecutionRoute(task)`, and `planResources(tasks)` with persisted `classification`, `execution_route`, `worker_count`, and `dispatch_reason`.
+- Consumes: normalized queue tasks before any call to the existing `allocateWave`/`createWorkerWave` primitive.
+
+- [ ] **Step 1: RED route-selection tests.** Prove local scripts and Master work select zero Workers, independent parallel code selects only the useful 1-3 Workers, and the default route uses zero Workers.
+- [ ] **Step 2: RED content boundary tests.** Prove `content_generation` and `article_writing` can never select `codex-worker-wave`, even when parallel flags or a requested Worker count are present; completed Content Batch application selects Codex Master.
+- [ ] **Step 3: Implement pure classification and resource planning, then confirm GREEN.** Route priority is content boundary, local script, Codex Master, then beneficial parallel code; only the Worker route may return a non-zero count.
+- [ ] **Step 4: RED persistence tests.** Require dispatch metadata in batch, assignment, Result, and session state, constrain route/count combinations, and prove the JSON Schema and runtime validators agree.
+- [ ] **Step 5: Update runtime/JSON schemas and state fixtures, then confirm GREEN.** Set the JSON Schema default for `worker_count` to zero while requiring persisted state to include the actual decision.
+- [ ] **Step 6: Run focused suites and review that existing Wave limit, deduplication, locks, and worktree work remain intact.** Commit as `feat: route control plane resources` when Git metadata is writable.
+
+### Task 6: Add optional assignment-driven Worker Agents and Result writer
 
 **Files:**
 - Create: `.codex/config.toml`
@@ -128,13 +154,13 @@
 - Produces: `loadWorkerDefinition(root,workerId)`, `verifyWorkerStart(context)`, and `buildWorkerResult(context)` plus `node scripts/worker-control.mjs verify|result`.
 - Consumes: one immutable v2 assignment and its verified worktree/lock state.
 
-- [ ] **Step 1: RED Agent/definition tests.** Parse all five project-scoped TOML files through the production loader, assert unique IDs A-E, assignment-driven instructions, three-thread cap, and the same forbidden targets as runtime ownership.
+- [ ] **Step 1: RED Agent/definition tests.** Parse all five project-scoped TOML files through the production loader, assert unique IDs A-E, default-off optional-pool wording, assignment-driven instructions, explicit content-prose prohibition, three-thread cap, and the same forbidden targets as runtime ownership.
 - [ ] **Step 2: RED Worker start/Result tests.** Reject identity, base, branch, lock, dirty-state, uncommitted-change, changed-path, and failed-test mismatches; accept a literal valid Result.
-- [ ] **Step 3: Implement Worker definitions, Agent TOML, start checks, and Result builder.** Omit fixed model settings so each Agent inherits the approved parent model/effort.
+- [ ] **Step 3: Implement Worker definitions, Agent TOML, start checks, and Result builder.** Omit fixed model settings so each Agent inherits the approved parent model/effort. Reject any assignment whose execution route is not `codex-worker-wave` or whose classification is content generation/article writing.
 - [ ] **Step 4: Run focused tests and a no-write Worker verify fixture.** Confirm no Git remote operation is present or invoked.
 - [ ] **Step 5: Commit as `feat: add assignment driven worker agents`.**
 
-### Task 6: Implement Master review, integration preparation, and approval
+### Task 7: Implement Master review, integration preparation, and approval
 
 **Files:**
 - Create: `scripts/lib/control-plane/review.mjs`
@@ -155,7 +181,7 @@
 - [ ] **Step 5: RED then GREEN approval tests.** Default to `PENDING`; accept only explicit `APPROVED`/`REJECTED` with actor, reason, and timestamp.
 - [ ] **Step 6: Commit as `feat: add master review and integration gate`.**
 
-### Task 7: Compose `t`, session-continuous `a`, and interrupted-session reconciliation
+### Task 8: Compose resource-aware `t`, session-continuous `a`, and interrupted-session reconciliation
 
 **Files:**
 - Create: `scripts/control-plane.mjs`
@@ -172,12 +198,12 @@
 
 - [ ] **Step 1: RED store/reconcile tests.** Prove atomic checkpoint writes, idempotence, Result recovery, dirty worktree preservation, missing Result non-completion, stale/corrupted attention states, and no lock release on interruption.
 - [ ] **Step 2: Implement store/reconcile and confirm GREEN.** Reconstruction uses evidence; it never assumes Worker success.
-- [ ] **Step 3: RED `t` tests.** One call performs exactly one next action and refuses Batch 0001, an unsafe repository, and an invalid state.
-- [ ] **Step 4: RED `a` tests.** It loops through internal phases, dispatches at most three Workers, continues to later Waves when Results are supplied, and stops on external work, attention, no-ready-work, or `APPROVAL_PENDING`.
+- [ ] **Step 3: RED `t` tests.** One call performs exactly one next action, classifies it before allocation, advances zero-Worker local/Master routes, and refuses Batch 0001, an unsafe repository, and an invalid state.
+- [ ] **Step 4: RED `a` tests.** It reclassifies every round, loops through zero-Worker internal phases without a Wave, dispatches only the needed optional Workers with a maximum of three, continues to later rounds when Results are supplied, and stops on external content/Worker work, attention, no-ready-work, or `APPROVAL_PENDING`.
 - [ ] **Step 5: Implement orchestrator/CLI and package aliases.** Default real commands preview; state-changing execution requires explicit `--apply` and a batch ID of 0002 or later.
 - [ ] **Step 6: Run focused and full Control Plane tests, then commit.** Commit as `feat: add resumable master commands`.
 
-### Task 8: Validate the Control Plane and run a complete synthetic batch
+### Task 9: Validate the Control Plane and run complete synthetic routes
 
 **Files:**
 - Create: `scripts/validate-control-plane.mjs`
@@ -196,8 +222,9 @@
 
 - [ ] **Step 1: RED validation tests.** Mutate each schema/config/forbidden-path fixture and prove the validator exits non-zero with a specific diagnostic; prove Batch 0001 is read-only compatible.
 - [ ] **Step 2: Implement the validator and confirm GREEN.** Include hashes/scope checks for Batch 0001 and protected paths.
-- [ ] **Step 3: RED synthetic test.** Expect a summary containing Allocation, one Worker worktree/commit/Result, `REVIEW_PASSED`, integration head, `APPROVAL_PENDING`, and zero leftover worktrees.
-- [ ] **Step 4: Implement the temporary no-op synthetic flow and confirm GREEN.** Delete only the verified temporary root; never name the real repository as a cleanup target.
-- [ ] **Step 5: Record every RED/GREEN command and observed outcome in the TDD log.** The log identifies the behavior protected by each test group.
-- [ ] **Step 6: Run fresh completion verification.** Execute `npm run validate:ci`, `npm run validate:control-plane`, all `tests/control-plane/*.test.mjs`, `npm run control:synthetic`, forbidden-diff scans, Batch 0001 hash comparison, noindex/robots checks, `public/public` absence, `git diff --check`, `git status`, and `git worktree list --porcelain`.
-- [ ] **Step 7: Review the complete branch diff and commit.** Commit as `test: validate master worker control plane`.
+- [ ] **Step 3: RED synthetic tests.** Expect separate summaries for `local-script` with zero Workers, `codex-master` with zero Workers, and parallel code with only the needed Workers (maximum three). The parallel summary reaches Allocation, Worker worktree/commit/Result, `REVIEW_PASSED`, integration head, `APPROVAL_PENDING`, and zero leftover worktrees.
+- [ ] **Step 4: RED content negative test.** Prove content generation/article writing stops at `external-content-input` with zero Codex Workers and no dispatch manifest.
+- [ ] **Step 5: Implement the temporary no-op synthetic flows and confirm GREEN.** Delete only the verified temporary root; never name the real repository as a cleanup target.
+- [ ] **Step 6: Record every RED/GREEN command and observed outcome in the TDD log.** The log identifies the behavior protected by each test group.
+- [ ] **Step 7: Run fresh completion verification.** Execute `npm run validate:ci`, `npm run validate:control-plane`, all `tests/control-plane/*.test.mjs`, `npm run control:synthetic`, forbidden-diff scans, Batch 0001 hash comparison, noindex/robots checks, `public/public` absence, `git diff --check`, `git status`, and `git worktree list --porcelain`.
+- [ ] **Step 8: Review the complete branch diff and commit.** Commit as `test: validate master worker control plane` when Git metadata is writable.

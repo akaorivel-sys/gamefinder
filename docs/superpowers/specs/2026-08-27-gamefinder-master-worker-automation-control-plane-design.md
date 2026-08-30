@@ -7,18 +7,22 @@ Implementation branch: `infra/master-worker-automation`
 
 ## 1. Purpose and authority
 
-This design adds a local, session-continuous control plane for one Codex Master and Workers A-E. It preserves the repository's existing editorial queue, registry, progress, protocol, and validation assets, while replacing the earlier Worker-PR-per-batch workflow.
+This design adds a local, session-continuous control plane for one Codex Master and an optional Codex Worker A-E pool. It preserves the repository's existing editorial queue, registry, progress, protocol, and validation assets, while replacing the earlier Worker-PR-per-batch workflow.
+
+GPT Master and GPT Content Workers own article theme selection, research, structure, prose generation, and editorial review. The Codex Control Plane begins at the completed Content Batch boundary. Codex Master owns repository application, HTML/CSS/JavaScript work, registry and validation, Git/worktree/integration preparation, and difficult code fixes. Codex Workers are not content writers.
 
 This document supersedes the branch, Worker PR, orchestration-command, and first-trial portions of `docs/superpowers/specs/2026-08-26-gamefinder-master-worker-github-design.md`. Its safety, content-quality, registry, noindex, and Firebase deploy-root requirements remain in force.
 
 The controlling rules are:
 
-- Workers implement and commit on independent branches and worktrees, then write a structured Result.
+- Codex Workers are default-off, assignment-driven implementation helpers. Master starts only the number needed for independent code changes that benefit from parallel execution.
+- A selected Codex Worker implements and commits on an independent branch and worktree, then writes a structured Result.
 - Workers do not create Pull Requests.
 - Master accepts only reviewed Worker commits into `integration/batch-XXXX`.
 - The only future GitHub PR is one final integration PR. This implementation does not push, create a PR, merge, or deploy.
 - One Wave dispatches at most three Workers.
-- `a` is session-continuous, not scheduled: it advances selection, allocation, Wave dispatch, tests, review, and subsequent Waves until it needs an external Worker result, a user decision, or reaches `APPROVAL_PENDING`.
+- Each orchestration round first classifies the task, then prefers `local-script`, then `codex-master`, and uses `codex-worker-wave` only for beneficial independent code changes. Content generation routes to `external-content-input` and never to a Codex Worker.
+- `a` is session-continuous, not scheduled: it reclassifies each round and advances local execution, Master execution, optional Wave dispatch, tests, review, and subsequent rounds until it needs external content or a Worker result, a user decision, or reaches `APPROVAL_PENDING`.
 - `t` advances one deterministic orchestration round and returns the next required action.
 
 ## 2. Compatibility boundary and storage
@@ -50,9 +54,9 @@ The queue reader accepts:
 - v1: a top-level task array with the existing snake_case task fields;
 - v2: `{ "schema_version": 2, "queue_id": "...", "tasks": [...] }`.
 
-Both normalize to an internal task with `task_id`, `task_type`, `priority`, `status`, `depends_on`, `expected_paths`, and source schema version. For compatible v1 article tasks, `expected_paths` is derived only from the declared `article_slug`. Unsupported or path-ambiguous v1 tasks remain ineligible and are reported, not guessed.
+Both normalize to an internal task with `task_id`, `task_type`, `priority`, `status`, `depends_on`, `expected_paths`, `classification`, and source schema version. For compatible v1 article tasks, `expected_paths` is derived only from the declared `article_slug`. Unsupported or path-ambiguous v1 tasks remain ineligible and are reported, not guessed.
 
-V2 JSON Schemas define queue, batch state, assignment, Worker Result, lock manifest, session state, and approval. Runtime validators enforce the same observable contracts without adding an external package.
+V2 JSON Schemas define queue, batch state, assignment, Worker Result, lock manifest, session state, and approval. Runtime validators enforce the same observable contracts without adding an external package. Batch, assignment, Result, and session state persist `classification`, `execution_route`, `worker_count`, and `dispatch_reason`; `worker_count` defaults to zero and is always between zero and three.
 
 ## 4. Batch and assignment state machines
 
@@ -94,9 +98,22 @@ Each assignment owns an exact normalized repository-relative file set. Paths mus
 
 The allocator acquires one exclusive lock per owned path. Conflicting tasks cannot enter the same or later active Wave. A lock contains batch, Wave, assignment, Worker, path, state, and timestamps. Locks release only after reviewed integration or an explicit Master cancellation; interruption does not release them.
 
-Workers may change owned content paths and their own v2 Result file. Central queue, registry, progress, batch, approval, and lock state remain Master-owned.
+Workers may change only exact assigned code paths and their own v2 Result file. `public/articles/**`, `public/games/**`, and `public/data/**` remain outside Worker ownership. Central queue, registry, progress, batch, approval, and lock state remain Master-owned.
 
-## 6. Wave allocation and dispatch
+## 6. Resource-aware routing and optional Wave dispatch
+
+Before Wave allocation, pure routing logic selects one explicit execution route:
+
+| Route | Use | Codex Workers |
+| --- | --- | --- |
+| `local-script` | Existing deterministic scripts can complete the task | 0 |
+| `codex-master` | One repository or code change is best handled directly by Master | 0 |
+| `codex-worker-wave` | Independent code changes have a measurable parallelization benefit | 1-3, only the needed count |
+| `external-content-input` | GPT Content Workers must provide a completed Content Batch | 0 |
+
+`content_generation` and `article_writing` classifications always select `external-content-input`. A completed Content Batch may be reclassified as a Codex Master file-application task, but its prose is not generated or rewritten by Codex Workers. Routing is recalculated on every `t` or `a` round so a zero-Worker round proceeds locally or through Master without manufacturing a Wave.
+
+The routing result contains `classification`, `execution_route`, `worker_count`, and a non-empty `dispatch_reason`. Only `codex-worker-wave` may have a non-zero Worker count. The count is the minimum useful number for the declared independent code units and never exceeds three.
 
 Allocation reuses the existing task weights and deterministic priority ordering. It filters by dependency readiness, assignment history, forbidden paths, and active locks, then balances workload among available Workers A-E.
 
@@ -132,13 +149,15 @@ Master review independently verifies:
 - every changed path is owned and not forbidden;
 - all assigned task IDs have an allowed outcome;
 - required tests report exit code 0;
-- the assignment Result state is reviewable.
+- the assignment Result state is reviewable;
+- the Result is exactly one commit whose parent is the assigned base SHA;
+- every task outcome is `COMPLETED`.
 
 Review writes a structured decision. Only `REVIEW_PASSED` commits are eligible for integration. A rejected Result does not alter integration state or free its task for automatic reassignment.
 
 ## 9. Integration and user approval
 
-The integration preparer creates `integration/batch-XXXX` from the batch base in its own worktree and cherry-picks reviewed commits in deterministic Wave/Worker order. Any conflict stops preparation and preserves evidence for Master recovery.
+The integration preparer creates `integration/batch-XXXX` from the batch base in its own worktree. Before cherry-picking in deterministic Wave/Worker order, it binds every decision one-to-one to its Assignment and Result and recomputes Master review from Git evidence. Any mismatch or conflict stops preparation and preserves evidence for Master recovery.
 
 After integration validation passes, the batch stores integration branch/head and creates approval state:
 
@@ -150,9 +169,9 @@ No command implicitly changes `PENDING` to `APPROVED`. Approval requires an expl
 
 ## 10. Commands and recovery
 
-`npm run t -- [options]` performs one round: load, validate, reconcile, review available Results, prepare integration when ready, or allocate one Wave.
+`npm run t -- [options]` performs one round: load, validate, reconcile, classify and route, run a local/Master action when selected, review available Results, prepare integration when ready, or allocate one optional Wave.
 
-`npm run a -- [options]` repeats deterministic rounds in the same invocation until:
+`npm run a -- [options]` repeats deterministic, newly classified rounds in the same invocation until:
 
 - a Wave requires real Worker execution;
 - a dirty, stale, corrupted, failed, rejected, or conflicting state needs attention;
@@ -163,11 +182,12 @@ Every state write is atomic through a sibling temporary file and rename. A sessi
 
 ## 11. Codex agent configuration
 
-Project-scoped custom agents live in `.codex/agents/worker-{a-e}.toml`; `.codex/config.toml` caps concurrent spawned threads at three. Each Agent is assignment-driven and must:
+Project-scoped custom agents live in `.codex/agents/worker-{a-e}.toml`; `.codex/config.toml` caps concurrent spawned threads at three. They form a default-off optional pool, not a standing content team. Each Agent is assignment-driven and must:
 
 - read only the assignment path provided by Master;
 - verify identity, base, locks, and worktree before editing;
 - use TDD for code behavior;
+- refuse article prose generation, research, and editorial-writing assignments;
 - touch owned paths only;
 - run assignment tests;
 - commit locally;
@@ -180,7 +200,7 @@ Project-scoped custom agents live in `.codex/agents/worker-{a-e}.toml`; `.codex/
 
 Control Plane validation checks all schemas and fixtures, v1 Batch 0001 compatibility, v2 transitions, graph evaluation, locks, assignment history, Agent configs, command safety, forbidden targets, and path normalization.
 
-The synthetic end-to-end run creates a temporary Git repository, a no-op v2 queue, a synthetic batch numbered outside production, a Worker worktree, a Worker commit, a Result, a Master review, an integration branch, and a `PENDING` approval. It then removes only verified-clean temporary worktrees and confirms no registered residue remains. It never reads or writes public site content, real editorial tasks, Homepage, Firebase files, GitHub Actions, remote refs, or Batch 0001.
+The synthetic proof covers three positive routes: `local-script` with zero Workers, `codex-master` with zero Workers, and a parallel code route with only the needed Workers and an absolute maximum of three. A negative content-generation case proves that article prose never dispatches a Codex Worker. The parallel route creates a temporary Git repository, a no-op v2 queue, a synthetic batch numbered outside production, Worker worktree/commit/Result evidence, Master review, an integration branch, and a `PENDING` approval. It then removes only verified-clean temporary worktrees and confirms no registered residue remains. It never reads or writes public site content, real editorial tasks, Homepage, Firebase files, GitHub Actions, remote refs, or Batch 0001.
 
 ## 13. Completion criteria
 
@@ -188,6 +208,7 @@ The synthetic end-to-end run creates a temporary Git repository, a no-op v2 queu
 - Batch 0001 hashes remain identical to the baseline.
 - All new domain and Git lifecycle behavior has recorded RED then GREEN evidence.
 - Full Control Plane validation and tests pass.
+- Resource-aware routing persists its decision and proves zero-Worker local, Master, and content-input rounds plus a bounded optional Worker Wave.
 - Synthetic flow reaches `APPROVAL_PENDING` with no worktree residue.
 - Git diff contains no forbidden or site-content paths and no `public/public`.
 - The branch has local commits only; no push, PR, merge, or deploy occurs.
