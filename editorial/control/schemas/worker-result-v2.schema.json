@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameFinder worker result v2",
+  "type": "object",
+  "required": ["schema_version", "result_id", "batch_id", "wave", "assignment_id", "worker_id", "base_sha", "commit_sha", "task_outcomes", "changed_paths", "validation", "classification", "execution_route", "worker_count", "dispatch_reason", "created_at", "completed_at", "notes"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "result_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "batch_id": {"type": "string", "pattern": "^batch-[0-9]{4,}$"},
+    "wave": {"type": "integer", "minimum": 1},
+    "assignment_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "worker_id": {"enum": ["a", "b", "c", "d", "e"]},
+    "base_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "commit_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "task_outcomes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["task_id", "status"],
+        "properties": {
+          "task_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "status": {"enum": ["COMPLETED", "BLOCKED", "FAILED"]}
+        }
+      }
+    },
+    "changed_paths": {"type": "array", "items": {"type": "string", "pattern": "^(?!/)(?!.*\\\\)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"}},
+    "validation": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["command", "exit_code"],
+        "properties": {
+          "command": {"type": "string"},
+          "exit_code": {"type": "integer"}
+        }
+      }
+    },
+    "classification": {"enum": ["local_script", "repository_change", "parallel_code_change", "content_generation", "article_writing", "content_application"]},
+    "execution_route": {"enum": ["local-script", "codex-master", "codex-worker-wave", "external-content-input"]},
+    "worker_count": {"type": "integer", "minimum": 0, "maximum": 3, "default": 0},
+    "dispatch_reason": {"type": "string", "minLength": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "completed_at": {"type": "string", "format": "date-time"},
+    "notes": {"type": "string"}
+  },
+  "allOf": [
+    {"if": {"properties": {"execution_route": {"const": "codex-worker-wave"}}}, "then": {"properties": {"classification": {"const": "parallel_code_change"}, "worker_count": {"minimum": 1, "maximum": 3}}}},
+    {"if": {"not": {"properties": {"execution_route": {"const": "codex-worker-wave"}}}}, "then": {"properties": {"worker_count": {"const": 0}}}},
+    {"if": {"properties": {"classification": {"enum": ["content_generation", "article_writing"]}}}, "then": {"properties": {"execution_route": {"const": "external-content-input"}, "worker_count": {"const": 0}}}},
+    {"if": {"properties": {"classification": {"const": "content_application"}}}, "then": {"properties": {"execution_route": {"const": "codex-master"}}}},
+    {"if": {"properties": {"classification": {"const": "local_script"}}}, "then": {"properties": {"execution_route": {"const": "local-script"}}}},
+    {"if": {"properties": {"classification": {"const": "repository_change"}}}, "then": {"properties": {"execution_route": {"const": "codex-master"}}}},
+    {"if": {"properties": {"execution_route": {"const": "external-content-input"}}}, "then": {"properties": {"classification": {"enum": ["content_generation", "article_writing"]}}}}
+  ]
+}

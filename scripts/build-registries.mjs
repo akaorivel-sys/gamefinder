@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildRegistries } from './lib/registry.mjs';
+import { generatedTextMatches, writeJsonAtomic } from './lib/control-plane/io.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const publicDir=path.join(root,'public');
@@ -19,8 +20,8 @@ for (const [name,value] of Object.entries(files)) {
   const target=path.join(outDir,name);
   const next=JSON.stringify(value,null,2)+'\n';
   const prev=fs.existsSync(target)?fs.readFileSync(target,'utf8'):null;
-  if (prev!==next) changed=true;
-  if (!check) fs.writeFileSync(target,next);
+  if (!generatedTextMatches(prev,next)) changed=true;
+  if (!check) writeJsonAtomic(target,value);
 }
 if (check && changed) {
   console.error('Registry files differ from generated state. Run npm run build:registries.');

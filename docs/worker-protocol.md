@@ -1,82 +1,33 @@
-# GameFinder Worker Protocol
+# GameFinder Optional Codex Worker Protocol
 
-## Purpose
+## Purpose and default state
 
-Workers A–E edit only tasks assigned by the Master. `main` is authoritative and deployable; Worker branches are never deployed directly.
+Codex Workers A-E are a default-off optional Worker pool. Normal content production uses GPT Master and GPT Content Workers for themes, research, structure, article prose, and editorial review. The Codex Control Plane waits on `external-content-input` for that completed Content Batch.
 
-## Start of a batch
+Codex Master normally performs repository application, HTML/CSS/JavaScript changes, registry updates, validation/tests, Git/worktree handling, review, and integration preparation with `worker_count: 0`. Master dispatches only the necessary 1-3 Codex Workers when independent code changes benefit from parallel execution.
 
-1. Synchronize the Worker branch from the latest approved `main`.
-2. Read only the assignment addressed to that Worker in `editorial/queue/assignments/`.
-3. Verify every task ID exists in `editorial/queue/tasks.json`.
-4. Do not begin tasks assigned to another Worker.
+## Assignment gate
 
-## Allowed edits
+A Codex Worker starts only for one immutable v2 assignment under `editorial/queue/assignments/v2/` whose `execution_route` is `codex-worker-wave` and whose `classification` is `parallel_code_change`.
 
-A Worker may edit:
+Before editing, verify:
 
-- the article/game files named by its assignment
-- source records needed by those tasks
-- its own result file under `editorial/results/`
-- generated registry/progress files after running the standard generators
+1. assignment, batch, Wave, Worker, and attempt identity;
+2. assigned base SHA and exact `workers/batch-XXXX/<worker>-wave-NNN` branch;
+3. registered worktree state is `READY`, clean, and based on the assigned commit;
+4. every exact owned path has a matching held lock;
+5. no task is content generation, article writing, research, outlining, or editorial prose.
 
-A Worker must not edit:
+Reject `local-script`, `codex-master`, and `external-content-input` work. Never treat the optional pool as five standing Workers.
 
-- `.firebaserc` or `firebase.json`
-- `.github/workflows/`
-- global editorial policy
-- another Worker's assignment or result file
-- unrelated articles while "cleaning up"
-- `main` directly
+## Implementation and ownership
 
-## Research rules
+Use RED -> expected failure -> minimal implementation -> GREEN for code behavior. Edit only exact code paths in `expected_paths`; central queue, registry, progress, batch, approval, session, and lock state remain Master-owned. `public/articles/**`, `public/games/**`, and `public/data/**` are never Worker-owned. The Worker may write only its own v2 Result in addition to owned code paths.
 
-- Prefer official/developer sources first, then reliable wikis/mod documentation, then community material as a signal.
-- Community posts are evidence of player experience, not proof of universal consensus.
-- Never invent version numbers, prices, platform support, language support, review scores, or MOD compatibility.
-- If a required fact cannot be verified, keep it unknown and record the task as skipped/failed with the reason.
-- Automated deep articles remain `noindex,follow` until their research requirement is satisfied and Master explicitly changes indexing policy.
+Never edit `.github/workflows/**`, `.firebaserc`, `firebase.json`, `public/index.html`, `public/robots.txt`, `public/public/**`, Homepage, article prose, game data, or another Worker's files. Batch 0001 is read-only legacy v1 compatibility data and must never be allocated, executed, changed, deleted, or used in synthetic validation.
 
-## Quality rules
+## Result and handoff
 
-- A task with `required_depth: "deep"` requires at least 8,000 visible characters unless the task schema is changed by Master.
-- Repeated generic padding is not acceptable; article-specific reasoning, failure modes, decision criteria, and source context are required.
-- Root-relative internal links must resolve.
-- Exact duplicate article bodies are forbidden.
-- Existing unknown metadata stays unknown.
+Run every validation command required by the assignment. Produce exactly one commit whose direct parent is the assigned base SHA, confirm the worktree is clean, and write the v2 Result with assignment identity, base and commit SHA, task outcomes, actual changed paths, command exit codes, timestamps, notes, and the unchanged `classification`, `execution_route`, `worker_count`, and `dispatch_reason`.
 
-## Result file
-
-For batch `0001`, Worker A writes `editorial/results/batch-0001-worker-a.json`:
-
-```json
-{
-  "batch": "batch-0001",
-  "worker": "a",
-  "base_main_sha": "<main SHA used for the batch>",
-  "tasks": [
-    {
-      "task_id": "upgrade-example-deep-v1",
-      "status": "complete",
-      "changed_paths": ["public/articles/example.html"],
-      "sources_verified": 3,
-      "validation": "pass",
-      "notes": "Article-specific note for Master review"
-    }
-  ]
-}
-```
-
-Allowed result statuses are `complete`, `failed`, `skipped`, and `pr-ready`.
-
-## Before opening a Pull Request
-
-Run:
-
-```bash
-npm run build:registries
-npm run build:progress
-npm run validate:ci
-```
-
-The PR must list assignment file, task IDs, changed paths, research/source status, and validation result. CI passing is necessary but not sufficient: Master review is required before merge.
+Never push, create a Pull Request, merge, deploy, force-reset, force-clean, or delete an unsafe worktree. Master independently checks the commit and Result; only `REVIEW_PASSED` commits may enter a local `integration/batch-XXXX` branch.

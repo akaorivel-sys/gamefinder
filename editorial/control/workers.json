@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "default_enabled": false,
+  "default_worker_count": 0,
+  "max_wave_workers": 3,
+  "workers": [
+    {"worker_id": "a", "optional": true, "default_enabled": false, "assignment_driven": true, "content_prose_generation": false},
+    {"worker_id": "b", "optional": true, "default_enabled": false, "assignment_driven": true, "content_prose_generation": false},
+    {"worker_id": "c", "optional": true, "default_enabled": false, "assignment_driven": true, "content_prose_generation": false},
+    {"worker_id": "d", "optional": true, "default_enabled": false, "assignment_driven": true, "content_prose_generation": false},
+    {"worker_id": "e", "optional": true, "default_enabled": false, "assignment_driven": true, "content_prose_generation": false}
+  ]
+}
