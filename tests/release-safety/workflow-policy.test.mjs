@@ -20,6 +20,9 @@ concurrency:
 jobs:
   validate-and-deploy:
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Control Plane gate
         run: npm run validate:control-plane
       - name: Release quality gate
@@ -43,6 +46,9 @@ on:
 jobs:
   quality-gate:
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - run: npm run validate:control-plane
       - run: npm run validate:ci
   build_and_preview:
@@ -99,6 +105,18 @@ test('rejects production without both required quality commands', async () => {
     const report=await validate(root);
     assert.equal(report.ok,false);
     assert.ok(report.errors.some(error=>/validate:control-plane must run before live deploy/.test(error)));
+  } finally {
+    fs.rmSync(root,{recursive:true,force:true});
+  }
+});
+
+test('rejects a shallow production checkout before Control Plane validation', async () => {
+  const production=productionWorkflow.replace('        with:\n          fetch-depth: 0\n','');
+  const root=makeFixture({production});
+  try {
+    const report=await validate(root);
+    assert.equal(report.ok,false);
+    assert.ok(report.errors.some(error=>/Production Control Plane validation requires full Git history/.test(error)));
   } finally {
     fs.rmSync(root,{recursive:true,force:true});
   }
@@ -163,6 +181,18 @@ test('rejects PR Preview that is not dependent on quality-gate', async () => {
     const report=await validate(root);
     assert.equal(report.ok,false);
     assert.ok(report.errors.some(error=>/Preview must depend on quality-gate/.test(error)));
+  } finally {
+    fs.rmSync(root,{recursive:true,force:true});
+  }
+});
+
+test('rejects a shallow PR checkout before Control Plane validation', async () => {
+  const preview=previewWorkflow.replace('        with:\n          fetch-depth: 0\n','');
+  const root=makeFixture({preview});
+  try {
+    const report=await validate(root);
+    assert.equal(report.ok,false);
+    assert.ok(report.errors.some(error=>/PR Control Plane validation requires full Git history/.test(error)));
   } finally {
     fs.rmSync(root,{recursive:true,force:true});
   }

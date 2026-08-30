@@ -18,6 +18,11 @@ const workflowFiles=root=>{
 
 const hasTrigger=(text,trigger)=>new RegExp(`(?:^|\\n)\\s*(?:on|["']on["'])\\s*:\\s*\\n\\s*${trigger}\\s*:`,`m`).test(text);
 const targetsMain=text=>/branches\s*:\s*(?:\[\s*['"]?main['"]?\s*\]|\n\s*-\s*['"]?main['"]?)/m.test(text);
+const hasFullHistoryCheckoutBefore=(text,beforeIndex)=>{
+  const checkoutIndex=text.lastIndexOf('actions/checkout@',beforeIndex);
+  if (checkoutIndex<0) return false;
+  return /fetch-depth\s*:\s*0\s*$/m.test(text.slice(checkoutIndex,beforeIndex));
+};
 
 const inspect=(root,file)=>{
   const text=fs.readFileSync(file,'utf8').replaceAll('\r\n','\n');
@@ -54,6 +59,7 @@ export const validateWorkflowPolicy=root=>{
     const deployIndex=workflow.text.search(FIREBASE_ACTION);
     const verifyIndex=workflow.text.search(/Verify live deployment/i);
     if (controlIndex<0 || controlIndex>deployIndex) errors.push('validate:control-plane must run before live deploy');
+    if (controlIndex>=0 && !hasFullHistoryCheckoutBefore(workflow.text,controlIndex)) errors.push('Production Control Plane validation requires full Git history');
     if (ciIndex<0 || ciIndex>deployIndex) errors.push('validate:ci must run before live deploy');
     if (Math.max(controlIndex,ciIndex)>deployIndex || deployIndex<0) errors.push('validation must complete before live deploy');
     if (verifyIndex<deployIndex) errors.push('live verification must run after live deploy');
@@ -71,6 +77,8 @@ export const validateWorkflowPolicy=root=>{
     if (!/(?:^|\n)\s{2}quality-gate\s*:/m.test(preview.text)) errors.push('PR Workflow must define a quality-gate job');
     if (!/needs\s*:\s*quality-gate\s*$/m.test(preview.text)) errors.push('Preview must depend on quality-gate');
     if (!preview.text.includes('npm run validate:control-plane') || !preview.text.includes('npm run validate:ci')) errors.push('PR quality-gate must run both required validations');
+    const controlIndex=preview.text.indexOf('npm run validate:control-plane');
+    if (controlIndex>=0 && !hasFullHistoryCheckoutBefore(preview.text,controlIndex)) errors.push('PR Control Plane validation requires full Git history');
     if (!/github\.event\.pull_request\.head\.repo\.full_name\s*==\s*github\.repository/.test(preview.text)) errors.push('PR Preview must be limited to same-repository branches');
   }
 
