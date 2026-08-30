@@ -12,7 +12,9 @@ const SCHEMAS=['approval-v2.schema.json','assignment-v2.schema.json','batch-stat
 const DISPATCH_SCHEMAS=['assignment-v2.schema.json','batch-state-v2.schema.json','session-state-v2.schema.json','worker-result-v2.schema.json'];
 const DISPATCH_FIELDS=['classification','execution_route','worker_count','dispatch_reason'];
 const LEGACY_BATCH_FILES=['editorial/queue/tasks.json',...['a','b','c','d','e'].map(workerId=>`editorial/queue/assignments/batch-0001-worker-${workerId}.json`)];
-const PROTECTED_PATHS=['.github/workflows','.firebaserc','firebase.json','public/index.html','public/robots.txt','public/public','public/articles','public/games','public/data',...LEGACY_BATCH_FILES.slice(1)];
+// Workflow policy is validated by validate-release-safety.mjs. Control Plane keeps
+// protecting Firebase configuration and user-facing content from incidental edits.
+const PROTECTED_PATHS=['.firebaserc','firebase.json','public/index.html','public/robots.txt','public/public','public/articles','public/games','public/data',...LEGACY_BATCH_FILES.slice(1)];
 
 const read=(root,relative)=>fs.readFileSync(path.join(root,relative),'utf8');
 
