@@ -13,6 +13,7 @@
     "t": "node scripts/control-plane.mjs t",
     "a": "node scripts/control-plane.mjs a",
     "validate:control-plane": "node scripts/validate-control-plane.mjs",
+    "validate:release-safety": "node scripts/validate-release-safety.mjs",
     "control:synthetic": "node scripts/run-synthetic-control-plane.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "validate:links": "node scripts/validate-links.mjs",
@@ -21,6 +22,6 @@
     "validate:duplicates": "node scripts/validate-duplicates.mjs",
     "validate": "npm run build:registries && npm run build:progress && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && node --test tests/content/*.test.mjs",
     "validate:tests": "node --test tests/content/*.test.mjs",
-    "validate:ci": "node scripts/build-registries.mjs --check && node scripts/build-progress.mjs --check && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && npm run validate:tests"
+    "validate:ci": "node scripts/build-registries.mjs --check && node scripts/build-progress.mjs --check && npm run validate:content && npm run validate:links && npm run validate:indexing && npm run validate:registry && npm run validate:duplicates && npm run validate:tests && npm run validate:release-safety"
   }
 }

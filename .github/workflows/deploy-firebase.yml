@@ -1,4 +1,4 @@
-name: deploy-firebase
+name: Firebase Production Release
 
 on:
   push:
@@ -19,23 +19,25 @@ jobs:
     steps:
       - name: Checkout approved main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Re-run quality gate
+      - name: Validate Control Plane
+        run: npm run validate:control-plane
+
+      - name: Run production quality gate
         run: npm run validate:ci
 
-      - name: Verify deploy target and noindex marker
+      - name: Reject stale main commits
         shell: bash
         run: |
-          test "$(node -p "require('./.firebaserc').projects.default")" = "gamefinder-b6a00"
-          test -f public/index.html
-          test ! -d public/public
-          grep -Eq '^gamefinder-v[0-9]+$' public/health.txt
-          grep -Eq 'Disallow:[[:space:]]*/' public/robots.txt
+          remote_main="$(git ls-remote origin refs/heads/main | cut -f1)"
+          test "$remote_main" = "$GITHUB_SHA"
 
       - name: Deploy Firebase Hosting live channel
         uses: FirebaseExtended/action-hosting-deploy@v0

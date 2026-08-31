@@ -127,7 +127,7 @@ test('compares the complete legacy Batch 0001 queue and assignments with baselin
   }
 });
 
-test('detects tracked content changes and untracked forbidden files', async () => {
+test('detects forbidden content changes while Release Safety owns Workflow validation', async () => {
   const { validateControlPlane }=await import('../../scripts/validate-control-plane.mjs');
   const fixture=repositoryFixture();
   try {
@@ -137,11 +137,11 @@ test('detects tracked content changes and untracked forbidden files', async () =
     fs.mkdirSync(path.join(fixture.temporary,'.github/workflows'),{recursive:true});
     fs.writeFileSync(path.join(fixture.temporary,'.github/workflows/untracked.yml'),'name: forbidden\n');
     const report=validateControlPlane(fixture.temporary,{baselineSha:fixture.baselineSha});
-    assert.equal(report.checks.forbidden_diff_count,4);
+    assert.equal(report.checks.forbidden_diff_count,3);
     assert.ok(report.errors.some(error=>/public\/articles\/base\.html/.test(error)));
     assert.ok(report.errors.some(error=>/public\/games\/base\.html/.test(error)));
     assert.ok(report.errors.some(error=>/public\/data\/games\.json/.test(error)));
-    assert.ok(report.errors.some(error=>/\.github\/workflows\/untracked\.yml/.test(error)));
+    assert.ok(!report.errors.some(error=>/\.github\/workflows\/untracked\.yml/.test(error)));
   } finally {
     fs.rmSync(fixture.temporary,{recursive:true,force:true});
   }
